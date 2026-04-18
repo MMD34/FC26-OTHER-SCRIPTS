@@ -204,7 +204,7 @@ These were previously confirmed at the Lua-API level but are **not** in the manu
 ## 5. Folder / Module Structure
 
 ```
-FC26-OTHER-SCRIPTS/
+<project-root>/
 ├── app/                              # Python desktop application
 │   ├── __init__.py
 │   ├── main.py
