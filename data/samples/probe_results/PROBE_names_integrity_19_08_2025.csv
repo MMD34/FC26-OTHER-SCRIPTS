@@ -1,0 +1,7 @@
+probe,status,detail,sample_value
+playernames_cache,OK,rows_cached=1,
+sample_size,OK,players_sampled=200,
+firstnameid_resolution,UNRESOLVED,unresolved=200;zero_values=0,pid=19541;firstnameid=13398
+lastnameid_resolution,UNRESOLVED,unresolved=200;zero_values=0,pid=19541;lastnameid=25779
+commonnameid_resolution,UNRESOLVED,unresolved=17;zero_values=183,pid=20801;commonnameid=7926
+playerjerseynameid_resolution,UNRESOLVED,unresolved=200;zero_values=0,pid=19541;playerjerseynameid=25779

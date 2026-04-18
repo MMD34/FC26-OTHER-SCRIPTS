@@ -1,0 +1,18 @@
+probe,status,detail,sample_value
+face_aggregates,OK,compare to in-game card,playerid=231443;pacdiv=91;shohan=88;paskic=83;driref=93;defspe=50;phypos=69
+face_aggregates,OK,compare to in-game card,playerid=231747;pacdiv=96;shohan=91;paskic=81;driref=92;defspe=37;phypos=76
+face_aggregates,OK,compare to in-game card,playerid=233419;pacdiv=91;shohan=85;paskic=85;driref=88;defspe=53;phypos=76
+face_aggregates,OK,compare to in-game card,playerid=235212;pacdiv=92;shohan=79;paskic=82;driref=83;defspe=82;phypos=79
+face_aggregates,OK,compare to in-game card,playerid=238794;pacdiv=93;shohan=84;paskic=81;driref=91;defspe=29;phypos=69
+face_aggregates,OK,compare to in-game card,playerid=239053;pacdiv=90;shohan=85;paskic=84;driref=84;defspe=82;phypos=85
+face_aggregates,OK,compare to in-game card,playerid=243715;pacdiv=77;shohan=39;paskic=68;driref=73;defspe=88;phypos=83
+face_aggregates,OK,compare to in-game card,playerid=247635;pacdiv=86;shohan=80;paskic=83;driref=88;defspe=58;phypos=78
+face_aggregates,OK,compare to in-game card,playerid=251854;pacdiv=77;shohan=75;paskic=86;driref=90;defspe=78;phypos=77
+face_aggregates,OK,compare to in-game card,playerid=252145;pacdiv=95;shohan=76;paskic=79;driref=86;defspe=82;phypos=77
+face_aggregates,OK,compare to in-game card,playerid=255253;pacdiv=72;shohan=81;paskic=87;driref=91;defspe=75;phypos=70
+face_aggregates,OK,compare to in-game card,playerid=256196;pacdiv=80;shohan=34;paskic=63;driref=62;defspe=87;phypos=86
+face_aggregates,OK,compare to in-game card,playerid=256630;pacdiv=80;shohan=80;paskic=87;driref=88;defspe=54;phypos=67
+face_aggregates,OK,compare to in-game card,playerid=271421;pacdiv=83;shohan=80;paskic=77;driref=90;defspe=55;phypos=74
+face_aggregates,OK,compare to in-game card,playerid=272834;pacdiv=74;shohan=74;paskic=81;driref=85;defspe=84;phypos=83
+face_aggregates,OK,compare to in-game card,playerid=277643;pacdiv=86;shohan=84;paskic=87;driref=91;defspe=25;phypos=61
+summary,OK,found=16/17,

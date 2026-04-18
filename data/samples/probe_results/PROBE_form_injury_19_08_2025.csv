@@ -1,0 +1,4 @@
+probe,status,detail,sample_value
+total_rows,OK,rows=21848,
+form_errors,OK,read_errors=0,
+injury_errors,OK,read_errors=0,

@@ -72,7 +72,7 @@ write_row("injury_errors", (injury_errors == 0) and "OK" or "WARN",
 local function emit_hist(name, hist)
     local keys = {}
     for k, _ in pairs(hist) do keys[#keys + 1] = k end
-    table.sort(keys, function(a, b) return tonumber(a) or 0 < (tonumber(b) or 0) end)
+    table.sort(keys, function(a, b) return (tonumber(a) or 0) < (tonumber(b) or 0) end)
     for _, k in ipairs(keys) do
         write_row(name .. "_bucket", "OK",
                   "value=" .. tostring(k),

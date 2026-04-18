@@ -1,0 +1,8 @@
+probe,status,detail,sample_value
+teams.favoriteteamsheetid,OK,read from first teams record,value=-1
+table:teamsheets,OK,opened; probing candidate columns,
+table:teamsheets:columns,OK,columns confirmed on first record,teamsheetid=0;teamid=0
+table:formations,OK,opened; probing candidate columns,
+table:formations:columns,OK,columns confirmed on first record,formationid=1;formationname=4-1-3-2;teamid=-1;position1=3;position2=4;position3=6;position4=7;position5=10;position6=12;position7=14;position8=16;position9=24;position10=26
+table:teamformations,MISSING,LE.db:GetTable failed,
+table:team_tactics,MISSING,LE.db:GetTable failed,

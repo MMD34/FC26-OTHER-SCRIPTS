@@ -1,0 +1,6 @@
+probe,status,detail,sample_value
+user_team,OK,GetUserTeamID(),teamid=243
+rivals,OK,rivals_found=2,ids=241;240
+rival_objectives,OK,from leagueteamlinks,teamid=240;leagueid=53;objective=0;hasachievedobjective=0;highestpossible=0;highestprobable=1;yettowin=0;actualvsexpectations=0;champion=0
+rival_objectives,OK,from leagueteamlinks,teamid=241;leagueid=53;objective=0;hasachievedobjective=0;highestpossible=0;highestprobable=0;yettowin=0;actualvsexpectations=0;champion=1
+user_objectives,OK,from leagueteamlinks,teamid=243;leagueid=53;objective=0;hasachievedobjective=0;highestpossible=0;highestprobable=1;yettowin=0;actualvsexpectations=0;champion=0

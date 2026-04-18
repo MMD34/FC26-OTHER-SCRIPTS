@@ -1,0 +1,65 @@
+probe,status,detail,sample_value
+compobjids,OK,distinct_compobjids=14,
+comp_entry,OK,compobjid=426,compname=1A Pro League
+comp_entry,OK,compobjid=906,compname=DFB-Pokal
+comp_entry,OK,compobjid=777,compname=Premier League
+comp_entry,OK,compobjid=1857,compname=Asian Elite Cup
+comp_entry,OK,compobjid=586,compname=Carabao Cup
+comp_entry,OK,compobjid=1481,compname=Trendyol Süper Lig
+comp_entry,OK,compobjid=1207,compname=Liga Portugal
+comp_entry,OK,compobjid=1394,compname=LALIGA HYPERMOTION
+comp_entry,OK,compobjid=467,compname=FA Community Shield
+comp_entry,OK,compobjid=88,compname=UEFA Super Cup
+comp_entry,OK,compobjid=875,compname=Ligue 1 McDonald's
+comp_entry,OK,compobjid=1391,compname=LALIGA EA SPORTS
+comp_entry,OK,compobjid=1023,compname=Coppa Italia
+comp_entry,OK,compobjid=901,compname=F. Beckenbauer Supercup
+league_entry,OK,leagueid=1,leaguename=Denmark Superliga (1);level=1
+league_entry,OK,leagueid=4,leaguename=Belgium Pro League (1);level=1
+league_entry,OK,leagueid=10,leaguename=Holland Eredivisie (1);level=1
+league_entry,OK,leagueid=13,leaguename=England Premier League (1);level=1
+league_entry,OK,leagueid=14,leaguename=England Championship (2);level=2
+league_entry,OK,leagueid=16,leaguename=France Ligue 1 (1);level=1
+league_entry,OK,leagueid=17,leaguename=France Ligue 2 (2);level=2
+league_entry,OK,leagueid=19,leaguename=Germany 1. Bundesliga (1);level=1
+league_entry,OK,leagueid=20,leaguename=Germany 2. Bundesliga (2);level=2
+league_entry,OK,leagueid=31,leaguename=Italy Serie A (1);level=1
+league_entry,OK,leagueid=32,leaguename=Italy Serie B (2);level=2
+league_entry,OK,leagueid=39,leaguename=USA Major League Soccer (1);level=1
+league_entry,OK,leagueid=41,leaguename=Norway Eliteserien (1);level=1
+league_entry,OK,leagueid=50,leaguename=Scotland Premiership (1);level=1
+league_entry,OK,leagueid=53,leaguename=Spain Primera División (1);level=1
+league_entry,OK,leagueid=54,leaguename=Spain Segunda División (2);level=2
+league_entry,OK,leagueid=56,leaguename=Sweden Allsvenskan (1);level=1
+league_entry,OK,leagueid=60,leaguename=England League One (3);level=3
+league_entry,OK,leagueid=61,leaguename=England League Two (4);level=4
+league_entry,OK,leagueid=65,leaguename=Rep. Ireland Premier Division (1);level=1
+league_entry,OK,leagueid=66,leaguename=Poland Ekstraklasa (1);level=1
+league_entry,OK,leagueid=68,leaguename=Turkey Süper Lig (1);level=1
+league_entry,OK,leagueid=76,leaguename=Rest of World;level=4
+league_entry,OK,leagueid=78,leaguename=International;level=5
+league_entry,OK,leagueid=80,leaguename=Austria Bundesliga (1);level=1
+league_entry,OK,leagueid=83,leaguename=Korea K League 1 (1);level=1
+league_entry,OK,leagueid=189,leaguename=Switzerland Super League (1);level=1
+league_entry,OK,leagueid=308,leaguename=Portugal Primeira Liga (1);level=1
+league_entry,OK,leagueid=330,leaguename=Romania Liga I (1);level=1
+league_entry,OK,leagueid=350,leaguename=Saudi Pro League (1);level=1
+league_entry,OK,leagueid=351,leaguename=Australia A-League (1);level=1
+league_entry,OK,leagueid=353,leaguename=Argentina Primera División (1);level=1
+league_entry,OK,leagueid=382,leaguename=Free Agents League;level=1
+league_entry,OK,leagueid=384,leaguename=Creation Zone League;level=1
+league_entry,OK,leagueid=1003,leaguename=CONMEBOL Libertadores;level=1
+league_entry,OK,leagueid=1014,leaguename=CONMEBOL Sudamericana;level=1
+league_entry,OK,leagueid=2000,leaguename=FIFA Career Saved Teams;level=6
+league_entry,OK,leagueid=2012,leaguename=China Super League (1);level=1
+league_entry,OK,leagueid=2028,leaguename=Youth Squad League;level=7
+league_entry,OK,leagueid=2076,leaguename=Germany 3. Liga (3);level=3
+league_entry,OK,leagueid=2136,leaguename=International Women;level=5
+league_entry,OK,leagueid=2149,leaguename=Indian Super League (1);level=1
+league_entry,OK,leagueid=2215,leaguename=Germany Frauen-Bundesliga (1);level=1
+league_entry,OK,leagueid=2216,leaguename=England WSL (1);level=1
+league_entry,OK,leagueid=2218,leaguename=France 1 Women's League (1);level=1
+league_entry,OK,leagueid=2221,leaguename=USA NWSL (1);level=1
+league_entry,OK,leagueid=2222,leaguename=Spain Liga F Femenina (1);level=1
+league_entry,OK,leagueid=2226,leaguename=Rest of World Women;level=1
+leagues_total,OK,leagues_count=48,
