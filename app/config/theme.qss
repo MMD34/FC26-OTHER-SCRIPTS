@@ -1,0 +1,40 @@
+/* FC26 Analytics — dark palette tokens */
+/* background */
+QWidget {
+    background-color: #0f1115;
+    color: #e6e8ec;
+    font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+    font-size: 13px;
+}
+
+/* main window chrome */
+QMainWindow {
+    background-color: #0f1115;
+}
+
+/* status bar */
+QStatusBar {
+    background-color: #14171d;
+    color: #9aa0aa;
+    border-top: 1px solid #1c2029;
+}
+
+/* sidebar list */
+QListWidget {
+    background-color: #14171d;
+    border: none;
+    padding: 8px 0;
+    outline: 0;
+}
+QListWidget::item {
+    padding: 10px 16px;
+    border-left: 3px solid transparent;
+}
+QListWidget::item:hover {
+    background-color: #1c2029;
+}
+QListWidget::item:selected {
+    background-color: #1c2029;
+    border-left: 3px solid #7c9cff;  /* accent */
+    color: #ffffff;
+}

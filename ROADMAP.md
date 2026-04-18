@@ -190,9 +190,9 @@ then **pause the current task and ask for clarification**, citing the sprint num
 
 ---
 
-# PHASE C — Python Foundation
+# PHASE C — Python Foundation ✅ COMPLETED (2026-04-18)
 
-## Sprint 3 — App Skeleton, Logging, Config, Paths
+## Sprint 3 — App Skeleton, Logging, Config, Paths ✅ COMPLETED
 
 **Goal**: Python app launches an empty window with working logging and config.
 
@@ -244,7 +244,7 @@ then **pause the current task and ask for clarification**, citing the sprint num
 
 ---
 
-## Sprint 4 — Import Pipeline & Parsers
+## Sprint 4 — Import Pipeline & Parsers ✅ COMPLETED
 
 **Goal**: Given a folder, detect CSV kinds, parse them, return typed dataframes with validation.
 
@@ -286,7 +286,7 @@ then **pause the current task and ask for clarification**, citing the sprint num
 
 ---
 
-## Sprint 5 — Domain Model & Session Cache
+## Sprint 5 — Domain Model & Session Cache ✅ COMPLETED
 
 **Goal**: Dataframes → typed domain objects; persist to SQLite; reload without re-parsing.
 

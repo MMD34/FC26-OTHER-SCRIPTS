@@ -1,0 +1,9 @@
+[app]
+theme = "dark"
+
+[import]
+default_scan_dir = "desktop"
+
+[wonderkids]
+min_potential = 85
+max_age = 21

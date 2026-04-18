@@ -3,7 +3,12 @@
     "allow": [
       "Bash(git add *)",
       "Bash(git -c core.autocrlf=false commit -m \"docs\\(s1.t3\\): resolve §15.1 via GetPlayerName fallback \\(Option A\\)\" -m \"Co-Authored-By: Claude Opus 4.7 <noreply@anthropic.com>\")",
-      "Bash(git -c core.autocrlf=false commit -m \"docs: mark Phase A \\(Sprints 0 & 1\\) completed in roadmap\" -m \"Co-Authored-By: Claude Opus 4.7 <noreply@anthropic.com>\")"
+      "Bash(git -c core.autocrlf=false commit -m \"docs: mark Phase A \\(Sprints 0 & 1\\) completed in roadmap\" -m \"Co-Authored-By: Claude Opus 4.7 <noreply@anthropic.com>\")",
+      "Bash(python -m pytest tests/test_parsers.py -q)",
+      "Bash(python -c \"import sys; print\\(sys.version\\)\")",
+      "Bash(pip install *)",
+      "Bash(python -m pip install pandas pytest)",
+      "Bash(python -m pytest -q)"
     ]
   }
 }
