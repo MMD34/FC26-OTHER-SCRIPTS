@@ -20,7 +20,11 @@
       "Bash(python -c ' *)",
       "Bash(python -m pip install coverage)",
       "Bash(python -m coverage run --source=app/analytics,app/import_ -m pytest tests/ -q)",
-      "Bash(python -m coverage report --include=\"app/analytics/*,app/import_/*\")"
+      "Bash(python -m coverage report --include=\"app/analytics/*,app/import_/*\")",
+      "Bash(awk *)",
+      "Bash(.venv/Scripts/python.exe -m pytest tests/test_parsers.py -x -q)",
+      "Bash(.venv/Scripts/python.exe -c ' *)",
+      "Bash(.venv/Scripts/python.exe -m pytest -x -q)"
     ]
   }
 }
