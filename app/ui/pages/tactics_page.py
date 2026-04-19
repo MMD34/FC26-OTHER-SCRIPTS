@@ -67,6 +67,7 @@ class TacticsPage(PageBase):
                 w.deleteLater()
 
     def refresh(self) -> None:
+        self.set_state("loading")
         self._clear_layout(self._gauges)
         self._clear_layout(self._dials_layout)
 
@@ -74,6 +75,7 @@ class TacticsPage(PageBase):
         if overview_df is None or overview_df.empty:
             self._gauges.addWidget(_placeholder("Import a SEASON_OVERVIEW CSV to view tactics."), 0, 0)
             self._efficiency.set_series([])
+            self.set_state("empty")
             return
         overview = SeasonOverview.from_row(overview_df.iloc[0])
         profile = team_ratings_profile(overview)
@@ -140,3 +142,4 @@ class TacticsPage(PageBase):
                    y=[eff["home_ga_per_match"], eff["away_ga_per_match"]],
                    kind="bar", color="#ef6f6f", extra={"width": 0.35}),
         ])
+        self.set_state("ready")

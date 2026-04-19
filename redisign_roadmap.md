@@ -53,7 +53,7 @@ Design-system rules enforced across sprints:
 
 ## 3) Full Redesign Roadmap
 
-### Phase 0 — Foundation & Asset Preparation (MANDATORY)
+### Phase 0 — Foundation & Asset Preparation (MANDATORY) — **COMPLETED**
 
 **Sprint 0.1 — Asset intake & audit**
 - Objectives: confirm scope, lock the HTML as the visual source of truth.

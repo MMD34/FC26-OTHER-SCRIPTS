@@ -100,6 +100,7 @@ class SquadPage(PageBase):
         return out
 
     def refresh(self) -> None:
+        self.set_state("loading")
         df = self.context.cache.load_latest("players_snapshot")
         if df is None or df.empty:
             self._players_df = pd.DataFrame()
@@ -107,6 +108,7 @@ class SquadPage(PageBase):
             self._table.set_dataframe(pd.DataFrame(), list(_LEADERBOARD_COLS))
             for c in (self._chart_scorers, self._chart_rating, self._chart_form):
                 c.set_series([])
+            self.set_state("empty")
             return
         self._players_df = df
 
@@ -126,3 +128,4 @@ class SquadPage(PageBase):
         self._chart_scorers.set_series(_bar_series(scorers, "leaguegoals", "#5ad19a"))
         self._chart_rating.set_series(_bar_series(rated, "overallrating", "#7c9cff"))
         self._chart_form.set_series(_bar_series(formed, "form", "#f3c969"))
+        self.set_state("ready")

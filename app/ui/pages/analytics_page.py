@@ -129,10 +129,12 @@ class AnalyticsPage(PageBase):
                 w.deleteLater()
 
     def refresh(self) -> None:
+        self.set_state("loading")
         self._clear_grid()
         vm = build_analytics_vm(self.context)
         if vm is None:
             self._streak_lbl.setText("Import a SEASON_OVERVIEW CSV to see analytics.")
+            self.set_state("empty")
             return
 
         if vm.points_progression:
@@ -184,3 +186,4 @@ class AnalyticsPage(PageBase):
         ), 1, 1)
 
         self._streak_lbl.setText(vm.streak_text)
+        self.set_state("ready")

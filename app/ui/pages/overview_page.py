@@ -136,11 +136,13 @@ class OverviewPage(PageBase):
                 w.deleteLater()
 
     def refresh(self) -> None:
+        self.set_state("loading")
         vm = build_overview_vm(self.context)
         self._clear_grid()
         if vm is None:
             self._title_lbl.setText("No data imported")
             self._subtitle_lbl.setText("Import a SEASON_OVERVIEW CSV to see KPIs.")
+            self.set_state("empty")
             return
         self._title_lbl.setText(vm.title)
         self._subtitle_lbl.setText(vm.subtitle)
@@ -150,3 +152,4 @@ class OverviewPage(PageBase):
             self._grid_container.addWidget(
                 StatCard(label, value, subtitle=sub, trend=spark), row, col
             )
+        self.set_state("ready")

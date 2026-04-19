@@ -5,15 +5,17 @@ import sys
 import tomllib
 from pathlib import Path
 
+from PySide6.QtGui import QFontDatabase
 from PySide6.QtWidgets import QApplication
 
 from app.core.logging_setup import configure_logging, get_logger
 from app.core.paths import log_dir
 from app.ui.app_window import AppWindow
-from app.ui.theme import LightPalette, Palette, load_qss
+from app.ui.design import ThemeManager
 
 _SETTINGS_PATH = Path(__file__).parent / "config" / "settings.toml"
 _QSS_PATH = Path(__file__).parent / "config" / "theme.qss"
+_FONTS_DIR = Path(__file__).resolve().parents[1] / "packaging" / "fonts"
 
 
 def _load_settings() -> dict:
@@ -23,6 +25,13 @@ def _load_settings() -> dict:
         return tomllib.load(f)
 
 
+def _register_fonts() -> None:
+    if not _FONTS_DIR.is_dir():
+        return
+    for ttf in _FONTS_DIR.glob("*.ttf"):
+        QFontDatabase.addApplicationFont(str(ttf))
+
+
 def main() -> int:
     configure_logging(log_dir())
     log = get_logger(__name__)
@@ -30,9 +39,9 @@ def main() -> int:
     log.info("starting FC26 Analytics (theme=%s)", settings.get("app", {}).get("theme", "dark"))
 
     app = QApplication(sys.argv)
+    _register_fonts()
     theme_name = settings.get("app", {}).get("theme", "dark")
-    palette = LightPalette() if theme_name == "light" else Palette()
-    app.setStyleSheet(load_qss(palette))
+    ThemeManager.instance().set_theme(app, theme_name)
 
     window = AppWindow()
     window.show()

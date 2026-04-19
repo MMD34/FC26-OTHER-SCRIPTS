@@ -64,6 +64,7 @@ class WonderkidsPage(PageBase):
             self._drawer.show_player(self._df.iloc[row])
 
     def refresh(self) -> None:
+        self.set_state("loading")
         df = self.context.cache.load_latest("wonderkids")
         if df is None or df.empty:
             df = self.context.cache.load_latest("players_snapshot")
@@ -71,6 +72,7 @@ class WonderkidsPage(PageBase):
             self._df = pd.DataFrame()
             self._table.set_dataframe(pd.DataFrame(), list(_TABLE_COLS))
             self._scatter.set_series([])
+            self.set_state("empty")
             return
 
         wk = filter_wonderkids(
@@ -99,3 +101,4 @@ class WonderkidsPage(PageBase):
                 kind="scatter", color=color, extra={"size": 9},
             ))
         self._scatter.set_series(series)
+        self.set_state("ready")

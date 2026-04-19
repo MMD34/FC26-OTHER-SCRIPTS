@@ -100,6 +100,7 @@ class TransfersPage(PageBase):
         self._candidates.set_dataframe(cands.reset_index(drop=True), list(_REPLACEMENT_COLS))
 
     def refresh(self) -> None:
+        self.set_state("loading")
         overview_df = self.context.cache.load_latest("season_overview")
         players_df = self.context.cache.load_latest("players_snapshot")
         transfers_df = self.context.cache.load_latest("transfer_history")
@@ -112,6 +113,7 @@ class TransfersPage(PageBase):
             self._expiring.set_dataframe(pd.DataFrame(), list(_EXPIRING_COLS))
             self._candidates.set_dataframe(pd.DataFrame(), list(_REPLACEMENT_COLS))
             self._kpi_in.set_value("—")
+            self.set_state("empty")
             return
         self._players = players_df
 
@@ -157,3 +159,4 @@ class TransfersPage(PageBase):
             self._expiring.set_dataframe(pd.DataFrame(), list(_EXPIRING_COLS))
             self._depth.set_series([])
             self._kpi_in.set_value("—")
+        self.set_state("ready")

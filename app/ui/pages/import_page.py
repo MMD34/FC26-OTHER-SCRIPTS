@@ -189,6 +189,7 @@ class ImportPage(PageBase):
         self._begin_import(files)
 
     def _begin_import(self, target: Path | list[Path]) -> None:
+        self.set_state("loading")
         self._files.clear()
         self._summary.setText("")
         self._banner.setVisible(False)
@@ -244,11 +245,18 @@ class ImportPage(PageBase):
         )
         if report.ok_count + report.partial_count > 0:
             self.context.notify_changed()
+        if report.error_count and not (report.ok_count + report.partial_count):
+            self.set_state("error")
+        elif total == 0:
+            self.set_state("empty")
+        else:
+            self.set_state("ready")
 
     def _on_failed(self, message: str) -> None:
         self._pick_btn.setEnabled(True)
         self._pick_files_btn.setEnabled(True)
         self._append_log(f"FAILED: {message}")
+        self.set_state("error", error=message)
 
     def _clear_cache(self) -> None:
         confirm = QMessageBox.question(
