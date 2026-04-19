@@ -82,7 +82,7 @@ Design-system rules enforced across sprints:
 
 ---
 
-### Phase 1 — Design Tokens & Theming System
+### Phase 1 — Design Tokens & Theming System — **COMPLETED**
 
 **Sprint 1.1 — Token model**
 - Port HTML `:root` variables into `app/ui/design/tokens.py`: `Palette(dark|light)`, `Typography`, `Spacing`, `Radii`, `Elevation`, `Density`.

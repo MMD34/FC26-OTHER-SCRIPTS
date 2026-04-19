@@ -3,3 +3,8 @@
 Scaffolded in Phase 0 so later sprints can land modules without restructuring
 imports.
 """
+from __future__ import annotations
+
+from app.ui.components.tweaks import TweaksPanel
+
+__all__ = ["TweaksPanel"]
