@@ -28,7 +28,9 @@
       "Bash(python -m pytest tests/ -x -q)",
       "Bash(python -m pytest tests/ -q --deselect tests/test_pages_runtime.py)",
       "Bash(git stash *)",
-      "Bash(python -m pytest tests/test_pages_runtime.py -x -q)"
+      "Bash(python -m pytest tests/test_pages_runtime.py -x -q)",
+      "Bash(.venv/Scripts/python -m pytest tests/test_pages_runtime.py tests/ui/ -x --tb=short)",
+      "Bash(.venv/Scripts/python -m pytest --tb=short)"
     ]
   }
 }

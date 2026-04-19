@@ -154,7 +154,7 @@ Design-system rules enforced across sprints:
 
 ---
 
-### Phase 5 — Page-by-Page Redesign
+### Phase 5 — Page-by-Page Redesign — **COMPLETED**
 
 **Sprint 5.1 — Overview**
 - Port hero card (crest, title, form dots, league position).

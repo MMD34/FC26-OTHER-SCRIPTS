@@ -211,6 +211,71 @@ QLabel#dropzone-sub {{ font-size: {typo.sm}px; color: {palette.dim}; }}
 QFrame#file-row {{ background-color: {palette.panel}; border: 1px solid {palette.line}; border-radius: {radii.sm}px; }}
 QLabel#file-name {{ font-family: {typo.mono}; font-size: {typo.sm}px; color: {palette.text}; }}
 
+/* Hero (Overview page) */
+QFrame#hero {{
+    background-color: {palette.panel};
+    border: 1px solid {palette.line};
+    border-radius: {radii.md}px;
+}}
+QLabel#hero-crest {{
+    background-color: {palette.accent};
+    color: {palette.bg};
+    border-radius: {radii.md}px;
+    font-family: {typo.display};
+    font-weight: 800;
+    font-size: {typo.lg}px;
+}}
+QLabel#hero-title {{
+    color: {palette.text};
+    font-family: {typo.display};
+    font-weight: 700;
+    font-size: {typo.xl}px;
+}}
+QLabel#hero-sub {{ color: {palette.muted}; font-size: {typo.sm}px; }}
+QFrame#hero-pos {{
+    background-color: {palette.panel_2};
+    border: 1px solid {palette.line};
+    border-radius: {radii.md}px;
+}}
+QLabel#hero-pos-value {{
+    color: {palette.text};
+    font-family: {typo.display};
+    font-weight: 800;
+    font-size: {typo.xl}px;
+}}
+QLabel#hero-pos-unit {{
+    color: {palette.muted};
+    font-size: {typo.xs}px;
+    text-transform: uppercase;
+}}
+QLabel#form-dot--w {{
+    background-color: {palette.ok}; color: {palette.bg};
+    border-radius: 4px; font-weight: 700; font-size: {typo.xs}px;
+}}
+QLabel#form-dot--d {{
+    background-color: {palette.warn}; color: {palette.bg};
+    border-radius: 4px; font-weight: 700; font-size: {typo.xs}px;
+}}
+QLabel#form-dot--l {{
+    background-color: {palette.bad}; color: {palette.bg};
+    border-radius: 4px; font-weight: 700; font-size: {typo.xs}px;
+}}
+QLabel#form-dot--unknown {{
+    background-color: {palette.dim}; color: {palette.bg};
+    border-radius: 4px; font-weight: 700; font-size: {typo.xs}px;
+}}
+
+/* Pitch player tokens */
+QLabel#pl-token {{
+    background-color: {palette.accent}; color: {palette.bg};
+    border-radius: 12px; font-weight: 700; font-size: {typo.xs}px;
+}}
+QLabel#pl-token--alt {{
+    background-color: {palette.warn}; color: {palette.bg};
+    border-radius: 12px; font-weight: 700; font-size: {typo.xs}px;
+}}
+QLabel#pl-name {{ color: {palette.muted}; font-size: 9px; }}
+
 QPlainTextEdit#log-view {{
     background-color: {palette.panel_2};
     color: {palette.text};

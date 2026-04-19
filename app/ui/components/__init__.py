@@ -20,6 +20,7 @@ from app.ui.components.layout import Card, TwoCol, ThreeCol, FourCol, Legend
 from app.ui.components.drawer import DrawerPanel, AttributeRow
 from app.ui.components.dropzone import Dropzone, FileRow
 from app.ui.components.log_view import LogView
+from app.ui.components.hero import Hero, FormDot
 
 __all__ = [
     "TweaksPanel",
@@ -29,4 +30,5 @@ __all__ = [
     "DrawerPanel", "AttributeRow",
     "Dropzone", "FileRow",
     "LogView",
+    "Hero", "FormDot",
 ]

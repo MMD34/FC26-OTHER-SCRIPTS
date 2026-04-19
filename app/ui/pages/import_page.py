@@ -1,20 +1,23 @@
-"""Import page: drag-drop (folders or multi-file), file picker, report summary."""
+"""Import page (Sprint 5.2 redesign).
+
+Wires the existing pipeline into the new design-system primitives:
+- ``Dropzone`` for the drag/drop target,
+- ``FileRow`` rows for the parse report (OK / Partial / Error pills),
+- ``LogView`` for the streaming log.
+
+No business logic changes — only the view layer is swapped.
+"""
 from __future__ import annotations
 
+from datetime import datetime
 from pathlib import Path
 
 from PySide6.QtCore import QObject, QRunnable, Qt, QThreadPool, Signal
-from PySide6.QtGui import QBrush, QColor, QDragEnterEvent, QDropEvent
 from PySide6.QtWidgets import (
     QFileDialog,
-    QFrame,
     QHBoxLayout,
-    QLabel,
-    QListWidget,
-    QListWidgetItem,
     QMessageBox,
-    QPlainTextEdit,
-    QPushButton,
+    QScrollArea,
     QVBoxLayout,
     QWidget,
 )
@@ -23,66 +26,20 @@ from app.core.logging_setup import get_logger
 from app.core.paths import desktop_dir
 from app.import_.pipeline import ImportReport, import_files, import_folder
 from app.services.app_context import AppContext
+from app.ui.components import (
+    Card,
+    Dropzone,
+    FileRow,
+    GhostButton,
+    LogView,
+    PrimaryButton,
+    SectionTitle,
+)
 from app.ui.pages._base import PageBase
 
 _log = get_logger(__name__)
 
-_STATUS_ICON = {"ok": "✓", "partial": "!", "error": "✗"}
-_STATUS_COLOR = {
-    "ok": QColor("#2e7d32"),
-    "partial": QColor("#b26a00"),
-    "error": QColor("#b00020"),
-}
-
-
-class _DropZone(QFrame):
-    """Accepts either a folder or a list of files via drag-and-drop."""
-
-    folderDropped = Signal(Path)
-    filesDropped = Signal(list)  # list[Path]
-
-    def __init__(self, parent: QWidget | None = None) -> None:
-        super().__init__(parent)
-        self.setObjectName("card")
-        self.setAcceptDrops(True)
-        self.setMinimumHeight(100)
-        layout = QVBoxLayout(self)
-        lbl = QLabel(
-            "Drop a folder or one-or-more CSV files here, or click ‘Pick folder’ below"
-        )
-        lbl.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        layout.addWidget(lbl)
-
-    def dragEnterEvent(self, event: QDragEnterEvent) -> None:
-        if event.mimeData().hasUrls():
-            event.acceptProposedAction()
-        else:
-            event.ignore()
-
-    def dropEvent(self, event: QDropEvent) -> None:
-        paths = [Path(u.toLocalFile()) for u in event.mimeData().urls() if u.toLocalFile()]
-        if not paths:
-            event.ignore()
-            return
-
-        # Single folder → folder import.
-        if len(paths) == 1 and paths[0].is_dir():
-            self.folderDropped.emit(paths[0])
-            event.acceptProposedAction()
-            return
-
-        # Otherwise: expand any folders into their CSV children, accept files.
-        files: list[Path] = []
-        for p in paths:
-            if p.is_dir():
-                files.extend(sorted(c for c in p.iterdir() if c.is_file() and c.suffix.lower() == ".csv"))
-            elif p.is_file() and p.suffix.lower() == ".csv":
-                files.append(p)
-        if files:
-            self.filesDropped.emit(files)
-            event.acceptProposedAction()
-        else:
-            event.ignore()
+_STATUS_TO_LEVEL: dict[str, str] = {"ok": "ok", "partial": "warn", "error": "err"}
 
 
 class _WorkerSignals(QObject):
@@ -109,6 +66,39 @@ class _ImportWorker(QRunnable):
         self.signals.finished.emit(report)
 
 
+class _PathAwareDropzone(Dropzone):
+    """Dropzone variant that classifies a single dropped folder vs. files."""
+
+    folderDropped = Signal(Path)
+    filesDropped = Signal(list)
+
+    def dropEvent(self, event):  # type: ignore[override]
+        self.setProperty("drag-hover", False)
+        self.style().unpolish(self)
+        self.style().polish(self)
+
+        urls = event.mimeData().urls()
+        paths = [Path(u.toLocalFile()) for u in urls if u.toLocalFile()]
+        if not paths:
+            event.ignore()
+            return
+        if len(paths) == 1 and paths[0].is_dir():
+            self.folderDropped.emit(paths[0])
+            event.acceptProposedAction()
+            return
+        files: list[Path] = []
+        for p in paths:
+            if p.is_dir():
+                files.extend(sorted(c for c in p.iterdir() if c.is_file() and c.suffix.lower() == ".csv"))
+            elif p.is_file() and p.suffix.lower() == ".csv":
+                files.append(p)
+        if files:
+            self.filesDropped.emit(files)
+            event.acceptProposedAction()
+        else:
+            event.ignore()
+
+
 class ImportPage(PageBase):
     title = "Import"
 
@@ -117,52 +107,66 @@ class ImportPage(PageBase):
 
         outer = QVBoxLayout(self)
         outer.setContentsMargins(20, 20, 20, 20)
-        outer.setSpacing(10)
+        outer.setSpacing(14)
 
-        title = QLabel("Import")
-        title.setStyleSheet("font-size: 20px; font-weight: 600;")
-        outer.addWidget(title)
+        outer.addWidget(SectionTitle("Import Snapshot"))
 
-        self._dropzone = _DropZone()
+        # Dropzone + action row
+        self._dropzone = _PathAwareDropzone()
         self._dropzone.folderDropped.connect(self._start_folder_import)
         self._dropzone.filesDropped.connect(self._start_files_import)
         outer.addWidget(self._dropzone)
 
-        controls = QHBoxLayout()
-        self._pick_btn = QPushButton("Pick folder…")
+        actions = QHBoxLayout()
+        actions.setSpacing(8)
+        self._pick_btn = PrimaryButton("Pick folder…")
         self._pick_btn.clicked.connect(self._pick_folder)
-        controls.addWidget(self._pick_btn)
-        self._pick_files_btn = QPushButton("Pick files…")
+        actions.addWidget(self._pick_btn)
+        self._pick_files_btn = PrimaryButton("Pick files…")
         self._pick_files_btn.clicked.connect(self._pick_files)
-        controls.addWidget(self._pick_files_btn)
-        self._clear_btn = QPushButton("Clear cache")
+        actions.addWidget(self._pick_files_btn)
+        self._clear_btn = GhostButton("Clear cache")
         self._clear_btn.clicked.connect(self._clear_cache)
-        controls.addWidget(self._clear_btn)
-        controls.addStretch(1)
-        outer.addLayout(controls)
+        actions.addWidget(self._clear_btn)
+        actions.addStretch(1)
+        outer.addLayout(actions)
 
-        self._summary = QLabel("")
-        self._summary.setStyleSheet("font-weight: 600;")
-        self._summary.setWordWrap(True)
-        outer.addWidget(self._summary)
+        # Parse-report card (vertically scrollable list of FileRow)
+        self._report_card = Card(title="Parse report")
+        self._files_host = QWidget()
+        self._files_lyt = QVBoxLayout(self._files_host)
+        self._files_lyt.setContentsMargins(0, 0, 0, 0)
+        self._files_lyt.setSpacing(6)
+        self._files_lyt.setAlignment(Qt.AlignmentFlag.AlignTop)
+        scroll = QScrollArea()
+        scroll.setWidget(self._files_host)
+        scroll.setWidgetResizable(True)
+        scroll.setFrameShape(QScrollArea.Shape.NoFrame)
+        self._report_card.add_widget(scroll, 1)
+        outer.addWidget(self._report_card, 1)
 
-        self._banner = QLabel("")
-        self._banner.setWordWrap(True)
-        self._banner.setStyleSheet(
-            "background:#fff3cd; color:#7a5b00; padding:8px; border-radius:6px;"
-        )
-        self._banner.setVisible(False)
-        outer.addWidget(self._banner)
-
-        self._files = QListWidget()
-        outer.addWidget(self._files, 1)
-
-        self._log = QPlainTextEdit()
-        self._log.setReadOnly(True)
-        self._log.setStyleSheet("font-family: 'Consolas', 'Cascadia Mono', monospace;")
-        outer.addWidget(self._log, 1)
+        # Log view
+        log_card = Card(title="Import log")
+        self._log = LogView()
+        log_card.add_widget(self._log, 1)
+        outer.addWidget(log_card, 1)
 
         self._pool = QThreadPool.globalInstance()
+
+    # --- helpers ------------------------------------------------------------
+
+    def _ts(self) -> str:
+        return datetime.now().strftime("%H:%M:%S")
+
+    def _append_log(self, line: str, level: str = "info") -> None:
+        self._log.append_log(line, level=level, timestamp=self._ts())  # type: ignore[arg-type]
+
+    def _clear_files(self) -> None:
+        while self._files_lyt.count():
+            item = self._files_lyt.takeAt(0)
+            w = item.widget()
+            if w is not None:
+                w.deleteLater()
 
     # --- actions ------------------------------------------------------------
 
@@ -190,9 +194,7 @@ class ImportPage(PageBase):
 
     def _begin_import(self, target: Path | list[Path]) -> None:
         self.set_state("loading")
-        self._files.clear()
-        self._summary.setText("")
-        self._banner.setVisible(False)
+        self._clear_files()
         self._pick_btn.setEnabled(False)
         self._pick_files_btn.setEnabled(False)
         worker = _ImportWorker(target)
@@ -204,44 +206,32 @@ class ImportPage(PageBase):
         self._pick_btn.setEnabled(True)
         self._pick_files_btn.setEnabled(True)
         for fr in report.files:
-            icon = _STATUS_ICON.get(fr.status, "?")
-            kind_label = fr.kind or "unknown"
-            text = f"{icon} {fr.path.name} [{kind_label}] rows={fr.rows_read}"
+            level = _STATUS_TO_LEVEL.get(fr.status, "ok")
+            row = FileRow(fr.path.name, status=level)  # type: ignore[arg-type]
+            tooltip_lines: list[str] = []
+            if fr.kind:
+                tooltip_lines.append(f"kind: {fr.kind}")
+            if fr.rows_read:
+                tooltip_lines.append(f"rows: {fr.rows_read}")
             if fr.error:
-                text += f"  — {fr.error}"
-            elif fr.warnings:
-                text += f"  — {len(fr.warnings)} warning(s)"
-            item = QListWidgetItem(text)
-            color = _STATUS_COLOR.get(fr.status)
-            if color is not None:
-                item.setForeground(QBrush(color))
-            tooltip_lines = []
-            if fr.error:
-                tooltip_lines.append(f"Error: {fr.error}")
+                tooltip_lines.append(f"error: {fr.error}")
             tooltip_lines.extend(fr.warnings)
             if tooltip_lines:
-                item.setToolTip("\n".join(tooltip_lines))
-            self._files.addItem(item)
+                row.setToolTip("\n".join(tooltip_lines))
+            self._files_lyt.addWidget(row)
             if fr.status in ("ok", "partial") and fr.parsed is not None:
                 self.context.cache.save(fr.parsed)
+            log_level = "ok" if fr.status == "ok" else ("warn" if fr.status == "partial" else "err")
+            self._append_log(
+                f"{fr.status:>7}  {fr.path.name} ({fr.rows_read} rows)",
+                level=log_level,
+            )
 
         total = len(report.files)
-        self._summary.setText(
-            f"{total} file(s) detected — "
-            f"{report.ok_count} parsed, "
-            f"{report.partial_count} partial, "
-            f"{report.error_count} failed"
-        )
-        if report.has_partial or report.error_count:
-            self._banner.setText(
-                "Some data may be incomplete because the season is still in "
-                "progress or some files had unexpected values. Partial files "
-                "are still imported — hover each entry for details."
-            )
-            self._banner.setVisible(True)
         self._append_log(
             f"done: {report.ok_count} ok, {report.partial_count} partial, "
-            f"{report.error_count} error(s)"
+            f"{report.error_count} error(s)",
+            level="ok" if report.error_count == 0 else "warn",
         )
         if report.ok_count + report.partial_count > 0:
             self.context.notify_changed()
@@ -255,7 +245,7 @@ class ImportPage(PageBase):
     def _on_failed(self, message: str) -> None:
         self._pick_btn.setEnabled(True)
         self._pick_files_btn.setEnabled(True)
-        self._append_log(f"FAILED: {message}")
+        self._append_log(f"FAILED: {message}", level="err")
         self.set_state("error", error=message)
 
     def _clear_cache(self) -> None:
@@ -267,11 +257,6 @@ class ImportPage(PageBase):
         )
         if confirm == QMessageBox.StandardButton.Yes:
             self.context.cache.clear()
-            self._summary.setText("")
-            self._banner.setVisible(False)
-            self._files.clear()
-            self._append_log("cache cleared")
+            self._clear_files()
+            self._append_log("cache cleared", level="warn")
             self.context.notify_changed()
-
-    def _append_log(self, line: str) -> None:
-        self._log.appendPlainText(line)
