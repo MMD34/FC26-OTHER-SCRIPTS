@@ -100,7 +100,7 @@ Design-system rules enforced across sprints:
 
 ---
 
-### Phase 2 — Shell Redesign (Sidebar + Topbar + Statusbar)
+### Phase 2 — Shell Redesign (Sidebar + Topbar + Statusbar) — **COMPLETED**
 
 **Sprint 2.1 — Sidebar**
 - Build `Sidebar` widget: brand block, section titles, `NavItem` (icon + label + badge + active-bar), footer `CareerCard`, collapse toggle.

@@ -2,17 +2,12 @@
 from __future__ import annotations
 
 from PySide6.QtCore import Qt
-from PySide6.QtGui import QAction
 from PySide6.QtWidgets import (
     QApplication,
     QHBoxLayout,
-    QListWidget,
-    QListWidgetItem,
     QMainWindow,
-    QSplitter,
     QStackedWidget,
-    QStatusBar,
-    QToolBar,
+    QVBoxLayout,
     QWidget,
 )
 
@@ -26,6 +21,8 @@ from app.ui.pages.tactics_page import TacticsPage
 from app.ui.pages.transfers_page import TransfersPage
 from app.ui.pages.wonderkids_page import WonderkidsPage
 
+from app.ui.shell import Sidebar, Topbar, StatusBar
+
 SIDEBAR_PAGES: tuple[str, ...] = (
     "Overview",
     "Analytics",
@@ -38,6 +35,8 @@ SIDEBAR_PAGES: tuple[str, ...] = (
 
 
 class AppWindow(QMainWindow):
+    """The new AppShell replacing legacy chrome."""
+
     def __init__(self, context: AppContext | None = None) -> None:
         super().__init__()
         self.setWindowTitle("FC26 Analytics")
@@ -45,14 +44,31 @@ class AppWindow(QMainWindow):
 
         self.context = context or AppContext()
 
-        sidebar = QListWidget()
-        sidebar.setFixedWidth(200)
-        for name in SIDEBAR_PAGES:
-            sidebar.addItem(QListWidgetItem(name))
-        sidebar.setCurrentRow(0)
-        self._sidebar = sidebar
+        # Build main layout
+        central_widget = QWidget()
+        main_lyt = QHBoxLayout(central_widget)
+        main_lyt.setContentsMargins(0, 0, 0, 0)
+        main_lyt.setSpacing(0)
+        self.setCentralWidget(central_widget)
 
-        stack = QStackedWidget()
+        # 1. Sidebar
+        self._sidebar = Sidebar(SIDEBAR_PAGES)
+        main_lyt.addWidget(self._sidebar)
+
+        # 2. Right side container (Topbar + Stack + StatusBar)
+        right_container = QWidget()
+        right_lyt = QVBoxLayout(right_container)
+        right_lyt.setContentsMargins(0, 0, 0, 0)
+        right_lyt.setSpacing(0)
+        main_lyt.addWidget(right_container, 1)
+
+        # Topbar
+        self._topbar = Topbar()
+        self._topbar.themeToggled.connect(self._toggle_theme)
+        right_lyt.addWidget(self._topbar)
+
+        # Stack
+        self._stack = QStackedWidget()
         self._pages: list[QWidget] = [
             OverviewPage(self.context),
             AnalyticsPage(self.context),
@@ -63,50 +79,33 @@ class AppWindow(QMainWindow):
             ImportPage(self.context),
         ]
         for p in self._pages:
-            stack.addWidget(p)
-        self._stack = stack
+            self._stack.addWidget(p)
+        right_lyt.addWidget(self._stack, 1)
 
-        sidebar.currentRowChanged.connect(stack.setCurrentIndex)
+        # StatusBar
+        self._status = StatusBar()
+        right_lyt.addWidget(self._status)
 
-        splitter = QSplitter(Qt.Orientation.Horizontal)
-        splitter.addWidget(sidebar)
-        splitter.addWidget(stack)
-        splitter.setStretchFactor(0, 0)
-        splitter.setStretchFactor(1, 1)
-
-        container = QWidget()
-        layout = QHBoxLayout(container)
-        layout.setContentsMargins(0, 0, 0, 0)
-        layout.addWidget(splitter)
-        self.setCentralWidget(container)
-
-        status = QStatusBar()
-        status.showMessage("Ready")
-        self.setStatusBar(status)
-        self._status = status
-
-        toolbar = QToolBar("Top")
-        toolbar.setMovable(False)
-        self.addToolBar(toolbar)
-        self._theme_action = QAction("Light theme", self)
-        self._theme_action.setCheckable(True)
-        self._theme_action.toggled.connect(self._toggle_theme)
-        toolbar.addAction(self._theme_action)
-        self._light_mode = False
-
+        # Wiring
+        self._sidebar.pageSelected.connect(self._on_page_selected)
         self.context.dataChanged.connect(self._on_data_changed)
 
-    def _toggle_theme(self, checked: bool) -> None:
-        self._light_mode = checked
-        palette = LightPalette() if checked else Palette()
+        # Initial state
+        self._topbar.set_title(SIDEBAR_PAGES[0])
+
+    def _on_page_selected(self, index: int) -> None:
+        self._stack.setCurrentIndex(index)
+        self._topbar.set_title(SIDEBAR_PAGES[index])
+
+    def _toggle_theme(self, light_mode: bool) -> None:
+        palette = LightPalette() if light_mode else Palette()
         app = QApplication.instance()
         if app is not None:
             app.setStyleSheet(load_qss(palette))
-        self._theme_action.setText("Dark theme" if checked else "Light theme")
 
     def _on_data_changed(self) -> None:
         for page in self._pages:
             refresh = getattr(page, "refresh", None)
             if callable(refresh):
                 refresh()
-        self._status.showMessage("Data refreshed")
+        self._status.show_message("Data refreshed")

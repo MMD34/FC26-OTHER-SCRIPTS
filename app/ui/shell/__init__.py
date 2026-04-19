@@ -1,3 +1,5 @@
-"""Shell layer — Phase 2 populates this package with Sidebar, Topbar,
-StatusBar, and the AppShell composition root.
-"""
+from .sidebar import Sidebar
+from .topbar import Topbar
+from .statusbar import StatusBar
+
+__all__ = ["Sidebar", "Topbar", "StatusBar"]

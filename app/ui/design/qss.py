@@ -140,5 +140,84 @@ QPushButton#btn--ghost {{
 }}
 QPushButton#btn--ghost:hover {{ background-color: {palette.panel_2}; }}
     """
+
+    shell = f"""
+/* Shell Redesign (Phase 2) */
+
+/* Sidebar */
+QFrame#sidebar {{
+    background-color: {palette.panel};
+    border-right: 1px solid {palette.line};
+}}
+QFrame#brand {{
+    background-color: {palette.panel};
+    border-bottom: 1px solid {palette.line};
+}}
+QLabel#brand-mark {{
+    background-color: {palette.accent}; /* Fallback for gradient */
+    color: #0b0d12;
+    border-radius: 7px;
+    font-family: {typo.display};
+    font-weight: 800;
+    font-size: {typo.base}px;
+}}
+QLabel#brand-text {{ font-weight: 700; font-size: 14px; }}
+QLabel#brand-sub {{ font-size: 10px; color: {palette.muted}; text-transform: uppercase; letter-spacing: 1px; }}
+QLabel#sb-section-title {{
+    font-size: 10px; text-transform: uppercase; letter-spacing: 1px;
+    color: {palette.dim}; font-weight: 600;
+}}
+
+/* NavItem */
+QFrame#nav-item {{
+    background-color: transparent;
+    border-radius: {radii.sm}px;
+}}
+QFrame#nav-item:hover {{ background-color: {palette.panel_2}; }}
+QFrame#nav-item[active="true"] {{ background-color: {palette.panel_2}; }}
+QLabel#nav-label {{ color: {palette.muted}; font-weight: 500; }}
+QLabel#nav-label[active="true"] {{ color: {palette.text}; }}
+
+/* CareerCard (Footer) */
+QFrame#sb-footer {{ border-top: 1px solid {palette.line}; }}
+QFrame#career-card {{
+    background-color: {palette.panel_2};
+    border: 1px solid {palette.line};
+    border-radius: {radii.sm}px;
+}}
+QLabel#career-title {{ font-weight: 600; font-size: 12px; }}
+QLabel#career-sub {{ font-size: 10px; color: {palette.muted}; }}
+
+/* Topbar */
+QFrame#topbar {{
+    background-color: {palette.panel};
+    border-bottom: 1px solid {palette.line};
+}}
+QLabel#breadcrumb {{ color: {palette.muted}; font-size: 12px; }}
+QLabel#breadcrumb-b {{ color: {palette.text}; font-weight: 600; font-size: 12px; }}
+QFrame#search {{
+    background-color: {palette.panel_2};
+    border: 1px solid {palette.line};
+    border-radius: {radii.sm}px;
+}}
+QLineEdit#search-input {{
+    background-color: transparent;
+    border: none;
+    color: {palette.text};
+}}
+QLabel#search-kbd {{
+    font-family: {typo.mono}; font-size: 10px; color: {palette.dim};
+    border: 1px solid {palette.line}; border-radius: 4px; background-color: {palette.bg};
+    padding: 1px 5px;
+}}
+
+/* StatusBar */
+QFrame#statusbar {{
+    background-color: {palette.panel};
+    border-top: 1px solid {palette.line};
+}}
+QLabel#statusbar-label {{ color: {palette.muted}; font-size: 11px; font-family: {typo.mono}; }}
+    """
     
-    return base + components
+    return base + components + shell
+
