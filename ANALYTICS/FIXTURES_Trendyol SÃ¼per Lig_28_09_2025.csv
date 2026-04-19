@@ -1,0 +1,307 @@
+competition,compobjid,hometeamid,awayteamid,hometeam,homescore,awayscore,awayteam,date,time
+Trendyol Süper Lig,1480,110776,325,Gaziantep FK,1,2,Galatasaray SK,20250808,1830
+Trendyol Süper Lig,1480,741,111339,Antalyaspor,1,3,Kasımpaşa SK,20250809,1830
+Trendyol Süper Lig,1480,326,113142,Fenerbahçe SK,3,1,Corendon Alanyaspor,20250809,1830
+Trendyol Süper Lig,1480,748,101025,Samsunspor A.Ş,0,0,Gençlerbirliği SK,20250809,1600
+Trendyol Süper Lig,1480,101037,101026,Çaykur Rizespor,2,1,Göztepe SK,20250808,1830
+Trendyol Süper Lig,1480,131174,101033,İKAS Eyüpspor,1,2,Konyaspor,20250810,1600
+Trendyol Süper Lig,1480,111117,101014,Fatih Karagümrük SK,0,2,RAMS Başakşehir,20250810,1830
+Trendyol Süper Lig,1480,101020,327,Kayserispor Futbol A.Ş,2,2,Beşiktaş JK,20250810,1830
+Trendyol Süper Lig,1480,436,101032,Trabzonspor,3,2,Kocaelispor,20250811,1830
+Trendyol Süper Lig,1480,325,111117,Galatasaray SK,2,0,Fatih Karagümrük SK,20250815,1830
+Trendyol Süper Lig,1480,113142,101037,Corendon Alanyaspor,3,1,Çaykur Rizespor,20250816,1830
+Trendyol Süper Lig,1480,101026,326,Göztepe SK,1,1,Fenerbahçe SK,20250816,1830
+Trendyol Süper Lig,1480,101032,748,Kocaelispor,1,1,Samsunspor A.Ş,20250816,1600
+Trendyol Süper Lig,1480,327,131174,Beşiktaş JK,1,1,İKAS Eyüpspor,20250817,1830
+Trendyol Süper Lig,1480,101025,741,Gençlerbirliği SK,0,1,Antalyaspor,20250817,1600
+Trendyol Süper Lig,1480,101014,101020,RAMS Başakşehir,2,0,Kayserispor Futbol A.Ş,20250817,1830
+Trendyol Süper Lig,1480,101033,110776,Konyaspor,1,2,Gaziantep FK,20250817,1600
+Trendyol Süper Lig,1480,111339,436,Kasımpaşa SK,1,3,Trabzonspor,20250818,1830
+Trendyol Süper Lig,1480,326,101032,Fenerbahçe SK,1,2,Kocaelispor,20250822,1830
+Trendyol Süper Lig,1480,101037,101014,Çaykur Rizespor,0,2,RAMS Başakşehir,20250823,1600
+Trendyol Süper Lig,1480,131174,113142,İKAS Eyüpspor,4,1,Corendon Alanyaspor,20250823,1600
+Trendyol Süper Lig,1480,111117,101026,Fatih Karagümrük SK,1,1,Göztepe SK,20250823,1600
+Trendyol Süper Lig,1480,110776,101025,Gaziantep FK,2,3,Gençlerbirliği SK,20250824,1600
+Trendyol Süper Lig,1480,101020,325,Kayserispor Futbol A.Ş,1,1,Galatasaray SK,20250824,1830
+Trendyol Süper Lig,1480,101033,327,Konyaspor,0,2,Beşiktaş JK,20250824,1830
+Trendyol Süper Lig,1480,748,111339,Samsunspor A.Ş,1,1,Kasımpaşa SK,20250824,1600
+Trendyol Süper Lig,1480,436,741,Trabzonspor,2,0,Antalyaspor,20250825,1830
+Trendyol Süper Lig,1480,325,101037,Galatasaray SK,2,1,Çaykur Rizespor,20250829,1830
+Trendyol Süper Lig,1480,741,111117,Antalyaspor,1,1,Fatih Karagümrük SK,20250830,1600
+Trendyol Süper Lig,1480,101025,326,Gençlerbirliği SK,1,2,Fenerbahçe SK,20250830,1830
+Trendyol Süper Lig,1480,101032,101020,Kocaelispor,2,2,Kayserispor Futbol A.Ş,20250830,1600
+Trendyol Süper Lig,1480,113142,327,Corendon Alanyaspor,1,2,Beşiktaş JK,20250831,1845
+Trendyol Süper Lig,1480,101026,101033,Göztepe SK,1,2,Konyaspor,20250831,1600
+Trendyol Süper Lig,1480,101014,131174,RAMS Başakşehir,1,2,İKAS Eyüpspor,20250831,1600
+Trendyol Süper Lig,1480,111339,110776,Kasımpaşa SK,1,1,Gaziantep FK,20250831,1600
+Trendyol Süper Lig,1480,436,748,Trabzonspor,1,1,Samsunspor A.Ş,20250901,1700
+Trendyol Süper Lig,1480,327,101014,Beşiktaş JK,1,2,RAMS Başakşehir,20250912,1700
+Trendyol Süper Lig,1480,101037,101025,Çaykur Rizespor,2,0,Gençlerbirliği SK,20250913,1300
+Trendyol Süper Lig,1480,131174,325,İKAS Eyüpspor,3,5,Galatasaray SK,20250913,1600
+Trendyol Süper Lig,1480,111117,111339,Fatih Karagümrük SK,1,3,Kasımpaşa SK,20250913,1030
+Trendyol Süper Lig,1480,326,436,Fenerbahçe SK,1,1,Trabzonspor,20250914,1745
+Trendyol Süper Lig,1480,110776,101032,Gaziantep FK,2,3,Kocaelispor,20250914,1600
+Trendyol Süper Lig,1480,101020,101026,Kayserispor Futbol A.Ş,2,2,Göztepe SK,20250914,1030
+Trendyol Süper Lig,1480,748,741,Samsunspor A.Ş,1,1,Antalyaspor,20250914,1300
+Trendyol Süper Lig,1480,101033,113142,Konyaspor,0,1,Corendon Alanyaspor,20250915,1700
+Trendyol Süper Lig,1480,436,110776,Trabzonspor,2,0,Gaziantep FK,20250919,1700
+Trendyol Süper Lig,1480,741,101020,Antalyaspor,1,0,Kayserispor Futbol A.Ş,20250920,1300
+Trendyol Süper Lig,1480,101025,131174,Gençlerbirliği SK,2,1,İKAS Eyüpspor,20250920,1030
+Trendyol Süper Lig,1480,101026,327,Göztepe SK,0,1,Beşiktaş JK,20250920,1600
+Trendyol Süper Lig,1480,101014,113142,RAMS Başakşehir,1,2,Corendon Alanyaspor,20250921,1300
+Trendyol Süper Lig,1480,111339,326,Kasımpaşa SK,1,4,Fenerbahçe SK,20250921,1600
+Trendyol Süper Lig,1480,748,111117,Samsunspor A.Ş,1,3,Fatih Karagümrük SK,20250921,1300
+Trendyol Süper Lig,1480,325,101033,Galatasaray SK,3,1,Konyaspor,20250922,1700
+Trendyol Süper Lig,1480,101032,101037,Kocaelispor,1,0,Çaykur Rizespor,20250921,1030
+Trendyol Süper Lig,1480,111117,436,Fatih Karagümrük SK,3,2,Trabzonspor,20250926,1700
+Trendyol Süper Lig,1480,101037,111339,Çaykur Rizespor,0,1,Kasımpaşa SK,20250927,1600
+Trendyol Süper Lig,1480,113142,325,Corendon Alanyaspor,2,3,Galatasaray SK,20250927,1600
+Trendyol Süper Lig,1480,326,741,Fenerbahçe SK,TBD,TBD,Antalyaspor,20250928,1130
+Trendyol Süper Lig,1480,101033,101014,Konyaspor,TBD,TBD,RAMS Başakşehir,20250928,1300
+Trendyol Süper Lig,1480,327,101032,Beşiktaş JK,TBD,TBD,Kocaelispor,20250928,1600
+Trendyol Süper Lig,1480,110776,748,Gaziantep FK,TBD,TBD,Samsunspor A.Ş,20250928,1030
+Trendyol Süper Lig,1480,101020,101025,Kayserispor Futbol A.Ş,TBD,TBD,Gençlerbirliği SK,20250928,1745
+Trendyol Süper Lig,1480,131174,101026,İKAS Eyüpspor,TBD,TBD,Göztepe SK,20250929,1700
+Trendyol Süper Lig,1480,741,101037,Antalyaspor,TBD,TBD,Çaykur Rizespor,20251003,1700
+Trendyol Süper Lig,1480,111117,110776,Fatih Karagümrük SK,TBD,TBD,Gaziantep FK,20251004,1030
+Trendyol Süper Lig,1480,101026,101014,Göztepe SK,TBD,TBD,RAMS Başakşehir,20251004,1300
+Trendyol Süper Lig,1480,436,101020,Trabzonspor,TBD,TBD,Kayserispor Futbol A.Ş,20251004,1600
+Trendyol Süper Lig,1480,325,327,Galatasaray SK,TBD,TBD,Beşiktaş JK,20251005,1600
+Trendyol Süper Lig,1480,111339,101033,Kasımpaşa SK,TBD,TBD,Konyaspor,20251005,1300
+Trendyol Süper Lig,1480,101032,131174,Kocaelispor,TBD,TBD,İKAS Eyüpspor,20251005,1300
+Trendyol Süper Lig,1480,101025,113142,Gençlerbirliği SK,TBD,TBD,Corendon Alanyaspor,20251005,1030
+Trendyol Süper Lig,1480,748,326,Samsunspor A.Ş,TBD,TBD,Fenerbahçe SK,20251006,1700
+Trendyol Süper Lig,1480,326,111117,Fenerbahçe SK,TBD,TBD,Fatih Karagümrük SK,20251017,1700
+Trendyol Süper Lig,1480,101037,436,Çaykur Rizespor,TBD,TBD,Trabzonspor,20251018,1030
+Trendyol Süper Lig,1480,113142,101026,Corendon Alanyaspor,TBD,TBD,Göztepe SK,20251018,1300
+Trendyol Süper Lig,1480,101014,325,RAMS Başakşehir,TBD,TBD,Galatasaray SK,20251018,1600
+Trendyol Süper Lig,1480,327,101025,Beşiktaş JK,TBD,TBD,Gençlerbirliği SK,20251019,1745
+Trendyol Süper Lig,1480,110776,741,Gaziantep FK,TBD,TBD,Antalyaspor,20251019,1300
+Trendyol Süper Lig,1480,101033,101032,Konyaspor,TBD,TBD,Kocaelispor,20251019,1030
+Trendyol Süper Lig,1480,101020,748,Kayserispor Futbol A.Ş,TBD,TBD,Samsunspor A.Ş,20251019,1600
+Trendyol Süper Lig,1480,131174,111339,İKAS Eyüpspor,TBD,TBD,Kasımpaşa SK,20251020,1700
+Trendyol Süper Lig,1480,436,131174,Trabzonspor,TBD,TBD,İKAS Eyüpspor,20251024,1700
+Trendyol Süper Lig,1480,111117,101020,Fatih Karagümrük SK,TBD,TBD,Kayserispor Futbol A.Ş,20251025,1300
+Trendyol Süper Lig,1480,110776,326,Gaziantep FK,TBD,TBD,Fenerbahçe SK,20251026,1130
+Trendyol Süper Lig,1480,111339,327,Kasımpaşa SK,TBD,TBD,Beşiktaş JK,20251026,1130
+Trendyol Süper Lig,1480,325,101026,Galatasaray SK,TBD,TBD,Göztepe SK,20251026,1600
+Trendyol Süper Lig,1480,101025,101033,Gençlerbirliği SK,TBD,TBD,Konyaspor,20251026,1030
+Trendyol Süper Lig,1480,741,101014,Antalyaspor,TBD,TBD,RAMS Başakşehir,20251026,1300
+Trendyol Süper Lig,1480,748,101037,Samsunspor A.Ş,TBD,TBD,Çaykur Rizespor,20251026,1300
+Trendyol Süper Lig,1480,101032,113142,Kocaelispor,TBD,TBD,Corendon Alanyaspor,20251027,1700
+Trendyol Süper Lig,1480,113142,110776,Corendon Alanyaspor,TBD,TBD,Gaziantep FK,20251031,1700
+Trendyol Süper Lig,1480,131174,741,İKAS Eyüpspor,TBD,TBD,Antalyaspor,20251101,1300
+Trendyol Süper Lig,1480,101014,101032,RAMS Başakşehir,TBD,TBD,Kocaelispor,20251101,1030
+Trendyol Süper Lig,1480,325,436,Galatasaray SK,TBD,TBD,Trabzonspor,20251101,1600
+Trendyol Süper Lig,1480,327,326,Beşiktaş JK,TBD,TBD,Fenerbahçe SK,20251102,1600
+Trendyol Süper Lig,1480,101037,111117,Çaykur Rizespor,TBD,TBD,Fatih Karagümrük SK,20251102,1600
+Trendyol Süper Lig,1480,101033,748,Konyaspor,TBD,TBD,Samsunspor A.Ş,20251102,1300
+Trendyol Süper Lig,1480,101020,111339,Kayserispor Futbol A.Ş,TBD,TBD,Kasımpaşa SK,20251102,1745
+Trendyol Süper Lig,1480,101026,101025,Göztepe SK,TBD,TBD,Gençlerbirliği SK,20251103,1700
+Trendyol Süper Lig,1480,436,113142,Trabzonspor,TBD,TBD,Corendon Alanyaspor,20251107,1700
+Trendyol Süper Lig,1480,326,101020,Fenerbahçe SK,TBD,TBD,Kayserispor Futbol A.Ş,20251109,1130
+Trendyol Süper Lig,1480,110776,101037,Gaziantep FK,TBD,TBD,Çaykur Rizespor,20251108,1600
+Trendyol Süper Lig,1480,101032,325,Kocaelispor,TBD,TBD,Galatasaray SK,20251108,1600
+Trendyol Süper Lig,1480,741,327,Antalyaspor,TBD,TBD,Beşiktaş JK,20251109,1745
+Trendyol Süper Lig,1480,111117,101033,Fatih Karagümrük SK,TBD,TBD,Konyaspor,20251109,1030
+Trendyol Süper Lig,1480,111339,101026,Kasımpaşa SK,TBD,TBD,Göztepe SK,20251109,1600
+Trendyol Süper Lig,1480,748,131174,Samsunspor A.Ş,TBD,TBD,İKAS Eyüpspor,20251109,1600
+Trendyol Süper Lig,1480,101025,101014,Gençlerbirliği SK,TBD,TBD,RAMS Başakşehir,20251110,1700
+Trendyol Süper Lig,1480,325,101025,Galatasaray SK,TBD,TBD,Gençlerbirliği SK,20251121,1700
+Trendyol Süper Lig,1480,101037,326,Çaykur Rizespor,TBD,TBD,Fenerbahçe SK,20251122,1600
+Trendyol Süper Lig,1480,101014,436,RAMS Başakşehir,TBD,TBD,Trabzonspor,20251122,1300
+Trendyol Süper Lig,1480,101020,110776,Kayserispor Futbol A.Ş,TBD,TBD,Gaziantep FK,20251122,1030
+Trendyol Süper Lig,1480,131174,111117,İKAS Eyüpspor,TBD,TBD,Fatih Karagümrük SK,20251123,1300
+Trendyol Süper Lig,1480,113142,111339,Corendon Alanyaspor,TBD,TBD,Kasımpaşa SK,20251123,1300
+Trendyol Süper Lig,1480,101026,101032,Göztepe SK,TBD,TBD,Kocaelispor,20251123,1600
+Trendyol Süper Lig,1480,327,748,Beşiktaş JK,TBD,TBD,Samsunspor A.Ş,20251123,1745
+Trendyol Süper Lig,1480,101033,741,Konyaspor,TBD,TBD,Antalyaspor,20251124,1700
+Trendyol Süper Lig,1480,741,101026,Antalyaspor,TBD,TBD,Göztepe SK,20251128,1700
+Trendyol Süper Lig,1480,111339,101014,Kasımpaşa SK,TBD,TBD,RAMS Başakşehir,20251129,1600
+Trendyol Süper Lig,1480,110776,131174,Gaziantep FK,TBD,TBD,İKAS Eyüpspor,20251129,1030
+Trendyol Süper Lig,1480,436,101033,Trabzonspor,TBD,TBD,Konyaspor,20251129,1300
+Trendyol Süper Lig,1480,101037,101020,Çaykur Rizespor,TBD,TBD,Kayserispor Futbol A.Ş,20251130,1300
+Trendyol Süper Lig,1480,101032,101025,Kocaelispor,TBD,TBD,Gençlerbirliği SK,20251130,1030
+Trendyol Süper Lig,1480,326,325,Fenerbahçe SK,TBD,TBD,Galatasaray SK,20251129,1130
+Trendyol Süper Lig,1480,748,113142,Samsunspor A.Ş,TBD,TBD,Corendon Alanyaspor,20251130,1300
+Trendyol Süper Lig,1480,111117,327,Fatih Karagümrük SK,TBD,TBD,Beşiktaş JK,20251201,1700
+Trendyol Süper Lig,1480,101014,326,RAMS Başakşehir,TBD,TBD,Fenerbahçe SK,20251205,1700
+Trendyol Süper Lig,1480,325,748,Galatasaray SK,TBD,TBD,Samsunspor A.Ş,20251206,1600
+Trendyol Süper Lig,1480,101033,101037,Konyaspor,TBD,TBD,Çaykur Rizespor,20251206,1300
+Trendyol Süper Lig,1480,101032,111339,Kocaelispor,TBD,TBD,Kasımpaşa SK,20251206,1030
+Trendyol Süper Lig,1480,113142,741,Corendon Alanyaspor,TBD,TBD,Antalyaspor,20251207,1300
+Trendyol Süper Lig,1480,101025,111117,Gençlerbirliği SK,TBD,TBD,Fatih Karagümrük SK,20251207,1030
+Trendyol Süper Lig,1480,101026,436,Göztepe SK,TBD,TBD,Trabzonspor,20251207,1600
+Trendyol Süper Lig,1480,327,110776,Beşiktaş JK,TBD,TBD,Gaziantep FK,20251207,1745
+Trendyol Süper Lig,1480,131174,101020,İKAS Eyüpspor,TBD,TBD,Kayserispor Futbol A.Ş,20251208,1700
+Trendyol Süper Lig,1480,326,101033,Fenerbahçe SK,TBD,TBD,Konyaspor,20251214,1130
+Trendyol Süper Lig,1480,741,325,Antalyaspor,TBD,TBD,Galatasaray SK,20251213,1600
+Trendyol Süper Lig,1480,110776,101026,Gaziantep FK,TBD,TBD,Göztepe SK,20251213,1300
+Trendyol Süper Lig,1480,748,101014,Samsunspor A.Ş,TBD,TBD,RAMS Başakşehir,20251214,1130
+Trendyol Süper Lig,1480,101037,131174,Çaykur Rizespor,TBD,TBD,İKAS Eyüpspor,20251214,1030
+Trendyol Süper Lig,1480,111339,101025,Kasımpaşa SK,TBD,TBD,Gençlerbirliği SK,20251214,1300
+Trendyol Süper Lig,1480,101020,113142,Kayserispor Futbol A.Ş,TBD,TBD,Corendon Alanyaspor,20251214,1745
+Trendyol Süper Lig,1480,436,327,Trabzonspor,TBD,TBD,Beşiktaş JK,20251214,1600
+Trendyol Süper Lig,1480,111117,101032,Fatih Karagümrük SK,TBD,TBD,Kocaelispor,20251215,1700
+Trendyol Süper Lig,1480,327,101037,Beşiktaş JK,TBD,TBD,Çaykur Rizespor,20251221,1130
+Trendyol Süper Lig,1480,325,111339,Galatasaray SK,TBD,TBD,Kasımpaşa SK,20251220,1600
+Trendyol Süper Lig,1480,101025,436,Gençlerbirliği SK,TBD,TBD,Trabzonspor,20251220,1300
+Trendyol Süper Lig,1480,101033,101020,Konyaspor,TBD,TBD,Kayserispor Futbol A.Ş,20251220,1030
+Trendyol Süper Lig,1480,113142,111117,Corendon Alanyaspor,TBD,TBD,Fatih Karagümrük SK,20251221,1300
+Trendyol Süper Lig,1480,131174,326,İKAS Eyüpspor,TBD,TBD,Fenerbahçe SK,20251221,1600
+Trendyol Süper Lig,1480,101014,110776,RAMS Başakşehir,TBD,TBD,Gaziantep FK,20251221,1000
+Trendyol Süper Lig,1480,101026,748,Göztepe SK,TBD,TBD,Samsunspor A.Ş,20251221,1300
+Trendyol Süper Lig,1480,101032,741,Kocaelispor,TBD,TBD,Antalyaspor,20251222,1700
+Trendyol Süper Lig,1480,113142,326,Corendon Alanyaspor,TBD,TBD,Fenerbahçe SK,20260116,1700
+Trendyol Süper Lig,1480,325,110776,Galatasaray SK,TBD,TBD,Gaziantep FK,20260117,1600
+Trendyol Süper Lig,1480,101025,748,Gençlerbirliği SK,TBD,TBD,Samsunspor A.Ş,20260117,1300
+Trendyol Süper Lig,1480,101033,131174,Konyaspor,TBD,TBD,İKAS Eyüpspor,20260117,1300
+Trendyol Süper Lig,1480,101026,101037,Göztepe SK,TBD,TBD,Çaykur Rizespor,20260118,1300
+Trendyol Süper Lig,1480,101014,111117,RAMS Başakşehir,TBD,TBD,Fatih Karagümrük SK,20260118,1030
+Trendyol Süper Lig,1480,327,101020,Beşiktaş JK,TBD,TBD,Kayserispor Futbol A.Ş,20260118,1600
+Trendyol Süper Lig,1480,101032,436,Kocaelispor,TBD,TBD,Trabzonspor,20260118,1745
+Trendyol Süper Lig,1480,111339,741,Kasımpaşa SK,TBD,TBD,Antalyaspor,20260119,1700
+Trendyol Süper Lig,1480,326,101026,Fenerbahçe SK,TBD,TBD,Göztepe SK,20260125,1130
+Trendyol Süper Lig,1480,741,101025,Antalyaspor,TBD,TBD,Gençlerbirliği SK,20260124,1300
+Trendyol Süper Lig,1480,101037,113142,Çaykur Rizespor,TBD,TBD,Corendon Alanyaspor,20260124,1600
+Trendyol Süper Lig,1480,111117,325,Fatih Karagümrük SK,TBD,TBD,Galatasaray SK,20260124,1600
+Trendyol Süper Lig,1480,110776,101033,Gaziantep FK,TBD,TBD,Konyaspor,20260125,1600
+Trendyol Süper Lig,1480,101020,101014,Kayserispor Futbol A.Ş,TBD,TBD,RAMS Başakşehir,20260125,1030
+Trendyol Süper Lig,1480,748,101032,Samsunspor A.Ş,TBD,TBD,Kocaelispor,20260125,1300
+Trendyol Süper Lig,1480,436,111339,Trabzonspor,TBD,TBD,Kasımpaşa SK,20260125,1745
+Trendyol Süper Lig,1480,131174,327,İKAS Eyüpspor,TBD,TBD,Beşiktaş JK,20260126,1700
+Trendyol Süper Lig,1480,327,101033,Beşiktaş JK,TBD,TBD,Konyaspor,20260130,1700
+Trendyol Süper Lig,1480,741,436,Antalyaspor,TBD,TBD,Trabzonspor,20260131,1300
+Trendyol Süper Lig,1480,113142,131174,Corendon Alanyaspor,TBD,TBD,İKAS Eyüpspor,20260131,1030
+Trendyol Süper Lig,1480,325,101020,Galatasaray SK,TBD,TBD,Kayserispor Futbol A.Ş,20260131,1600
+Trendyol Süper Lig,1480,101025,110776,Gençlerbirliği SK,TBD,TBD,Gaziantep FK,20260201,1600
+Trendyol Süper Lig,1480,101026,111117,Göztepe SK,TBD,TBD,Fatih Karagümrük SK,20260131,1130
+Trendyol Süper Lig,1480,101014,101037,RAMS Başakşehir,TBD,TBD,Çaykur Rizespor,20260131,1130
+Trendyol Süper Lig,1480,111339,748,Kasımpaşa SK,TBD,TBD,Samsunspor A.Ş,20260201,1300
+Trendyol Süper Lig,1480,101032,326,Kocaelispor,TBD,TBD,Fenerbahçe SK,20260131,1130
+Trendyol Süper Lig,1480,327,113142,Beşiktaş JK,TBD,TBD,Corendon Alanyaspor,20260207,1130
+Trendyol Süper Lig,1480,131174,101014,İKAS Eyüpspor,TBD,TBD,RAMS Başakşehir,20260207,1030
+Trendyol Süper Lig,1480,111117,741,Fatih Karagümrük SK,TBD,TBD,Antalyaspor,20260207,1300
+Trendyol Süper Lig,1480,326,101025,Fenerbahçe SK,TBD,TBD,Gençlerbirliği SK,20260207,1600
+Trendyol Süper Lig,1480,110776,111339,Gaziantep FK,TBD,TBD,Kasımpaşa SK,20260208,1300
+Trendyol Süper Lig,1480,101020,101032,Kayserispor Futbol A.Ş,TBD,TBD,Kocaelispor,20260208,1600
+Trendyol Süper Lig,1480,101033,101026,Konyaspor,TBD,TBD,Göztepe SK,20260208,1745
+Trendyol Süper Lig,1480,748,436,Samsunspor A.Ş,TBD,TBD,Trabzonspor,20260208,1030
+Trendyol Süper Lig,1480,101037,325,Çaykur Rizespor,TBD,TBD,Galatasaray SK,20260209,1700
+Trendyol Süper Lig,1480,325,131174,Galatasaray SK,TBD,TBD,İKAS Eyüpspor,20260213,1700
+Trendyol Süper Lig,1480,741,748,Antalyaspor,TBD,TBD,Samsunspor A.Ş,20260214,1030
+Trendyol Süper Lig,1480,113142,101033,Corendon Alanyaspor,TBD,TBD,Konyaspor,20260214,1300
+Trendyol Süper Lig,1480,101025,101037,Gençlerbirliği SK,TBD,TBD,Çaykur Rizespor,20260214,1600
+Trendyol Süper Lig,1480,101026,101020,Göztepe SK,TBD,TBD,Kayserispor Futbol A.Ş,20260215,1030
+Trendyol Süper Lig,1480,111339,111117,Kasımpaşa SK,TBD,TBD,Fatih Karagümrük SK,20260215,1300
+Trendyol Süper Lig,1480,101032,110776,Kocaelispor,TBD,TBD,Gaziantep FK,20260215,1745
+Trendyol Süper Lig,1480,436,326,Trabzonspor,TBD,TBD,Fenerbahçe SK,20260215,1600
+Trendyol Süper Lig,1480,101014,327,RAMS Başakşehir,TBD,TBD,Beşiktaş JK,20260216,1700
+Trendyol Süper Lig,1480,327,101026,Beşiktaş JK,TBD,TBD,Göztepe SK,20260220,1700
+Trendyol Süper Lig,1480,101037,101032,Çaykur Rizespor,TBD,TBD,Kocaelispor,20260221,1600
+Trendyol Süper Lig,1480,113142,101014,Corendon Alanyaspor,TBD,TBD,RAMS Başakşehir,20260221,1030
+Trendyol Süper Lig,1480,326,111339,Fenerbahçe SK,TBD,TBD,Kasımpaşa SK,20260221,1600
+Trendyol Süper Lig,1480,131174,101025,İKAS Eyüpspor,TBD,TBD,Gençlerbirliği SK,20260222,1300
+Trendyol Süper Lig,1480,111117,748,Fatih Karagümrük SK,TBD,TBD,Samsunspor A.Ş,20260222,1030
+Trendyol Süper Lig,1480,110776,436,Gaziantep FK,TBD,TBD,Trabzonspor,20260222,1300
+Trendyol Süper Lig,1480,101033,325,Konyaspor,TBD,TBD,Galatasaray SK,20260222,1600
+Trendyol Süper Lig,1480,101020,741,Kayserispor Futbol A.Ş,TBD,TBD,Antalyaspor,20260223,1700
+Trendyol Süper Lig,1480,325,113142,Galatasaray SK,TBD,TBD,Corendon Alanyaspor,20260227,1700
+Trendyol Süper Lig,1480,741,326,Antalyaspor,TBD,TBD,Fenerbahçe SK,20260228,1600
+Trendyol Süper Lig,1480,101025,101020,Gençlerbirliği SK,TBD,TBD,Kayserispor Futbol A.Ş,20260228,1300
+Trendyol Süper Lig,1480,101026,131174,Göztepe SK,TBD,TBD,İKAS Eyüpspor,20260228,1600
+Trendyol Süper Lig,1480,101014,101033,RAMS Başakşehir,TBD,TBD,Konyaspor,20260301,1030
+Trendyol Süper Lig,1480,111339,101037,Kasımpaşa SK,TBD,TBD,Çaykur Rizespor,20260301,1300
+Trendyol Süper Lig,1480,101032,327,Kocaelispor,TBD,TBD,Beşiktaş JK,20260301,1745
+Trendyol Süper Lig,1480,748,110776,Samsunspor A.Ş,TBD,TBD,Gaziantep FK,20260301,1600
+Trendyol Süper Lig,1480,436,111117,Trabzonspor,TBD,TBD,Fatih Karagümrük SK,20260302,1700
+Trendyol Süper Lig,1480,326,748,Fenerbahçe SK,TBD,TBD,Samsunspor A.Ş,20260306,1700
+Trendyol Süper Lig,1480,101037,741,Çaykur Rizespor,TBD,TBD,Antalyaspor,20260307,1030
+Trendyol Süper Lig,1480,113142,101025,Corendon Alanyaspor,TBD,TBD,Gençlerbirliği SK,20260307,1300
+Trendyol Süper Lig,1480,131174,101032,İKAS Eyüpspor,TBD,TBD,Kocaelispor,20260307,1600
+Trendyol Süper Lig,1480,327,325,Beşiktaş JK,TBD,TBD,Galatasaray SK,20260308,1600
+Trendyol Süper Lig,1480,110776,111117,Gaziantep FK,TBD,TBD,Fatih Karagümrük SK,20260308,1300
+Trendyol Süper Lig,1480,101014,101026,RAMS Başakşehir,TBD,TBD,Göztepe SK,20260308,1030
+Trendyol Süper Lig,1480,101020,436,Kayserispor Futbol A.Ş,TBD,TBD,Trabzonspor,20260308,1745
+Trendyol Süper Lig,1480,101033,111339,Konyaspor,TBD,TBD,Kasımpaşa SK,20260309,1700
+Trendyol Süper Lig,1480,325,101014,Galatasaray SK,TBD,TBD,RAMS Başakşehir,20260313,1700
+Trendyol Süper Lig,1480,741,110776,Antalyaspor,TBD,TBD,Gaziantep FK,20260314,1600
+Trendyol Süper Lig,1480,111117,326,Fatih Karagümrük SK,TBD,TBD,Fenerbahçe SK,20260314,1600
+Trendyol Süper Lig,1480,101025,327,Gençlerbirliği SK,TBD,TBD,Beşiktaş JK,20260314,1300
+Trendyol Süper Lig,1480,101026,113142,Göztepe SK,TBD,TBD,Corendon Alanyaspor,20260315,1300
+Trendyol Süper Lig,1480,111339,131174,Kasımpaşa SK,TBD,TBD,İKAS Eyüpspor,20260315,1030
+Trendyol Süper Lig,1480,436,101037,Trabzonspor,TBD,TBD,Çaykur Rizespor,20260315,1600
+Trendyol Süper Lig,1480,748,101020,Samsunspor A.Ş,TBD,TBD,Kayserispor Futbol A.Ş,20260315,1300
+Trendyol Süper Lig,1480,101032,101033,Kocaelispor,TBD,TBD,Konyaspor,20260316,1700
+Trendyol Süper Lig,1480,327,111339,Beşiktaş JK,TBD,TBD,Kasımpaşa SK,20260320,1700
+Trendyol Süper Lig,1480,101037,748,Çaykur Rizespor,TBD,TBD,Samsunspor A.Ş,20260321,1030
+Trendyol Süper Lig,1480,113142,101032,Corendon Alanyaspor,TBD,TBD,Kocaelispor,20260321,1600
+Trendyol Süper Lig,1480,326,110776,Fenerbahçe SK,TBD,TBD,Gaziantep FK,20260321,1600
+Trendyol Süper Lig,1480,131174,436,İKAS Eyüpspor,TBD,TBD,Trabzonspor,20260322,1300
+Trendyol Süper Lig,1480,101026,325,Göztepe SK,TBD,TBD,Galatasaray SK,20260322,1600
+Trendyol Süper Lig,1480,101014,741,RAMS Başakşehir,TBD,TBD,Antalyaspor,20260322,1300
+Trendyol Süper Lig,1480,101020,111117,Kayserispor Futbol A.Ş,TBD,TBD,Fatih Karagümrük SK,20260322,1030
+Trendyol Süper Lig,1480,101033,101025,Konyaspor,TBD,TBD,Gençlerbirliği SK,20260323,1700
+Trendyol Süper Lig,1480,111117,101037,Fatih Karagümrük SK,TBD,TBD,Çaykur Rizespor,20260403,1700
+Trendyol Süper Lig,1480,741,131174,Antalyaspor,TBD,TBD,İKAS Eyüpspor,20260404,1030
+Trendyol Süper Lig,1480,110776,113142,Gaziantep FK,TBD,TBD,Corendon Alanyaspor,20260404,1300
+Trendyol Süper Lig,1480,101025,101026,Gençlerbirliği SK,TBD,TBD,Göztepe SK,20260404,1600
+Trendyol Süper Lig,1480,326,327,Fenerbahçe SK,TBD,TBD,Beşiktaş JK,20260405,1600
+Trendyol Süper Lig,1480,111339,101020,Kasımpaşa SK,TBD,TBD,Kayserispor Futbol A.Ş,20260405,1300
+Trendyol Süper Lig,1480,101032,101014,Kocaelispor,TBD,TBD,RAMS Başakşehir,20260405,1030
+Trendyol Süper Lig,1480,436,325,Trabzonspor,TBD,TBD,Galatasaray SK,20260405,1745
+Trendyol Süper Lig,1480,748,101033,Samsunspor A.Ş,TBD,TBD,Konyaspor,20260406,1700
+Trendyol Süper Lig,1480,327,741,Beşiktaş JK,TBD,TBD,Antalyaspor,20260410,1700
+Trendyol Süper Lig,1480,101037,110776,Çaykur Rizespor,TBD,TBD,Gaziantep FK,20260411,1300
+Trendyol Süper Lig,1480,113142,436,Corendon Alanyaspor,TBD,TBD,Trabzonspor,20260411,1600
+Trendyol Süper Lig,1480,325,101032,Galatasaray SK,TBD,TBD,Kocaelispor,20260411,1600
+Trendyol Süper Lig,1480,131174,748,İKAS Eyüpspor,TBD,TBD,Samsunspor A.Ş,20260412,1030
+Trendyol Süper Lig,1480,101026,111339,Göztepe SK,TBD,TBD,Kasımpaşa SK,20260412,1745
+Trendyol Süper Lig,1480,101014,101025,RAMS Başakşehir,TBD,TBD,Gençlerbirliği SK,20260412,1300
+Trendyol Süper Lig,1480,101020,326,Kayserispor Futbol A.Ş,TBD,TBD,Fenerbahçe SK,20260412,1600
+Trendyol Süper Lig,1480,101033,111117,Konyaspor,TBD,TBD,Fatih Karagümrük SK,20260413,1700
+Trendyol Süper Lig,1480,326,101037,Fenerbahçe SK,TBD,TBD,Çaykur Rizespor,20260417,1700
+Trendyol Süper Lig,1480,741,101033,Antalyaspor,TBD,TBD,Konyaspor,20260418,1030
+Trendyol Süper Lig,1480,111117,131174,Fatih Karagümrük SK,TBD,TBD,İKAS Eyüpspor,20260418,1300
+Trendyol Süper Lig,1480,110776,101020,Gaziantep FK,TBD,TBD,Kayserispor Futbol A.Ş,20260418,1600
+Trendyol Süper Lig,1480,101025,325,Gençlerbirliği SK,TBD,TBD,Galatasaray SK,20260419,1300
+Trendyol Süper Lig,1480,111339,113142,Kasımpaşa SK,TBD,TBD,Corendon Alanyaspor,20260419,1300
+Trendyol Süper Lig,1480,101032,101026,Kocaelispor,TBD,TBD,Göztepe SK,20260419,1030
+Trendyol Süper Lig,1480,748,327,Samsunspor A.Ş,TBD,TBD,Beşiktaş JK,20260419,1600
+Trendyol Süper Lig,1480,436,101014,Trabzonspor,TBD,TBD,RAMS Başakşehir,20260420,1700
+Trendyol Süper Lig,1480,327,111117,Beşiktaş JK,TBD,TBD,Fatih Karagümrük SK,20260424,1700
+Trendyol Süper Lig,1480,113142,748,Corendon Alanyaspor,TBD,TBD,Samsunspor A.Ş,20260425,1030
+Trendyol Süper Lig,1480,131174,110776,İKAS Eyüpspor,TBD,TBD,Gaziantep FK,20260425,1300
+Trendyol Süper Lig,1480,101025,101032,Gençlerbirliği SK,TBD,TBD,Kocaelispor,20260425,1600
+Trendyol Süper Lig,1480,325,326,Galatasaray SK,TBD,TBD,Fenerbahçe SK,20260426,1600
+Trendyol Süper Lig,1480,101026,741,Göztepe SK,TBD,TBD,Antalyaspor,20260426,1300
+Trendyol Süper Lig,1480,101014,111339,RAMS Başakşehir,TBD,TBD,Kasımpaşa SK,20260426,1030
+Trendyol Süper Lig,1480,101020,101037,Kayserispor Futbol A.Ş,TBD,TBD,Çaykur Rizespor,20260426,1745
+Trendyol Süper Lig,1480,101033,436,Konyaspor,TBD,TBD,Trabzonspor,20260427,1700
+Trendyol Süper Lig,1480,326,101014,Fenerbahçe SK,TBD,TBD,RAMS Başakşehir,20260501,1700
+Trendyol Süper Lig,1480,741,113142,Antalyaspor,TBD,TBD,Corendon Alanyaspor,20260502,1030
+Trendyol Süper Lig,1480,101037,101033,Çaykur Rizespor,TBD,TBD,Konyaspor,20260502,1300
+Trendyol Süper Lig,1480,111117,101025,Fatih Karagümrük SK,TBD,TBD,Gençlerbirliği SK,20260502,1600
+Trendyol Süper Lig,1480,110776,327,Gaziantep FK,TBD,TBD,Beşiktaş JK,20260503,1300
+Trendyol Süper Lig,1480,111339,101032,Kasımpaşa SK,TBD,TBD,Kocaelispor,20260503,1030
+Trendyol Süper Lig,1480,101020,131174,Kayserispor Futbol A.Ş,TBD,TBD,İKAS Eyüpspor,20260503,1300
+Trendyol Süper Lig,1480,748,325,Samsunspor A.Ş,TBD,TBD,Galatasaray SK,20260503,1600
+Trendyol Süper Lig,1480,436,101026,Trabzonspor,TBD,TBD,Göztepe SK,20260504,1700
+Trendyol Süper Lig,1480,325,741,Galatasaray SK,TBD,TBD,Antalyaspor,20260510,1600
+Trendyol Süper Lig,1480,113142,101020,Corendon Alanyaspor,TBD,TBD,Kayserispor Futbol A.Ş,20260510,1600
+Trendyol Süper Lig,1480,131174,101037,İKAS Eyüpspor,TBD,TBD,Çaykur Rizespor,20260510,1600
+Trendyol Süper Lig,1480,101025,111339,Gençlerbirliği SK,TBD,TBD,Kasımpaşa SK,20260510,1600
+Trendyol Süper Lig,1480,327,436,Beşiktaş JK,TBD,TBD,Trabzonspor,20260510,1600
+Trendyol Süper Lig,1480,101026,110776,Göztepe SK,TBD,TBD,Gaziantep FK,20260510,1600
+Trendyol Süper Lig,1480,101014,748,RAMS Başakşehir,TBD,TBD,Samsunspor A.Ş,20260510,1600
+Trendyol Süper Lig,1480,101032,111117,Kocaelispor,TBD,TBD,Fatih Karagümrük SK,20260510,1600
+Trendyol Süper Lig,1480,101033,326,Konyaspor,TBD,TBD,Fenerbahçe SK,20260510,1600
+Trendyol Süper Lig,1480,326,131174,Fenerbahçe SK,TBD,TBD,İKAS Eyüpspor,20260517,1600
+Trendyol Süper Lig,1480,741,101032,Antalyaspor,TBD,TBD,Kocaelispor,20260517,1600
+Trendyol Süper Lig,1480,101037,327,Çaykur Rizespor,TBD,TBD,Beşiktaş JK,20260517,1600
+Trendyol Süper Lig,1480,111117,113142,Fatih Karagümrük SK,TBD,TBD,Corendon Alanyaspor,20260517,1600
+Trendyol Süper Lig,1480,110776,101014,Gaziantep FK,TBD,TBD,RAMS Başakşehir,20260517,1600
+Trendyol Süper Lig,1480,111339,325,Kasımpaşa SK,TBD,TBD,Galatasaray SK,20260517,1600
+Trendyol Süper Lig,1480,101020,101033,Kayserispor Futbol A.Ş,TBD,TBD,Konyaspor,20260517,1600
+Trendyol Süper Lig,1480,748,101026,Samsunspor A.Ş,TBD,TBD,Göztepe SK,20260517,1600
+Trendyol Süper Lig,1480,436,101025,Trabzonspor,TBD,TBD,Gençlerbirliği SK,20260518,1600

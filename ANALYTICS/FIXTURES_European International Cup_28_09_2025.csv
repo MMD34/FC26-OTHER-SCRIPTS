@@ -1,0 +1,13 @@
+competition,compobjid,hometeamid,awayteamid,hometeam,homescore,awayscore,awayteam,date,time
+European International Cup,1856,115486,1853,Kings United,3,0,Levante UD,20250726,1600
+European International Cup,1856,243,480,Real Madrid,2,0,Rayo Vallecano,20250726,1600
+European International Cup,1856,483,481,Villarreal CF,1,1,Sevilla FC,20250726,1600
+European International Cup,1856,54,110374,Torino,2,2,Fiorentina,20250726,1600
+European International Cup,1856,54,115486,Torino,1,2,Kings United,20250729,1600
+European International Cup,1856,110374,483,Fiorentina,0,2,Villarreal CF,20250729,1600
+European International Cup,1856,481,243,Sevilla FC,0,4,Real Madrid,20250729,1600
+European International Cup,1856,480,1853,Rayo Vallecano,1,2,Levante UD,20250729,1600
+European International Cup,1856,115486,480,Kings United,2,1,Rayo Vallecano,20250802,1600
+European International Cup,1856,1853,481,Levante UD,3,3,Sevilla FC,20250802,1600
+European International Cup,1856,243,110374,Real Madrid,2,0,Fiorentina,20250802,1600
+European International Cup,1856,483,54,Villarreal CF,1,2,Torino,20250802,1600

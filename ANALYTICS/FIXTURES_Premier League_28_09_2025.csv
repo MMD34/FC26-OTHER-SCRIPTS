@@ -1,0 +1,381 @@
+competition,compobjid,hometeamid,awayteamid,hometeam,homescore,awayscore,awayteam,date,time
+Premier League,776,9,1943,Liverpool,2,3,AFC Bournemouth,20250815,2000
+Premier League,776,2,13,Aston Villa,2,2,Newcastle United,20250816,1230
+Premier League,776,106,19,Sunderland,0,1,West Ham United,20250816,1500
+Premier League,776,1808,144,Brighton & Hove Albion,0,1,Fulham,20250816,1500
+Premier League,776,18,115486,Tottenham Hotspur,0,1,Kings United,20250816,1500
+Premier League,776,110,10,Wolverhampton Wanderers,0,3,Manchester City,20250816,1730
+Premier League,776,5,1799,Chelsea,0,1,Crystal Palace,20250817,1400
+Premier League,776,14,1925,Nottingham Forest,3,1,Brentford,20250817,1400
+Premier League,776,11,1,Manchester United,1,2,Arsenal,20250817,1630
+Premier League,776,8,7,Leeds United,0,2,Everton,20250818,2000
+Premier League,776,19,5,West Ham United,1,2,Chelsea,20250822,2100
+Premier League,776,10,18,Manchester City,1,2,Tottenham Hotspur,20250823,1330
+Premier League,776,1,8,Arsenal,4,2,Leeds United,20250823,1830
+Premier League,776,1943,110,AFC Bournemouth,1,1,Wolverhampton Wanderers,20250823,1600
+Premier League,776,1925,2,Brentford,2,2,Aston Villa,20250823,1600
+Premier League,776,115486,106,Kings United,5,1,Sunderland,20250823,1600
+Premier League,776,1799,14,Crystal Palace,1,1,Nottingham Forest,20250822,2000
+Premier League,776,7,1808,Everton,1,1,Brighton & Hove Albion,20250824,1500
+Premier League,776,144,11,Fulham,0,2,Manchester United,20250824,1730
+Premier League,776,13,9,Newcastle United,1,2,Liverpool,20250825,2100
+Premier League,776,2,1799,Aston Villa,1,2,Crystal Palace,20250829,2100
+Premier League,776,110,7,Wolverhampton Wanderers,2,1,Everton,20250830,1600
+Premier League,776,18,1943,Tottenham Hotspur,3,1,AFC Bournemouth,20250830,1600
+Premier League,776,11,115486,Manchester United,0,3,Kings United,20250830,1600
+Premier League,776,106,1925,Sunderland,2,1,Brentford,20250830,1600
+Premier League,776,8,13,Leeds United,2,2,Newcastle United,20250830,1830
+Premier League,776,5,144,Chelsea,1,2,Fulham,20250830,1330
+Premier League,776,1808,10,Brighton & Hove Albion,2,2,Manchester City,20250831,1500
+Premier League,776,9,1,Liverpool,1,2,Arsenal,20250831,1730
+Premier League,776,14,19,Nottingham Forest,0,1,West Ham United,20250831,1500
+Premier League,776,1799,106,Crystal Palace,3,0,Sunderland,20250912,2100
+Premier League,776,7,2,Everton,2,2,Aston Villa,20250913,1600
+Premier League,776,13,110,Newcastle United,1,1,Wolverhampton Wanderers,20250913,1330
+Premier League,776,1943,1808,AFC Bournemouth,2,2,Brighton & Hove Albion,20250913,1600
+Premier League,776,144,8,Fulham,0,0,Leeds United,20250913,1600
+Premier League,776,19,18,West Ham United,2,1,Tottenham Hotspur,20250913,1830
+Premier League,776,10,11,Manchester City,1,2,Manchester United,20250913,1245
+Premier League,776,1,14,Arsenal,2,0,Nottingham Forest,20250913,1245
+Premier League,776,1925,5,Brentford,3,2,Chelsea,20250913,1245
+Premier League,776,115486,9,Kings United,2,0,Liverpool,20250913,1245
+Premier League,776,1943,13,AFC Bournemouth,1,5,Newcastle United,20250919,2100
+Premier League,776,9,7,Liverpool,1,2,Everton,20250920,1330
+Premier League,776,1808,18,Brighton & Hove Albion,1,4,Tottenham Hotspur,20250920,1600
+Premier League,776,110,8,Wolverhampton Wanderers,0,1,Leeds United,20250920,1830
+Premier League,776,106,2,Sunderland,1,2,Aston Villa,20250920,1600
+Premier League,776,19,1799,West Ham United,1,1,Crystal Palace,20250920,1600
+Premier League,776,1,10,Arsenal,1,1,Manchester City,20250920,1245
+Premier League,776,11,5,Manchester United,1,2,Chelsea,20250921,1500
+Premier League,776,115486,14,Kings United,3,1,Nottingham Forest,20250921,1500
+Premier League,776,144,1925,Fulham,0,1,Brentford,20250922,2100
+Premier League,776,13,1,Newcastle United,1,2,Arsenal,20250926,2100
+Premier League,776,7,19,Everton,0,1,West Ham United,20250927,1600
+Premier League,776,10,115486,Manchester City,1,2,Kings United,20250927,1330
+Premier League,776,18,110,Tottenham Hotspur,1,1,Wolverhampton Wanderers,20250927,1600
+Premier League,776,1799,9,Crystal Palace,0,2,Liverpool,20250927,1600
+Premier League,776,8,1943,Leeds United,1,1,AFC Bournemouth,20250927,1830
+Premier League,776,1925,11,Brentford,TBD,TBD,Manchester United,20250928,1730
+Premier League,776,2,144,Aston Villa,TBD,TBD,Fulham,20250928,1500
+Premier League,776,5,1808,Chelsea,2,1,Brighton & Hove Albion,20250927,1245
+Premier League,776,14,106,Nottingham Forest,TBD,TBD,Sunderland,20250929,2100
+Premier League,776,2,115486,Aston Villa,TBD,TBD,Kings United,20251005,1330
+Premier League,776,1,19,Arsenal,TBD,TBD,West Ham United,20251004,1330
+Premier League,776,7,1799,Everton,TBD,TBD,Crystal Palace,20251005,1330
+Premier League,776,13,14,Newcastle United,TBD,TBD,Nottingham Forest,20251005,1330
+Premier League,776,1943,144,AFC Bournemouth,TBD,TBD,Fulham,20251004,1830
+Premier League,776,11,106,Manchester United,TBD,TBD,Sunderland,20251004,1600
+Premier League,776,8,18,Leeds United,TBD,TBD,Tottenham Hotspur,20251005,1500
+Premier League,776,5,9,Chelsea,TBD,TBD,Liverpool,20251005,1730
+Premier League,776,1925,10,Brentford,TBD,TBD,Manchester City,20251005,1500
+Premier League,776,110,1808,Wolverhampton Wanderers,TBD,TBD,Brighton & Hove Albion,20251006,2100
+Premier League,776,19,1925,West Ham United,TBD,TBD,Brentford,20251017,2100
+Premier League,776,10,7,Manchester City,TBD,TBD,Everton,20251018,1330
+Premier League,776,18,2,Tottenham Hotspur,TBD,TBD,Aston Villa,20251018,1830
+Premier League,776,1799,1943,Crystal Palace,TBD,TBD,AFC Bournemouth,20251018,1600
+Premier League,776,115486,8,Kings United,TBD,TBD,Leeds United,20251018,1600
+Premier League,776,14,5,Nottingham Forest,TBD,TBD,Chelsea,20251018,1600
+Premier League,776,9,11,Liverpool,TBD,TBD,Manchester United,20251019,1730
+Premier League,776,106,110,Sunderland,TBD,TBD,Wolverhampton Wanderers,20251019,1500
+Premier League,776,144,1,Fulham,TBD,TBD,Arsenal,20251018,1245
+Premier League,776,1808,13,Brighton & Hove Albion,TBD,TBD,Newcastle United,20251018,1245
+Premier League,776,13,144,Newcastle United,TBD,TBD,Fulham,20251024,2100
+Premier League,776,7,18,Everton,TBD,TBD,Tottenham Hotspur,20251025,1330
+Premier League,776,110,115486,Wolverhampton Wanderers,TBD,TBD,Kings United,20251025,1830
+Premier League,776,1943,14,AFC Bournemouth,TBD,TBD,Nottingham Forest,20251026,1330
+Premier League,776,1925,9,Brentford,TBD,TBD,Liverpool,20251025,1600
+Premier League,776,5,106,Chelsea,TBD,TBD,Sunderland,20251025,1600
+Premier League,776,8,19,Leeds United,TBD,TBD,West Ham United,20251026,1500
+Premier League,776,11,1808,Manchester United,TBD,TBD,Brighton & Hove Albion,20251026,1500
+Premier League,776,2,10,Aston Villa,TBD,TBD,Manchester City,20251025,1245
+Premier League,776,1,1799,Arsenal,TBD,TBD,Crystal Palace,20251026,1330
+Premier League,776,1808,8,Brighton & Hove Albion,TBD,TBD,Leeds United,20251101,1245
+Premier League,776,106,7,Sunderland,TBD,TBD,Everton,20251101,1830
+Premier League,776,9,2,Liverpool,TBD,TBD,Aston Villa,20251101,1330
+Premier League,776,1799,1925,Crystal Palace,TBD,TBD,Brentford,20251101,1600
+Premier League,776,14,11,Nottingham Forest,TBD,TBD,Manchester United,20251101,1600
+Premier League,776,19,13,West Ham United,TBD,TBD,Newcastle United,20251101,1600
+Premier League,776,18,5,Tottenham Hotspur,TBD,TBD,Chelsea,20251101,1245
+Premier League,776,115486,1,Kings United,TBD,TBD,Arsenal,20251101,1245
+Premier League,776,144,110,Fulham,TBD,TBD,Wolverhampton Wanderers,20251102,1500
+Premier League,776,10,1943,Manchester City,TBD,TBD,AFC Bournemouth,20251101,1245
+Premier League,776,14,8,Nottingham Forest,TBD,TBD,Leeds United,20251109,1330
+Premier League,776,106,1,Sunderland,TBD,TBD,Arsenal,20251108,1330
+Premier League,776,7,144,Everton,TBD,TBD,Fulham,20251108,1830
+Premier League,776,5,110,Chelsea,TBD,TBD,Wolverhampton Wanderers,20251108,1600
+Premier League,776,1925,13,Brentford,TBD,TBD,Newcastle United,20251108,1600
+Premier League,776,19,115486,West Ham United,TBD,TBD,Kings United,20251108,1600
+Premier League,776,18,11,Tottenham Hotspur,TBD,TBD,Manchester United,20251109,1500
+Premier League,776,10,9,Manchester City,TBD,TBD,Liverpool,20251109,1730
+Premier League,776,1799,1808,Crystal Palace,TBD,TBD,Brighton & Hove Albion,20251109,1500
+Premier League,776,2,1943,Aston Villa,TBD,TBD,AFC Bournemouth,20251110,2100
+Premier League,776,11,7,Manchester United,TBD,TBD,Everton,20251121,2100
+Premier League,776,13,10,Newcastle United,TBD,TBD,Manchester City,20251122,1330
+Premier League,776,110,1799,Wolverhampton Wanderers,TBD,TBD,Crystal Palace,20251122,1600
+Premier League,776,9,14,Liverpool,TBD,TBD,Nottingham Forest,20251122,1600
+Premier League,776,1808,1925,Brighton & Hove Albion,TBD,TBD,Brentford,20251122,1600
+Premier League,776,144,106,Fulham,TBD,TBD,Sunderland,20251122,1830
+Premier League,776,1943,19,AFC Bournemouth,TBD,TBD,West Ham United,20251123,1500
+Premier League,776,8,2,Leeds United,TBD,TBD,Aston Villa,20251123,1500
+Premier League,776,1,18,Arsenal,TBD,TBD,Tottenham Hotspur,20251123,1730
+Premier League,776,115486,5,Kings United,TBD,TBD,Chelsea,20251122,1245
+Premier League,776,14,1808,Nottingham Forest,TBD,TBD,Brighton & Hove Albion,20251130,1330
+Premier League,776,1799,11,Crystal Palace,TBD,TBD,Manchester United,20251129,1330
+Premier League,776,18,144,Tottenham Hotspur,TBD,TBD,Fulham,20251129,1600
+Premier League,776,106,1943,Sunderland,TBD,TBD,AFC Bournemouth,20251129,1600
+Premier League,776,2,110,Aston Villa,TBD,TBD,Wolverhampton Wanderers,20251130,1330
+Premier League,776,1925,115486,Brentford,TBD,TBD,Kings United,20251129,1330
+Premier League,776,7,13,Everton,TBD,TBD,Newcastle United,20251129,1500
+Premier League,776,5,1,Chelsea,TBD,TBD,Arsenal,20251129,1830
+Premier League,776,19,9,West Ham United,TBD,TBD,Liverpool,20251130,1500
+Premier League,776,10,8,Manchester City,TBD,TBD,Leeds United,20251130,1500
+Premier League,776,115486,1799,Kings United,TBD,TBD,Crystal Palace,20251202,2015
+Premier League,776,1,1925,Arsenal,TBD,TBD,Brentford,20251202,2015
+Premier League,776,144,10,Fulham,TBD,TBD,Manchester City,20251203,2015
+Premier League,776,9,106,Liverpool,TBD,TBD,Sunderland,20251203,1930
+Premier League,776,13,18,Newcastle United,TBD,TBD,Tottenham Hotspur,20251203,2015
+Premier League,776,1808,2,Brighton & Hove Albion,TBD,TBD,Aston Villa,20251203,1930
+Premier League,776,110,14,Wolverhampton Wanderers,TBD,TBD,Nottingham Forest,20251203,1930
+Premier League,776,8,5,Leeds United,TBD,TBD,Chelsea,20251203,1930
+Premier League,776,11,19,Manchester United,TBD,TBD,West Ham United,20251203,2000
+Premier League,776,1943,7,AFC Bournemouth,TBD,TBD,Everton,20251202,1945
+Premier League,776,1808,19,Brighton & Hove Albion,TBD,TBD,West Ham United,20251206,1830
+Premier League,776,10,106,Manchester City,TBD,TBD,Sunderland,20251206,1600
+Premier League,776,18,1925,Tottenham Hotspur,TBD,TBD,Brentford,20251206,1600
+Premier League,776,8,9,Leeds United,TBD,TBD,Liverpool,20251206,1600
+Premier League,776,1943,5,AFC Bournemouth,TBD,TBD,Chelsea,20251206,1245
+Premier League,776,144,1799,Fulham,TBD,TBD,Crystal Palace,20251207,1730
+Premier League,776,7,14,Everton,TBD,TBD,Nottingham Forest,20251207,1500
+Premier League,776,13,115486,Newcastle United,TBD,TBD,Kings United,20251207,1500
+Premier League,776,2,1,Aston Villa,TBD,TBD,Arsenal,20251207,1730
+Premier League,776,110,11,Wolverhampton Wanderers,TBD,TBD,Manchester United,20251208,2100
+Premier League,776,1,110,Arsenal,TBD,TBD,Wolverhampton Wanderers,20251213,1245
+Premier League,776,9,1808,Liverpool,TBD,TBD,Brighton & Hove Albion,20251213,1330
+Premier League,776,11,1943,Manchester United,TBD,TBD,AFC Bournemouth,20251213,1600
+Premier League,776,115486,144,Kings United,TBD,TBD,Fulham,20251213,1600
+Premier League,776,19,2,West Ham United,TBD,TBD,Aston Villa,20251214,1330
+Premier League,776,1925,8,Brentford,TBD,TBD,Leeds United,20251213,1830
+Premier League,776,1799,10,Crystal Palace,TBD,TBD,Manchester City,20251214,1500
+Premier League,776,106,13,Sunderland,TBD,TBD,Newcastle United,20251214,1730
+Premier League,776,14,18,Nottingham Forest,TBD,TBD,Tottenham Hotspur,20251214,1500
+Premier League,776,5,7,Chelsea,TBD,TBD,Everton,20251215,2100
+Premier League,776,1943,115486,AFC Bournemouth,TBD,TBD,Kings United,20251219,2100
+Premier League,776,10,19,Manchester City,TBD,TBD,West Ham United,20251220,1330
+Premier League,776,13,5,Newcastle United,TBD,TBD,Chelsea,20251220,1600
+Premier League,776,8,1799,Leeds United,TBD,TBD,Crystal Palace,20251221,1330
+Premier League,776,2,11,Aston Villa,TBD,TBD,Manchester United,20251220,1600
+Premier League,776,144,14,Fulham,TBD,TBD,Nottingham Forest,20251220,1600
+Premier League,776,1808,106,Brighton & Hove Albion,TBD,TBD,Sunderland,20251221,1500
+Premier League,776,110,1925,Wolverhampton Wanderers,TBD,TBD,Brentford,20251221,1500
+Premier League,776,18,9,Tottenham Hotspur,TBD,TBD,Liverpool,20251221,1730
+Premier League,776,7,1,Everton,TBD,TBD,Arsenal,20251222,2100
+Premier League,776,106,8,Sunderland,TBD,TBD,Leeds United,20251226,1600
+Premier League,776,5,2,Chelsea,TBD,TBD,Aston Villa,20251226,2100
+Premier League,776,11,13,Manchester United,TBD,TBD,Newcastle United,20251226,1330
+Premier League,776,1,1808,Arsenal,TBD,TBD,Brighton & Hove Albion,20251226,1600
+Premier League,776,14,10,Nottingham Forest,TBD,TBD,Manchester City,20251226,1600
+Premier League,776,19,144,West Ham United,TBD,TBD,Fulham,20251226,1830
+Premier League,776,1925,1943,Brentford,TBD,TBD,AFC Bournemouth,20251226,1600
+Premier League,776,1799,18,Crystal Palace,TBD,TBD,Tottenham Hotspur,20251227,1500
+Premier League,776,9,110,Liverpool,TBD,TBD,Wolverhampton Wanderers,20251227,1500
+Premier League,776,115486,7,Kings United,TBD,TBD,Everton,20251227,1730
+Premier League,776,106,10,Sunderland,TBD,TBD,Manchester City,20251230,1500
+Premier League,776,1,2,Arsenal,TBD,TBD,Aston Villa,20251230,1500
+Premier League,776,5,1943,Chelsea,TBD,TBD,AFC Bournemouth,20251230,2000
+Premier League,776,19,1808,West Ham United,TBD,TBD,Brighton & Hove Albion,20251230,1500
+Premier League,776,11,110,Manchester United,TBD,TBD,Wolverhampton Wanderers,20251231,1500
+Premier League,776,1925,18,Brentford,TBD,TBD,Tottenham Hotspur,20251231,1730
+Premier League,776,115486,13,Kings United,TBD,TBD,Newcastle United,20251231,1500
+Premier League,776,9,8,Liverpool,TBD,TBD,Leeds United,20251231,1730
+Premier League,776,1799,144,Crystal Palace,TBD,TBD,Fulham,20251231,1230
+Premier League,776,14,7,Nottingham Forest,TBD,TBD,Everton,20251231,1230
+Premier League,776,18,106,Tottenham Hotspur,TBD,TBD,Sunderland,20260103,1330
+Premier League,776,1808,115486,Brighton & Hove Albion,TBD,TBD,Kings United,20260103,1600
+Premier League,776,7,1925,Everton,TBD,TBD,Brentford,20260103,1600
+Premier League,776,8,11,Leeds United,TBD,TBD,Manchester United,20260103,1600
+Premier League,776,10,5,Manchester City,TBD,TBD,Chelsea,20260103,1830
+Premier League,776,2,14,Aston Villa,TBD,TBD,Nottingham Forest,20260103,1330
+Premier League,776,110,19,Wolverhampton Wanderers,TBD,TBD,West Ham United,20260103,1500
+Premier League,776,13,1799,Newcastle United,TBD,TBD,Crystal Palace,20260103,1500
+Premier League,776,1943,1,AFC Bournemouth,TBD,TBD,Arsenal,20260104,1500
+Premier League,776,144,9,Fulham,TBD,TBD,Liverpool,20260104,1500
+Premier League,776,13,8,Newcastle United,TBD,TBD,Leeds United,20260106,1900
+Premier League,776,1799,2,Crystal Palace,TBD,TBD,Aston Villa,20260106,1900
+Premier League,776,7,110,Everton,TBD,TBD,Wolverhampton Wanderers,20260106,1900
+Premier League,776,115486,11,Kings United,TBD,TBD,Manchester United,20260106,1900
+Premier League,776,10,1808,Manchester City,TBD,TBD,Brighton & Hove Albion,20260106,2015
+Premier League,776,1943,18,AFC Bournemouth,TBD,TBD,Tottenham Hotspur,20260107,1900
+Premier League,776,1,9,Arsenal,TBD,TBD,Liverpool,20260107,1900
+Premier League,776,144,5,Fulham,TBD,TBD,Chelsea,20260107,1900
+Premier League,776,19,14,West Ham United,TBD,TBD,Nottingham Forest,20260107,1900
+Premier League,776,1925,106,Brentford,TBD,TBD,Sunderland,20260107,2015
+Premier League,776,11,10,Manchester United,TBD,TBD,Manchester City,20260116,2100
+Premier League,776,18,19,Tottenham Hotspur,TBD,TBD,West Ham United,20260117,1330
+Premier League,776,9,115486,Liverpool,TBD,TBD,Kings United,20260117,1600
+Premier League,776,106,1799,Sunderland,TBD,TBD,Crystal Palace,20260117,1600
+Premier League,776,14,1,Nottingham Forest,TBD,TBD,Arsenal,20260117,1600
+Premier League,776,5,1925,Chelsea,TBD,TBD,Brentford,20260117,1830
+Premier League,776,1808,1943,Brighton & Hove Albion,TBD,TBD,AFC Bournemouth,20260118,1500
+Premier League,776,8,144,Leeds United,TBD,TBD,Fulham,20260118,1730
+Premier League,776,2,7,Aston Villa,TBD,TBD,Everton,20260118,1500
+Premier League,776,110,13,Wolverhampton Wanderers,TBD,TBD,Newcastle United,20260117,1245
+Premier League,776,1943,9,AFC Bournemouth,TBD,TBD,Liverpool,20260124,1245
+Premier League,776,1,11,Arsenal,TBD,TBD,Manchester United,20260124,1830
+Premier League,776,1799,5,Crystal Palace,TBD,TBD,Chelsea,20260124,1330
+Premier League,776,115486,18,Kings United,TBD,TBD,Tottenham Hotspur,20260124,1600
+Premier League,776,144,1808,Fulham,TBD,TBD,Brighton & Hove Albion,20260124,1600
+Premier League,776,1925,14,Brentford,TBD,TBD,Nottingham Forest,20260125,1330
+Premier League,776,7,8,Everton,TBD,TBD,Leeds United,20260125,1730
+Premier League,776,13,2,Newcastle United,TBD,TBD,Aston Villa,20260125,1500
+Premier League,776,10,110,Manchester City,TBD,TBD,Wolverhampton Wanderers,20260125,1500
+Premier League,776,19,106,West Ham United,TBD,TBD,Sunderland,20260126,2100
+Premier League,776,5,19,Chelsea,TBD,TBD,West Ham United,20260131,1230
+Premier League,776,1808,7,Brighton & Hove Albion,TBD,TBD,Everton,20260131,1600
+Premier League,776,110,1943,Wolverhampton Wanderers,TBD,TBD,AFC Bournemouth,20260131,1600
+Premier League,776,9,13,Liverpool,TBD,TBD,Newcastle United,20260131,1330
+Premier League,776,8,1,Leeds United,TBD,TBD,Arsenal,20260131,1330
+Premier League,776,14,1799,Nottingham Forest,TBD,TBD,Crystal Palace,20260201,1730
+Premier League,776,106,115486,Sunderland,TBD,TBD,Kings United,20260201,1500
+Premier League,776,18,10,Tottenham Hotspur,TBD,TBD,Manchester City,20260201,1500
+Premier League,776,11,144,Manchester United,TBD,TBD,Fulham,20260201,1730
+Premier League,776,2,1925,Aston Villa,TBD,TBD,Brentford,20260202,2100
+Premier League,776,13,1925,Newcastle United,TBD,TBD,Brentford,20260206,2100
+Premier League,776,1808,1799,Brighton & Hove Albion,TBD,TBD,Crystal Palace,20260207,1600
+Premier League,776,9,10,Liverpool,TBD,TBD,Manchester City,20260207,1330
+Premier League,776,110,5,Wolverhampton Wanderers,TBD,TBD,Chelsea,20260207,1600
+Premier League,776,11,18,Manchester United,TBD,TBD,Tottenham Hotspur,20260207,1830
+Premier League,776,1943,2,AFC Bournemouth,TBD,TBD,Aston Villa,20260207,1600
+Premier League,776,144,7,Fulham,TBD,TBD,Everton,20260207,1330
+Premier League,776,1,106,Arsenal,TBD,TBD,Sunderland,20260208,1500
+Premier League,776,115486,19,Kings United,TBD,TBD,West Ham United,20260208,1500
+Premier League,776,8,14,Leeds United,TBD,TBD,Nottingham Forest,20260208,1730
+Premier League,776,7,1943,Everton,TBD,TBD,AFC Bournemouth,20260211,1900
+Premier League,776,1799,115486,Crystal Palace,TBD,TBD,Kings United,20260211,1900
+Premier League,776,10,144,Manchester City,TBD,TBD,Fulham,20260211,1900
+Premier League,776,5,8,Chelsea,TBD,TBD,Leeds United,20260211,1900
+Premier League,776,1925,1,Brentford,TBD,TBD,Arsenal,20260211,2015
+Premier League,776,18,13,Tottenham Hotspur,TBD,TBD,Newcastle United,20260212,1900
+Premier League,776,106,9,Sunderland,TBD,TBD,Liverpool,20260212,1900
+Premier League,776,2,1808,Aston Villa,TBD,TBD,Brighton & Hove Albion,20260212,1900
+Premier League,776,14,110,Nottingham Forest,TBD,TBD,Wolverhampton Wanderers,20260212,1900
+Premier League,776,19,11,West Ham United,TBD,TBD,Manchester United,20260212,2015
+Premier League,776,7,11,Everton,TBD,TBD,Manchester United,20260221,1830
+Premier League,776,106,144,Sunderland,TBD,TBD,Fulham,20260221,1600
+Premier League,776,2,8,Aston Villa,TBD,TBD,Leeds United,20260221,1600
+Premier League,776,5,115486,Chelsea,TBD,TBD,Kings United,20260221,1330
+Premier League,776,14,9,Nottingham Forest,TBD,TBD,Liverpool,20260221,1600
+Premier League,776,18,1,Tottenham Hotspur,TBD,TBD,Arsenal,20260222,1730
+Premier League,776,10,13,Manchester City,TBD,TBD,Newcastle United,20260222,1500
+Premier League,776,1799,110,Crystal Palace,TBD,TBD,Wolverhampton Wanderers,20260222,1500
+Premier League,776,1925,1808,Brentford,TBD,TBD,Brighton & Hove Albion,20260222,1730
+Premier League,776,19,1943,West Ham United,TBD,TBD,AFC Bournemouth,20260223,2100
+Premier League,776,9,19,Liverpool,TBD,TBD,West Ham United,20260227,2100
+Premier League,776,13,7,Newcastle United,TBD,TBD,Everton,20260228,1330
+Premier League,776,1808,14,Brighton & Hove Albion,TBD,TBD,Nottingham Forest,20260228,1600
+Premier League,776,1943,106,AFC Bournemouth,TBD,TBD,Sunderland,20260228,1330
+Premier League,776,11,1799,Manchester United,TBD,TBD,Crystal Palace,20260228,1600
+Premier League,776,1,5,Arsenal,TBD,TBD,Chelsea,20260228,1830
+Premier League,776,110,2,Wolverhampton Wanderers,TBD,TBD,Aston Villa,20260301,1600
+Premier League,776,8,10,Leeds United,TBD,TBD,Manchester City,20260301,1500
+Premier League,776,144,18,Fulham,TBD,TBD,Tottenham Hotspur,20260301,1730
+Premier League,776,115486,1925,Kings United,TBD,TBD,Brentford,20260301,2100
+Premier League,776,1808,1,Brighton & Hove Albion,TBD,TBD,Arsenal,20260304,1900
+Premier League,776,7,115486,Everton,TBD,TBD,Kings United,20260304,1900
+Premier League,776,18,1799,Tottenham Hotspur,TBD,TBD,Crystal Palace,20260304,2015
+Premier League,776,1943,1925,AFC Bournemouth,TBD,TBD,Brentford,20260304,1900
+Premier League,776,110,9,Wolverhampton Wanderers,TBD,TBD,Liverpool,20260304,2015
+Premier League,776,144,19,Fulham,TBD,TBD,West Ham United,20260305,1900
+Premier League,776,10,14,Manchester City,TBD,TBD,Nottingham Forest,20260305,1900
+Premier League,776,13,11,Newcastle United,TBD,TBD,Manchester United,20260305,1900
+Premier League,776,8,106,Leeds United,TBD,TBD,Sunderland,20260305,2015
+Premier League,776,2,5,Aston Villa,TBD,TBD,Chelsea,20260305,2015
+Premier League,776,1,7,Arsenal,TBD,TBD,Everton,20260313,2100
+Premier League,776,9,18,Liverpool,TBD,TBD,Tottenham Hotspur,20260314,1330
+Premier League,776,1799,8,Crystal Palace,TBD,TBD,Leeds United,20260314,1600
+Premier League,776,11,2,Manchester United,TBD,TBD,Aston Villa,20260314,1600
+Premier League,776,106,1808,Sunderland,TBD,TBD,Brighton & Hove Albion,20260314,1830
+Premier League,776,14,144,Nottingham Forest,TBD,TBD,Fulham,20260314,1600
+Premier League,776,115486,1943,Kings United,TBD,TBD,AFC Bournemouth,20260315,1730
+Premier League,776,1925,110,Brentford,TBD,TBD,Wolverhampton Wanderers,20260315,1500
+Premier League,776,5,13,Chelsea,TBD,TBD,Newcastle United,20260315,1500
+Premier League,776,19,10,West Ham United,TBD,TBD,Manchester City,20260316,2100
+Premier League,776,13,106,Newcastle United,TBD,TBD,Sunderland,20260320,2100
+Premier League,776,2,19,Aston Villa,TBD,TBD,West Ham United,20260320,2100
+Premier League,776,110,1,Wolverhampton Wanderers,TBD,TBD,Arsenal,20260321,1330
+Premier League,776,1943,11,AFC Bournemouth,TBD,TBD,Manchester United,20260321,1830
+Premier League,776,18,14,Tottenham Hotspur,TBD,TBD,Nottingham Forest,20260321,1600
+Premier League,776,7,5,Everton,TBD,TBD,Chelsea,20260321,1600
+Premier League,776,10,1799,Manchester City,TBD,TBD,Crystal Palace,20260321,1600
+Premier League,776,1808,9,Brighton & Hove Albion,TBD,TBD,Liverpool,20260322,1730
+Premier League,776,8,1925,Leeds United,TBD,TBD,Brentford,20260322,1500
+Premier League,776,144,115486,Fulham,TBD,TBD,Kings United,20260323,2100
+Premier League,776,9,144,Liverpool,TBD,TBD,Fulham,20260410,2100
+Premier League,776,106,18,Sunderland,TBD,TBD,Tottenham Hotspur,20260411,1330
+Premier League,776,1,1943,Arsenal,TBD,TBD,AFC Bournemouth,20260411,1600
+Premier League,776,1925,7,Brentford,TBD,TBD,Everton,20260411,1830
+Premier League,776,14,2,Nottingham Forest,TBD,TBD,Aston Villa,20260411,1600
+Premier League,776,115486,1808,Kings United,TBD,TBD,Brighton & Hove Albion,20260411,1600
+Premier League,776,11,8,Manchester United,TBD,TBD,Leeds United,20260412,1500
+Premier League,776,1799,13,Crystal Palace,TBD,TBD,Newcastle United,20260412,1500
+Premier League,776,5,10,Chelsea,TBD,TBD,Manchester City,20260412,1730
+Premier League,776,19,110,West Ham United,TBD,TBD,Wolverhampton Wanderers,20260413,2100
+Premier League,776,13,1943,Newcastle United,TBD,TBD,AFC Bournemouth,20260417,2100
+Premier League,776,7,9,Everton,TBD,TBD,Liverpool,20260418,1330
+Premier League,776,18,1808,Tottenham Hotspur,TBD,TBD,Brighton & Hove Albion,20260418,1600
+Premier League,776,5,11,Chelsea,TBD,TBD,Manchester United,20260418,1600
+Premier League,776,14,115486,Nottingham Forest,TBD,TBD,Kings United,20260418,1830
+Premier League,776,2,106,Aston Villa,TBD,TBD,Sunderland,20260418,1730
+Premier League,776,10,1,Manchester City,TBD,TBD,Arsenal,20260419,1730
+Premier League,776,1925,144,Brentford,TBD,TBD,Fulham,20260419,1500
+Premier League,776,8,110,Leeds United,TBD,TBD,Wolverhampton Wanderers,20260419,1500
+Premier League,776,1799,19,Crystal Palace,TBD,TBD,West Ham United,20260420,2100
+Premier League,776,144,2,Fulham,TBD,TBD,Aston Villa,20260424,2100
+Premier League,776,110,18,Wolverhampton Wanderers,TBD,TBD,Tottenham Hotspur,20260425,1330
+Premier League,776,1943,8,AFC Bournemouth,TBD,TBD,Leeds United,20260425,1600
+Premier League,776,1808,5,Brighton & Hove Albion,TBD,TBD,Chelsea,20260425,1600
+Premier League,776,106,14,Sunderland,TBD,TBD,Nottingham Forest,20260425,1600
+Premier League,776,11,1925,Manchester United,TBD,TBD,Brentford,20260425,1830
+Premier League,776,9,1799,Liverpool,TBD,TBD,Crystal Palace,20260426,1500
+Premier League,776,19,7,West Ham United,TBD,TBD,Everton,20260426,1500
+Premier League,776,1,13,Arsenal,TBD,TBD,Newcastle United,20260426,1730
+Premier League,776,115486,10,Kings United,TBD,TBD,Manchester City,20260427,2100
+Premier League,776,1,144,Arsenal,TBD,TBD,Fulham,20260501,2100
+Premier League,776,7,10,Everton,TBD,TBD,Manchester City,20260502,1330
+Premier League,776,110,106,Wolverhampton Wanderers,TBD,TBD,Sunderland,20260502,1600
+Premier League,776,1943,1799,AFC Bournemouth,TBD,TBD,Crystal Palace,20260502,1600
+Premier League,776,13,1808,Newcastle United,TBD,TBD,Brighton & Hove Albion,20260502,1600
+Premier League,776,5,14,Chelsea,TBD,TBD,Nottingham Forest,20260502,1830
+Premier League,776,1925,19,Brentford,TBD,TBD,West Ham United,20260503,1500
+Premier League,776,11,9,Manchester United,TBD,TBD,Liverpool,20260503,1730
+Premier League,776,2,18,Aston Villa,TBD,TBD,Tottenham Hotspur,20260503,1500
+Premier League,776,8,115486,Leeds United,TBD,TBD,Kings United,20260504,2100
+Premier League,776,1799,7,Crystal Palace,TBD,TBD,Everton,20260508,2100
+Premier League,776,10,1925,Manchester City,TBD,TBD,Brentford,20260509,1330
+Premier League,776,18,8,Tottenham Hotspur,TBD,TBD,Leeds United,20260509,1600
+Premier League,776,106,11,Sunderland,TBD,TBD,Manchester United,20260509,1600
+Premier League,776,115486,2,Kings United,TBD,TBD,Aston Villa,20260509,1830
+Premier League,776,19,1,West Ham United,TBD,TBD,Arsenal,20260509,1600
+Premier League,776,9,5,Liverpool,TBD,TBD,Chelsea,20260510,1730
+Premier League,776,144,1943,Fulham,TBD,TBD,AFC Bournemouth,20260510,1500
+Premier League,776,14,13,Nottingham Forest,TBD,TBD,Newcastle United,20260510,1500
+Premier League,776,1808,110,Brighton & Hove Albion,TBD,TBD,Wolverhampton Wanderers,20260511,2100
+Premier League,776,13,19,Newcastle United,TBD,TBD,West Ham United,20260516,1330
+Premier League,776,7,106,Everton,TBD,TBD,Sunderland,20260516,1600
+Premier League,776,110,144,Wolverhampton Wanderers,TBD,TBD,Fulham,20260516,1830
+Premier League,776,1943,10,AFC Bournemouth,TBD,TBD,Manchester City,20260516,1600
+Premier League,776,11,14,Manchester United,TBD,TBD,Nottingham Forest,20260516,1600
+Premier League,776,1,115486,Arsenal,TBD,TBD,Kings United,20260516,1330
+Premier League,776,8,1808,Leeds United,TBD,TBD,Brighton & Hove Albion,20260517,1500
+Premier League,776,5,18,Chelsea,TBD,TBD,Tottenham Hotspur,20260517,1730
+Premier League,776,2,9,Aston Villa,TBD,TBD,Liverpool,20260517,1500
+Premier League,776,1925,1799,Brentford,TBD,TBD,Crystal Palace,20260518,2100
+Premier League,776,18,7,Tottenham Hotspur,TBD,TBD,Everton,20260524,1700
+Premier League,776,1808,11,Brighton & Hove Albion,TBD,TBD,Manchester United,20260524,1700
+Premier League,776,9,1925,Liverpool,TBD,TBD,Brentford,20260524,1700
+Premier League,776,106,5,Sunderland,TBD,TBD,Chelsea,20260524,1700
+Premier League,776,1799,1,Crystal Palace,TBD,TBD,Arsenal,20260524,1700
+Premier League,776,10,2,Manchester City,TBD,TBD,Aston Villa,20260524,1700
+Premier League,776,14,1943,Nottingham Forest,TBD,TBD,AFC Bournemouth,20260524,1700
+Premier League,776,115486,110,Kings United,TBD,TBD,Wolverhampton Wanderers,20260524,1700
+Premier League,776,144,13,Fulham,TBD,TBD,Newcastle United,20260524,1700
+Premier League,776,19,8,West Ham United,TBD,TBD,Leeds United,20260524,1700

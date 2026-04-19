@@ -1,0 +1,448 @@
+type,date,playerid,exchangeplayerid,teamfromid,teamtoid,playername,exchangeplayername,teamfromname,teamtoname,fee,total_deal_value
+loan,20250822,246606, ,48,8,Fran García, ,SSC Napoli,Leeds United,0,0
+transfer,20250831,266417, ,1914,15005,Damian van der Haar, ,PEC Zwolle,SV Zulte Waregem,2200000,2200000
+transfer,20250715,251287, ,110502,10032,Fabian Nürnberger, ,SV Darmstadt 98,FC Lugano,1950000,1950000
+transfer,20250711,225782, ,66,106,Ainsley Maitland-Niles, ,Olympique Lyonnais,Sunderland,11200000,11200000
+transfer,20250812,277264, ,115996,116328,Estrella Merino Gonzalez, ,Bayer 04 Leverkusen,Athletic Club,100000,100000
+transfer,20250831,248729, ,115841,21,Gustav Isaksen, ,Lazio,FC Bayern München,10500000,10500000
+transfer,20250728,79183, ,131368,132533,Milena Kokosz, ,Free Agents,Hamburger SV,0,0
+transfer,20250829,247385, ,88,95,Lee Buchanan, ,Birmingham City,Leicester City,2600000,2600000
+transfer,20250805,209889, ,21,52,Raphaël Guerreiro, ,FC Bayern München,AS Roma,12000000,12000000
+transfer,20250831,75401, ,111592,111398,Ahmed Al Rawi, ,Free Agents,Newcastle Jets,0,0
+loan,20250724,277327, ,131682,457,Francesco Pio Esposito, ,Inter Milan,Real Sociedad,0,0
+transfer,20250806,260952, ,234,1943,Andreas Schjelderup, ,SL Benfica,AFC Bournemouth,23400000,23400000
+transfer,20250816,272735, ,111086,100759,Szczepan Mucha, ,Piast Gliwice,FC Argeş,400000,400000
+transfer,20250717,71912, ,467,272,Hodei, ,SD Eibar,Odense BK,1200000,1200000
+transfer,20250831,251626, ,1800,461,Milan van Ewijk, ,Coventry City,Valencia CF,11000000,11000000
+transfer,20250721,270525, ,115995,116309,Franziska Kett, ,FC Bayern München,Kansas City Current,200000,200000
+transfer,20250723,75403, ,111592,1447,Abdullah Al Yazidi, ,Free Agents,Sønderjyske Fodbold,0,0
+transfer,20250715,276393, ,748,1900,Yunus Emre Çift, ,Samsunspor A.Ş,Moreirense FC,1350000,1350000
+transfer,20250718,256746, ,271,55,Tobias Bech, ,AGF,Udinese,2750000,2750000
+transfer,20250712,259762, ,95,674,Victor Kristiansen, ,Leicester City,KAA Gent,4400000,4400000
+transfer,20250724,232225, ,271,322,Janni Serra, ,AGF,Grasshopper Club Zürich,660000,660000
+transfer,20250805,81518, ,1887,696,Noah Saviolo, ,Vitória SC,Sporting Kansas City,1550000,1550000
+transfer,20250802,80238, ,379,897,Thiemoko Diarra, ,Stade de Reims,FC Luzern,1150000,1150000
+transfer,20250708,251570, ,10,115486,Rayan Cherki, ,Manchester City,Kings United,90200000,90200000
+transfer,20250802,246847, ,1919,1738,Mark Sykes, ,Bristol City,Havre AC,1250000,1250000
+transfer,20250717,237043, ,111592,100409,Roberto Alvarado, ,Free Agents,FC Augsburg,0,0
+transfer,20250831,276658, ,10032,110502,Martim Marques, ,FC Lugano,SV Darmstadt 98,2000000,2000000
+transfer,20250718,227323, ,131368,116009,Guro Reiten, ,Free Agents,Arsenal,0,0
+transfer,20250709,238041, ,11,65,Tyrell Malacia, ,Manchester United,LOSC Lille,5600000,5600000
+loan,20250831,277695, ,52,97,Daniele Ghilardi, ,AS Roma,Millwall,0,0
+transfer,20250722,268982, ,111592,110746,Jassem Gaber, ,Free Agents,Pogoń Szczecin,0,0
+transfer,20250731,260577, ,231,1908,Cisse Sandra, ,Club Brugge,FC Twente,3200000,3200000
+transfer,20250718,273028, ,111716,110556,Mateo Del Blanco, ,Unión de Santa Fe,Genoa,9000000,9000000
+loan,20250831,236988, ,1799,110,Eddie Nketiah, ,Crystal Palace,Wolverhampton Wanderers,0,0
+transfer,20250724,204923, ,22,14,Marcel Sabitzer, ,Borussia Dortmund,Nottingham Forest,19200000,19200000
+transfer,20250710,262644, ,1874,347,Cebrail Makreckis, ,Ferencvárosi TC,Lecce,2600000,2600000
+loan,20250818,240223, ,450,110556,Mihailo Ristić, ,Real Club Celta de Vigo,Genoa,0,0
+transfer,20250727,274968, ,111592,1795,Patrik Demjén, ,Free Agents,Watford,0,0
+loan,20250814,73049, ,110,463,Pedro Lima, ,Wolverhampton Wanderers,Deportivo Alavés,0,0
+loan,20250718,74093, ,112809,15040,Pedro Santos, ,FC Famalicão,WSG Tirol,0,0
+transfer,20250828,257265, ,113888,680,Matheus Silva, ,Qarabağ FK,Sint-Truidense VV,1800000,1800000
+transfer,20250712,81784, ,111592,111713,Oiva Jukkola, ,Free Agents,Club Atlético San Martín,0,0
+transfer,20250706,233260, ,111592,11,Alexis Vega, ,Free Agents,Manchester United,0,0
+transfer,20250801,229980, ,111592,110395,César Montes, ,Free Agents,Club Atlético Lanús,0,0
+transfer,20250714,277843, ,1786,1971,Sabil Hansen, ,Randers FC,Excelsior Rotterdam,2850000,2850000
+transfer,20250831,254088, ,11,243,Amad, ,Manchester United,Real Madrid,47200000,47200000
+transfer,20250722,263049, ,780,15009,Philipp Pomer, ,SV Oberbank Ried,SC Rheindorf Altach,850000,850000
+transfer,20250906,273211, ,131368,116011,Hlín Eiríksdóttir, ,Free Agents,Tottenham Hotspur,0,0
+transfer,20250715,271132, ,1438,10029,Gabriel Silva, ,Santa Clara,TSG Hoffenheim,5800000,5800000
+transfer,20250831,260732, ,112893,1750,Ian Fray, ,Inter Miami CF,Cercle Brugge KSV,1800000,1800000
+transfer,20250719,274055, ,111766,696,Isaac Hughes, ,Wellington Phoenix,Sporting Kansas City,1250000,1250000
+transfer,20250707,279715, ,131491,15040,Jonas Lange Hjorth, ,KFUM-Kameratene Oslo,WSG Tirol,820000,820000
+transfer,20250831,275292, ,112615,417,Axel Atum, ,Racing Club de Montevideo,Molde FK,1300000,1300000
+transfer,20250731,273537, ,230,1786,Kobe Corbanie, ,Royal Antwerp FC,Randers FC,3350000,3350000
+transfer,20250724,274732, ,101059,1516,Dmytro Kryskiv, ,Shakhtar Donetsk,FC Midtjylland,2900000,2900000
+transfer,20250728,228724, ,131368,131477,María Sánchez, ,Free Agents,Bay Football Club,0,0
+transfer,20250830,264711, ,537,1908,Fabio Ferraro, ,FCV Dender EH,FC Twente,3500000,3500000
+transfer,20250706,266945, ,131368,116015,Guðný Árnadóttir, ,Free Agents,Aston Villa,0,0
+transfer,20250820,238227, ,69,101112,Krépin Diatta, ,AS Monaco,Vancouver Whitecaps FC,4300000,4300000
+transfer,20250815,271562, ,1438,7,Matheus Araújo, ,Santa Clara,Everton,4750000,4750000
+transfer,20250728,246242, ,115841,112172,Boulaye Dia, ,Lazio,RB Leipzig,19500000,19500000
+transfer,20250724,274245, ,101100,379,Samuel Velásquez, ,Atlético Nacional,Stade de Reims,3750000,3750000
+transfer,20250829,241522, ,175,1925,Jonas Wind, ,VfL Wolfsburg,Brentford,10500000,10500000
+transfer,20250806,73412, ,1867,1516,Albarrán, ,Córdoba CF,FC Midtjylland,820000,820000
+transfer,20250726,252162, ,246,115845,Ayase Ueda, ,Feyenoord,Atalanta,16700000,16700000
+transfer,20250728,253181, ,217,1925,Aiyegun Tosin, ,FC Lorient,Brentford,2950000,2950000
+loan,20250719,278172, ,65,1530,Ethan Mbappé, ,LOSC Lille,Angers SCO,0,0
+transfer,20250831,236461, ,1799,10,Jean-Philippe Mateta, ,Crystal Palace,Manchester City,35000000,35000000
+loan,20250802,267283, ,131477,116039,Joelle Anderson, ,Bay Football Club,Dijon FCO,0,0
+transfer,20250831,277039, ,115995,116016,Alara, ,FC Bayern München,Everton,240000,240000
+transfer,20250731,460019, ,111592,15009,Bryn Ward, ,Free Agents,SC Rheindorf Altach,0,0
+transfer,20250831,248165, ,480,450,Andrei Rațiu, ,Rayo Vallecano,Real Club Celta de Vigo,24600000,24600000
+transfer,20250831,263908, ,378,112172,Bradley Locko, ,Stade Brestois 29,RB Leipzig,9200000,9200000
+transfer,20250831,235183, ,111592,144,Carlos Acevedo, ,Free Agents,Fulham,0,0
+transfer,20250831,279035, ,468,112828,Adam Boayar, ,Elche CF,New York City FC,1850000,1850000
+transfer,20250719,270079, ,116305,116304,Jenna Bike, ,Chicago Stars FC,Washington Spirit,55000,55000
+transfer,20250707,226045, ,111592,31,Jesús Gallardo, ,Free Agents,1. FC Köln,0,0
+transfer,20250826,234678, ,175,52,Joakim Mæhle, ,VfL Wolfsburg,AS Roma,11100000,11100000
+transfer,20250814,267995, ,111144,1960,Jackson Ragen, ,Seattle Sounders FC,Swansea City,2400000,2400000
+transfer,20250812,254566, ,175,73,Patrick Wimmer, ,VfL Wolfsburg,Paris Saint-Germain,23700000,23700000
+transfer,20250831,264788, ,113302,113060,Sivasakthi Narayanan, ,Bengaluru FC,Al Okhdood,250000,250000
+transfer,20250810,257970, ,1809,485,Warren Kamanzi, ,Toulouse FC,Hannover 96,3800000,3800000
+transfer,20250730,262138, ,112172,115486,Castello Lukeba, ,RB Leipzig,Kings United,59300000,59300000
+loan,20250802,83066, ,112387,112513,Ricardo Mathias, ,Al Ahli,FC Arouca,0,0
+transfer,20250718,277909, ,1943,115486,Eli Junior Kroupi, ,AFC Bournemouth,Kings United,40300000,40300000
+loan,20250831,275754, ,576,110556,Lasse Rosenboom, ,Holstein Kiel,Genoa,0,0
+transfer,20250712,245704, ,114554,717,Martí Vilà, ,FC Andorra,FC Alverca,800000,800000
+transfer,20250715,242509, ,111083,269,Dawid Błanik, ,Korona Kielce,Brøndby IF,1400000,1400000
+transfer,20250719,84405, ,131368,116037,Abril Reche, ,Free Agents,Montpellier Hérault SC,0,0
+transfer,20250715,262621, ,9,115486,Giorgi Mamardashvili, ,Liverpool,Kings United,56000000,56000000
+transfer,20250822,238363, ,10030,169,Raphael Obermair, ,SC Paderborn 07,1. FSV Mainz 05,1700000,1700000
+loan,20250830,268421, ,18,36,Mathys Tel, ,Tottenham Hotspur,VfB Stuttgart,0,0
+transfer,20250711,264309, ,243,115486,Arda Güler, ,Real Madrid,Kings United,72600000,72600000
+transfer,20250706,237383, ,131682,115486,Alessandro Bastoni, ,Inter Milan,Kings United,100900000,100900000
+transfer,20250710,247635, ,73,115486,Khvicha Kvaratskhelia, ,Paris Saint-Germain,Kings United,138700000,138700000
+transfer,20250722,69962, ,112615,3,Erik De Los Santos, ,Racing Club de Montevideo,Blackburn Rovers,960000,960000
+transfer,20250803,70301, ,110832,537,Pablo Sáenz, ,Granada CF,FCV Dender EH,1100000,1100000
+transfer,20250707,272505, ,243,115486,Endrick, ,Real Madrid,Kings United,39800000,39800000
+transfer,20250706,460022, ,115486,19,PLAYER_460022, ,Kings United,West Ham United,5200000,5200000
+transfer,20250828,248149, ,166,242,Michał Karbownik, ,Hertha BSC,RC Deportivo,2550000,2550000
+loan,20250825,266685, ,36,68,Luca Jaquez, ,VfB Stuttgart,FC Metz,0,0
+transfer,20250802,273839, ,1807,252,Pierce Charles, ,Sheffield Wednesday,LASK,1900000,1900000
+loan,20250910,81573, ,266,254,Youssoupha Mbodji, ,SK Slavia Praha,SK Rapid,0,0
+transfer,20250825,79024, ,110678,112510,Tom Opitz, ,TSV Havelse,Bruk-Bet Termalica Nieciecza,1000000,1000000
+transfer,20250822,255876, ,112513,1013,Alfonso Trezza, ,FC Arouca,San Lorenzo de Almagro,3600000,3600000
+loan,20250910,79804, ,1884,270,Georgios Kyriopoulos, ,Panathinaikos FC,Silkeborg IF,0,0
+transfer,20250831,190813, ,52,1808,Stephan El Shaarawy, ,AS Roma,Brighton & Hove Albion,8000000,8000000
+transfer,20250831,252964, ,1842,175,Gabriele Zappa, ,Cagliari,VfL Wolfsburg,4550000,4550000
+transfer,20250708,78609, ,131368,131386,Paulina Tomasiak, ,Free Agents,1. FC Nürnberg,0,0
+loan,20250813,80690, ,66,15,Mathys De Carvalho, ,Olympique Lyonnais,Queens Park Rangers,0,0
+loan,20250909,235088, ,110776,131463,Luis Pérez, ,Gaziantep FK,AVS Futebol SAD,0,0
+loan,20250908,275295, ,112072,15006,Bork Bang-Kittilsen, ,Mjällby AIF,FC Fredericia,0,0
+loan,20250724,78261, ,229,131463,Mihajlo Cvetković, ,RSC Anderlecht,AVS Futebol SAD,0,0
+loan,20250831,251030, ,1013,112809,Alexis Cuello, ,San Lorenzo de Almagro,FC Famalicão,0,0
+loan,20250811,241173, ,1796,68,Lyle Foster, ,Burnley,FC Metz,0,0
+transfer,20250831,216409, ,48,10,Matteo Politano, ,SSC Napoli,Manchester City,20000000,20000000
+loan,20250808,273381, ,116020,131720,Heather Payne, ,Leicester City,RC Deportivo,0,0
+loan,20250831,219466, ,819,378,Birger Meling, ,F.C. København,Stade Brestois 29,0,0
+transfer,20250831,267277, ,131368,115996,Bianca St-Georges, ,Free Agents,Bayer 04 Leverkusen,0,0
+transfer,20250831,243953, ,670,111434,Antoine Bernier, ,Sporting Charleroi,Cremonese,1300000,1300000
+transfer,20250831,268536, ,166,112134,Julian Eitschberger, ,Hertha BSC,Philadelphia Union,3050000,3050000
+loan,20250818,70956, ,112716,113616,Gabriel Aguayo, ,Cerro Porteño,Grazer AK 1902,0,0
+loan,20250831,244394, ,31,457,Clemente, ,1. FC Köln,Real Sociedad,0,0
+transfer,20250831,247124, ,57,1861,Gideon Mensah, ,AJ Auxerre,UD Almería,5300000,5300000
+transfer,20250831,244523, ,1884,101037,Javi Hernández, ,Panathinaikos FC,Çaykur Rizespor,1650000,1650000
+loan,20250831,246242, ,112172,65,Boulaye Dia, ,RB Leipzig,LOSC Lille,0,0
+loan,20250831,231633, ,144,479,Issa Diop, ,Fulham,CA Osasuna,0,0
+loan,20250831,268738, ,65,1530,Marius Broholm, ,LOSC Lille,Angers SCO,0,0
+transfer,20250830,243838, ,1713,209,Nishan Burkart, ,FC Winterthur,SK Sturm Graz,1250000,1250000
+transfer,20250829,227348, ,116014,116034,Viviane Asseyi, ,West Ham United,Paris Saint-Germain,300000,300000
+loan,20250831,273933, ,69,347,Kassoum Ouattara, ,AS Monaco,Lecce,0,0
+transfer,20250822,236703, ,112172,73,David Raum, ,RB Leipzig,Paris Saint-Germain,42200000,42200000
+loan,20250831,231588, ,393,436,Joan Sastre, ,PAOK FC,Trabzonspor,0,0
+transfer,20250710,215202, ,1877,110329,Lucas Janson, ,Boca Juniors,FC St. Pauli,1400000,1400000
+loan,20250720,276299, ,116009,116003,Michelle Agyemang, ,Arsenal,1. FC Köln,0,0
+transfer,20250710,224490, ,52,219,Zeki Çelik, ,AS Roma,Olympique de Marseille,14500000,14500000
+transfer,20250806,227616, ,1463,1815,Amund Wichne, ,FK Haugesund,Clermont Foot 63,290000,290000
+loan,20250831,220814, ,73,1925,Lucas Hernández, ,Paris Saint-Germain,Brentford,0,0
+loan,20250831,79451, ,115997,116037,Noemi Ivelj, ,Eintracht Frankfurt,Montpellier Hérault SC,0,0
+transfer,20250712,268466, ,111657,113217,Sergio Kalaj, ,Frosinone,Damac,470000,470000
+loan,20250911,210625, ,1516,23,Kevin Mbabu, ,FC Midtjylland,Borussia Mönchengladbach,0,0
+transfer,20250716,268772, ,111592,243,Almoez Ali, ,Free Agents,Real Madrid,0,0
+transfer,20250729,264029, ,116361,112393,Wang Yi, ,Wuhan Three Towns Football Club,Al Taawoun,390000,390000
+loan,20250831,269796, ,1943,681,Julio Soler, ,AFC Bournemouth,KVC Westerlo,0,0
+loan,20250819,84061, ,189,347,Armando González, ,Bologna,Lecce,0,0
+loan,20250831,259766, ,110329,1786,Fin Stevens, ,FC St. Pauli,Randers FC,0,0
+transfer,20250820,75728, ,131368,116311,Emilie Woldvik, ,Free Agents,Angel City FC,0,0
+transfer,20250808,254159, ,111592,38,Zsolt Nagy, ,Free Agents,SV Werder Bremen,0,0
+loan,20250831,234678, ,52,23,Joakim Mæhle, ,AS Roma,Borussia Mönchengladbach,0,0
+transfer,20250711,251356, ,269,88,Nicolai Vallys, ,Brøndby IF,Birmingham City,3400000,3400000
+transfer,20250722,237995, ,111592,1860,Diego Lainez, ,Free Agents,Getafe CF,0,0
+transfer,20250817,460021, ,115486,243,Brandon Brown, ,Kings United,Real Madrid,41300000,41300000
+transfer,20250827,253752, ,114604,422,Kristian Popović, ,Macarthur FC,Cork City,270000,270000
+transfer,20250713,243576, ,18,73,Pedro Porro, ,Tottenham Hotspur,Paris Saint-Germain,43500000,43500000
+loan,20250831,239367, ,23,144,Robin Hack, ,Borussia Mönchengladbach,Fulham,0,0
+transfer,20250812,272657, ,115999,116017,Lisann Kaut, ,TSG 1899 Hoffenheim,Manchester City,115000,115000
+loan,20250831,271605, ,110720,822,Jakob Knollmüller, ,FC Blau-Weiss Linz,Vejle Boldklub,0,0
+loan,20250831,82908, ,110468,583,Adam Kadlec, ,FC Viktoria Plzeň,1. FC Schweinfurt 05,0,0
+transfer,20250723,271574, ,10,1943,Rico Lewis, ,Manchester City,AFC Bournemouth,23000000,23000000
+transfer,20250711,263205, ,325,9,Barış Alper Yılmaz, ,Galatasaray SK,Liverpool,30000000,30000000
+transfer,20250711,258966, ,45,1,Andrea Cambiaso, ,Juventus,Arsenal,24600000,24600000
+transfer,20250831,228352, ,111592,110374,Edmilson Junior, ,Free Agents,Fiorentina,0,0
+loan,20250816,236295, ,64,480,Aarón Martín, ,RC Lens,Rayo Vallecano,0,0
+transfer,20250829,272569, ,2014,1800,Kevin Rodríguez, ,Royale Union Saint-Gilloise,Coventry City,2900000,2900000
+transfer,20250706,223113, ,111592,2,Krzysztof Piątek, ,Free Agents,Aston Villa,0,0
+loan,20250831,253385, ,110827,252,Federico Viñas, ,Real Oviedo,LASK,0,0
+loan,20250726,277952, ,116326,131125,Lotte Keukelaar, ,Real Madrid,FC Levante LP Badalona,0,0
+loan,20250831,70903, ,1943,15,Alex Tóth, ,AFC Bournemouth,Queens Park Rangers,0,0
+transfer,20250828,243526, ,326,1809,Mert Müldür, ,Fenerbahçe SK,Toulouse FC,6500000,6500000
+transfer,20250723,81839, ,111592,71,Vladyslav Veleten, ,Free Agents,FC Nantes,0,0
+transfer,20250911,233602, ,94,1516,George Hirst, ,Ipswich Town,FC Midtjylland,2900000,2900000
+transfer,20250706,208522, ,111592,1745,Hörður Magnússon, ,Free Agents,Como 1907,0,0
+transfer,20250831,72093, ,236,231,Martim Fernandes, ,FC Porto,Club Brugge,25000000,25000000
+loan,20250831,267282, ,116305,116005,Michelle Alozie, ,Chicago Stars FC,FC Carl Zeiss Jena,0,0
+transfer,20250718,231612, ,378,23,Romain Del Castillo, ,Stade Brestois 29,Borussia Mönchengladbach,8000000,8000000
+loan,20250719,235866, ,110374,110827,Christian Kouamé, ,Fiorentina,Real Oviedo,0,0
+transfer,20250712,264478, ,143,113616,Sonny Cox, ,Exeter City,Grazer AK 1902,550000,550000
+loan,20250831,238071, ,86,1530,Dujon Sterling, ,Rangers,Angers SCO,0,0
+transfer,20250830,233520, ,110588,217,Barış Atik, ,1. FC Magdeburg,FC Lorient,1950000,1950000
+loan,20250831,269705, ,25,347,Derry Scherhant, ,Sport-Club Freiburg,Lecce,0,0
+loan,20250831,213661, ,241,1831,Andreas Christensen, ,FC Barcelona,1. FC Union Berlin,0,0
+transfer,20250716,272500, ,1808,115486,Carlos Baleba, ,Brighton & Hove Albion,Kings United,43200000,43200000
+transfer,20250818,276619, ,694,1438,Rafael Navarro, ,Colorado Rapids,Santa Clara,2350000,2350000
+transfer,20250831,229375, ,1923,10020,Elijah Adebayo, ,Luton Town,Estoril Praia,1450000,1450000
+loan,20250831,265800, ,450,452,Ferran Jutglà, ,Real Club Celta de Vigo,RCD Espanyol de Barcelona,0,0
+transfer,20250721,226096, ,116360,110374,Rômulo, ,Chengdu Rongcheng Football Club,Fiorentina,6000000,6000000
+transfer,20250819,257649, ,110749,1862,Aleks Ławniczak, ,KGHM Zagłębie Lubin,FC Lausanne-Sport,1550000,1550000
+transfer,20250831,241461, ,241,18,Ferran Torres, ,FC Barcelona,Tottenham Hotspur,53100000,53100000
+loan,20250824,81515, ,236,15006,André Miranda, ,FC Porto,FC Fredericia,0,0
+loan,20250716,80292, ,112516,1463,Yarlen, ,CD Tondela,FK Haugesund,0,0
+loan,20250717,76410, ,52,537,Robinio Vaz, ,AS Roma,FCV Dender EH,0,0
+transfer,20250910,78613, ,15006,693,Jakob Jessen, ,FC Fredericia,Chicago Fire Football Club,950000,950000
+loan,20250709,256856, ,111974,112516,Fali Candé, ,Sassuolo,CD Tondela,0,0
+transfer,20250907,269668, ,131368,115996,Natasha Anasi-Erlingsson, ,Free Agents,Bayer 04 Leverkusen,0,0
+loan,20250712,248385, ,110374,57,Roberto Piccoli, ,Fiorentina,AJ Auxerre,0,0
+loan,20250826,277689, ,112172,7,Conrad Harder, ,RB Leipzig,Everton,0,0
+transfer,20250812,251025, ,114510,50,Larrazabal, ,Casa Pia AC,Parma,1700000,1700000
+loan,20250831,211147, ,54,1824,Valentino Lazaro, ,Torino,Eintracht Frankfurt,0,0
+transfer,20250913,252698, ,111400,77,Jordan Courtney-Perkins, ,Sydney FC,Aberdeen,880000,880000
+transfer,20250831,263781, ,69,106,Vanderson, ,AS Monaco,Sunderland,20800000,20800000
+transfer,20250917,247463, ,69,1799,Folarin Balogun, ,AS Monaco,Crystal Palace,31600000,31600000
+transfer,20250807,276232, ,111592,378,Dániel Lukács, ,Free Agents,Stade Brestois 29,0,0
+transfer,20250831,270820, ,687,74,Mohamed Farsi, ,Columbus Crew,Stade Rennais FC,1950000,1950000
+transfer,20250706,235414, ,111592,1824,Oleksiy Hutsuliak, ,Free Agents,Eintracht Frankfurt,0,0
+transfer,20250831,76241, ,111592,110075,Mohamed Khaled Gouda, ,Free Agents,FCV Farul Constanța,0,0
+loan,20250723,235134, ,236,378,Pablo Rosario, ,FC Porto,Stade Brestois 29,0,0
+transfer,20250728,235585, ,131368,116035,Jonna Andersson, ,Free Agents,Paris FC,0,0
+loan,20250812,242578, ,5,452,Benoît Badiashile, ,Chelsea,RCD Espanyol de Barcelona,0,0
+transfer,20250811,248799, ,116017,115998,Mary Fowler, ,Manchester City,VfL Wolfsburg,520000,520000
+transfer,20250805,72618, ,111097,132231,Filip Luberecki, ,Motor Lublin,RAAL La Louvière,3000000,3000000
+loan,20250804,76955, ,115845,1443,Relja Obrić, ,Atalanta,Viborg FF,0,0
+loan,20250831,72856, ,111433,132231,Nicolò Radaelli, ,Mantova,RAAL La Louvière,0,0
+transfer,20250830,255607, ,110396,670,Jherson Mosquera, ,Newell's Old Boys,Sporting Charleroi,1800000,1800000
+loan,20250720,271373, ,480,347,Fran Pérez, ,Rayo Vallecano,Lecce,0,0
+loan,20250822,277997, ,81,112390,Owen Elding, ,Hibernian,Al Fateh,0,0
+loan,20250710,275906, ,116017,131125,Aoba Fujino, ,Manchester City,FC Levante LP Badalona,0,0
+transfer,20250730,275028, ,32,110,Arthur, ,Bayer 04 Leverkusen,Wolverhampton Wanderers,4850000,4850000
+loan,20250820,253293, ,1968,100409,Brian Ocampo, ,Cádiz CF,FC Augsburg,0,0
+transfer,20250831,227381, ,131368,116017,Janine Sonis, ,Free Agents,Manchester City,0,0
+transfer,20250831,231184, ,448,48,Guruzeta, ,Athletic Club,SSC Napoli,17400000,17400000
+transfer,20250712,251756, ,480,1808,Randy Nteka, ,Rayo Vallecano,Brighton & Hove Albion,1750000,1750000
+loan,20250820,253002, ,115845,111974,Giacomo Raspadori, ,Atalanta,Sassuolo,0,0
+loan,20250815,71651, ,5,457,Josh Acheampong, ,Chelsea,Real Sociedad,0,0
+transfer,20250915,242914, ,379,1925,Keito Nakamura, ,Stade de Reims,Brentford,11200000,11200000
+transfer,20250831,72865, ,131368,116332,Kishi Núñez, ,Free Agents,Costa Adeje Tenerife,0,0
+loan,20250713,75087, ,11,463,Ayden Heaven, ,Manchester United,Deportivo Alavés,0,0
+transfer,20250818,257978, ,217,1530,Sambou Soumano, ,FC Lorient,Angers SCO,3900000,3900000
+loan,20250819,279239, ,1745,110827,Jayden Addai, ,Como 1907,Real Oviedo,0,0
+loan,20250819,279173, ,243,1943,Franco Mastantuono, ,Real Madrid,AFC Bournemouth,0,0
+transfer,20250711,239267, ,110745,94,Afimico Pululu, ,Jagiellonia Białystok,Ipswich Town,3600000,3600000
+loan,20250818,254117, ,22,65,Maximilian Beier, ,Borussia Dortmund,LOSC Lille,0,0
+loan,20250819,226662, ,246,1947,Bart Nieuwkoop, ,Feyenoord,Wrexham,0,0
+transfer,20250809,236295, ,110556,64,Aarón Martín, ,Genoa,RC Lens,3550000,3550000
+loan,20250815,236572, ,245,110062,Owen Wijndal, ,Ajax,Girona FC,0,0
+loan,20250813,78315, ,100135,113037,Mathías Tomás, ,APOEL FC,Al Riyadh,0,0
+transfer,20250716,279027, ,450,8,Javi Rodríguez, ,Real Club Celta de Vigo,Leeds United,15000000,15000000
+loan,20250824,235414, ,1824,110738,Oleksiy Hutsuliak, ,Eintracht Frankfurt,Pisa,0,0
+transfer,20250826,240921, ,112885,1903,Ronald Hernández, ,Atlanta United,FC Utrecht,1050000,1050000
+loan,20250831,253072, ,605,189,Darwin Núñez, ,Al Hilal,Bologna,0,0
+loan,20250810,251870, ,45,76,Juan David Cabal, ,Juventus,RC Strasbourg Alsace,0,0
+transfer,20250718,205976, ,1861,68,Léo Baptistão, ,UD Almería,FC Metz,1500000,1500000
+loan,20250809,76125, ,78,15009,Colby Donovan, ,Celtic,SC Rheindorf Altach,0,0
+loan,20250831,269823, ,247,72,Esmir Bajraktarević, ,PSV,OGC Nice,0,0
+transfer,20250831,78801, ,111592,111708,Milán Vitális, ,Free Agents,Atlético Tucumán,0,0
+loan,20250808,224425, ,100409,23,Marius Wolf, ,FC Augsburg,Borussia Mönchengladbach,0,0
+transfer,20250725,272712, ,112072,2014,Elliot Stroud, ,Mjällby AIF,Royale Union Saint-Gilloise,4800000,4800000
+transfer,20250831,275238, ,263,65,Niko Sigur, ,HNK Hajduk Split,LOSC Lille,7000000,7000000
+loan,20250807,268414, ,483,111235,Willy Kambwala, ,Villarreal CF,1. FC Heidenheim 1846,0,0
+transfer,20250725,255873, ,110395,605,Gonzalo Pérez, ,Club Atlético Lanús,Al Hilal,2150000,2150000
+transfer,20250729,246729, ,110770,436,Ilyas Chouaref, ,FC Sion,Trabzonspor,3250000,3250000
+loan,20250806,270534, ,1516,57,Victor Bak, ,FC Midtjylland,AJ Auxerre,0,0
+transfer,20250711,271459, ,1968,113018,Víctor Aznar, ,Cádiz CF,St. Louis CITY SC,3350000,3350000
+transfer,20250817,270559, ,65,74,Tiago Santos, ,LOSC Lille,Stade Rennais FC,8700000,8700000
+transfer,20250823,230559, ,101059,111140,Maryan Shved, ,Shakhtar Donetsk,Portland Timbers,1550000,1550000
+loan,20250806,269164, ,72,1530,Mohamed Abdelmonem, ,OGC Nice,Angers SCO,0,0
+transfer,20250831,270084, ,1848,175,Mehdi Dorval, ,Bari,VfL Wolfsburg,3650000,3650000
+transfer,20250705,256098, ,111592,50,Richard Ledezma, ,Free Agents,Parma,0,0
+loan,20250713,223113, ,2,110062,Krzysztof Piątek, ,Aston Villa,Girona FC,0,0
+transfer,20250831,81956, ,111592,131173,Tahsin Mohammed, ,Free Agents,Qingdao Hainiu Football Club,0,0
+loan,20250802,73095, ,1842,1947,Riyad Idrissi, ,Cagliari,Wrexham,0,0
+loan,20250802,74443, ,2014,131735,Massiré Sylla, ,Royale Union Saint-Gilloise,Al Kholood,0,0
+loan,20250802,222104, ,5,453,Tosin Adarabioyo, ,Chelsea,RCD Mallorca,0,0
+loan,20250801,78549, ,73,110329,Quentin Ndjantou, ,Paris Saint-Germain,FC St. Pauli,0,0
+transfer,20250816,201399, ,325,19,Mauro Icardi, ,Galatasaray SK,West Ham United,16500000,16500000
+transfer,20250720,82424, ,280,111138,Georgios Kouraklis, ,Olympiacos FC,Minnesota United FC,690000,690000
+transfer,20250831,241525, ,361,82,Taye Ashby-Hammond, ,Stevenage,Kilmarnock,640000,640000
+transfer,20250730,82163, ,111592,112199,Jussi Niska, ,Free Agents,Sarpsborg 08,0,0
+transfer,20250912,77814, ,245,1913,Lucas Jetten, ,Ajax,sc Heerenveen,2050000,2050000
+transfer,20250731,248695, ,5,2,Wesley Fofana, ,Chelsea,Aston Villa,25500000,25500000
+transfer,20250708,244428, ,111592,100409,Bogdan Mykhailichenko, ,Free Agents,FC Augsburg,0,0
+transfer,20250705,202556, ,111592,5,Memphis Depay, ,Free Agents,Chelsea,0,0
+transfer,20250814,260186, ,526,80,Lucas Brumme, ,Rot-Weiss Essen,Heart of Midlothian,1200000,1200000
+transfer,20250811,277211, ,1516,115841,Franculino, ,FC Midtjylland,Lazio,11700000,11700000
+loan,20250728,80376, ,9,57,Rio Ngumoha, ,Liverpool,AJ Auxerre,0,0
+transfer,20250831,273978, ,1757,1887,Jakob Maslø Dunsby, ,Sandefjord Fotball,Vitória SC,1550000,1550000
+loan,20250728,269558, ,189,25,Benjamín Domínguez, ,Bologna,Sport-Club Freiburg,0,0
+transfer,20250831,253490, ,217,112809,Darlin Yongwa, ,FC Lorient,FC Famalicão,2300000,2300000
+loan,20250726,275457, ,116010,131123,Brooke Aspin, ,Chelsea,Alhama CF ElPozo,0,0
+loan,20250725,278061, ,112172,110500,Tidiam Gomis, ,RB Leipzig,Eintracht Braunschweig,0,0
+transfer,20250817,272522, ,131368,116333,Nicolette Hernández, ,Free Agents,Levante UD,0,0
+loan,20250831,72675, ,485,110329,Husseyn Chakroun, ,Hannover 96,FC St. Pauli,0,0
+transfer,20250819,79064, ,114545,110078,Adrian Sîrbu, ,FC Metaloglobus București,ACS Petrolul 52,370000,370000
+transfer,20250730,267993, ,110075,111235,Narek Grigoryan, ,FCV Farul Constanța,1. FC Heidenheim 1846,1500000,1500000
+loan,20250729,246164, ,50,83,Lautaro Valenti, ,Parma,Motherwell,0,0
+transfer,20250729,220710, ,144,240,Harry Wilson, ,Fulham,Atlético de Madrid,15500000,15500000
+loan,20250722,74463, ,241,88,Marc Bernal, ,FC Barcelona,Birmingham City,0,0
+transfer,20250724,244380, ,7,481,Vitaliy Mykolenko, ,Everton,Sevilla FC,11100000,11100000
+transfer,20250831,279194, ,111592,1904,Moustafa Mashaal, ,Free Agents,NAC Breda,0,0
+transfer,20250712,259869, ,1806,607,Junior Tchamadeu, ,Stoke City,Al Ittihad,4800000,4800000
+loan,20250722,78367, ,481,111434,Oso, ,Sevilla FC,Cremonese,0,0
+loan,20250722,242997, ,31,453,Linton Maina, ,1. FC Köln,RCD Mallorca,0,0
+transfer,20250824,267392, ,111715,113149,Sebastián Medina, ,Club Atlético Tigre,FC Cincinnati,1200000,1200000
+transfer,20250831,78678, ,132533,131125,Sophie Profé, ,Hamburger SV,FC Levante LP Badalona,35000,35000
+loan,20250719,226710, ,115845,64,Gianluca Scamacca, ,Atalanta,RC Lens,0,0
+transfer,20250818,72793, ,131368,116011,Milla-Maj Majasaari, ,Free Agents,Tottenham Hotspur,0,0
+transfer,20250730,270863, ,310,50,Andrei Borza, ,FC Rapid 1923,Parma,4500000,4500000
+loan,20250717,225147, ,1796,452,Connor Roberts, ,Burnley,RCD Espanyol de Barcelona,0,0
+transfer,20250712,246606, ,243,48,Fran García, ,Real Madrid,SSC Napoli,13400000,13400000
+loan,20250715,269264, ,110329,1750,Martijn Kaars, ,FC St. Pauli,Cercle Brugge KSV,0,0
+transfer,20250831,264515, ,269,111083,Marko Divković, ,Brøndby IF,Korona Kielce,1100000,1100000
+transfer,20250803,272524, ,131368,132370,Scarlett Camberos, ,Free Agents,Olympique de Marseille,0,0
+transfer,20250817,229906, ,2,1824,Leon Bailey, ,Aston Villa,Eintracht Frankfurt,15700000,15700000
+transfer,20250831,263479, ,131368,116012,Ana Seiça, ,Free Agents,Manchester United,0,0
+loan,20250715,226627, ,69,115841,Takumi Minamino, ,AS Monaco,Lazio,0,0
+loan,20250709,266331, ,450,480,Hugo Álvarez, ,Real Club Celta de Vigo,Rayo Vallecano,0,0
+loan,20250714,259031, ,5,450,Liam Delap, ,Chelsea,Real Club Celta de Vigo,0,0
+transfer,20250712,208330, ,481,38,Adnan Januzaj, ,Sevilla FC,SV Werder Bremen,2100000,2100000
+loan,20250713,273948, ,72,1715,Kojo Peprah Oppong, ,OGC Nice,FC Thun,0,0
+loan,20250805,70862, ,101059,180,Viktor Tsukanov, ,Shakhtar Donetsk,Dundee FC,0,0
+transfer,20250731,225410, ,111592,1799,Adam Masina, ,Free Agents,Crystal Palace,0,0
+loan,20250713,265577, ,10029,468,Fisnik Asllani, ,TSG Hoffenheim,Elche CF,0,0
+loan,20250711,76250, ,10,378,Max Alleyne, ,Manchester City,Stade Brestois 29,0,0
+loan,20250711,273711, ,101085,111974,Santiago Solari, ,Racing Club,Sassuolo,0,0
+loan,20250827,271248, ,106,1891,Eliezer Mayenda, ,Sunderland,CD Nacional,0,0
+loan,20250714,232440, ,69,457,Caio Henrique, ,AS Monaco,Real Sociedad,0,0
+loan,20250707,275262, ,10030,15006,Jonah Sticker, ,SC Paderborn 07,FC Fredericia,0,0
+loan,20250707,231943, ,18,66,Richarlison, ,Tottenham Hotspur,Olympique Lyonnais,0,0
+transfer,20250807,268986, ,111592,111774,Ahmed Suhail, ,Free Agents,Tianjin Jinmen Tiger Football Club,0,0
+transfer,20250831,204882, ,113302,191,Ryan Williams, ,Bengaluru FC,FC Red Bull Salzburg,1100000,1100000
+transfer,20250814,273964, ,112670,191,Valentín Depietri, ,Club Atlético Talleres,FC Red Bull Salzburg,1400000,1400000
+loan,20250707,82968, ,2,1910,Alysson, ,Aston Villa,N.E.C. Nijmegen,0,0
+loan,20250707,224411, ,457,1530,Guedes, ,Real Sociedad,Angers SCO,0,0
+loan,20250706,257104, ,206,780,Kieron Bowie, ,Hellas Verona,SV Oberbank Ried,0,0
+transfer,20250830,277193, ,101059,449,Pedro Henrique, ,Shakhtar Donetsk,Real Betis Balompié,7000000,7000000
+loan,20250722,272600, ,241,65,Marc Casadó, ,FC Barcelona,LOSC Lille,0,0
+transfer,20250913,216266, ,144,76,Kenny Tete, ,Fulham,RC Strasbourg Alsace,15500000,15500000
+transfer,20250910,253345, ,111329,100087,Jhon Sánchez, ,Club Guaraní,Oud-Heverlee Leuven,1300000,1300000
+transfer,20250812,274209, ,1853,144,Carlos Álvarez, ,Levante UD,Fulham,24200000,24200000
+transfer,20250712,234298, ,111592,111273,Nikolai Alho, ,Free Agents,Red Star FC,0,0
+loan,20250831,221281, ,1947,101032,Dominic Hyam, ,Wrexham,Kocaelispor,0,0
+transfer,20250831,274445, ,191,217,Karim Konaté, ,FC Red Bull Salzburg,FC Lorient,7900000,7900000
+transfer,20250708,278187, ,72,110374,Tom Louchet, ,OGC Nice,Fiorentina,7300000,7300000
+transfer,20250831,232488, ,18,73,Cristian Romero, ,Tottenham Hotspur,Paris Saint-Germain,46700000,46700000
+transfer,20250831,245084, ,379,110770,Maxime Busi, ,Stade de Reims,FC Sion,1800000,1800000
+transfer,20250712,76234, ,111592,741,Abdullah Yousef, ,Free Agents,Antalyaspor,0,0
+loan,20250829,72754, ,237,10029,Luis Guilherme, ,Sporting CP,TSG Hoffenheim,0,0
+transfer,20250827,279524, ,131368,116331,Sædís Rún Heiðarsdóttir, ,Free Agents,SD Eibar,0,0
+loan,20250824,73027, ,115998,116003,Justine Kielland, ,VfL Wolfsburg,1. FC Köln,0,0
+transfer,20250816,238409, ,232,1853,Marlon Fossey, ,Standard de Liège,Levante UD,2600000,2600000
+transfer,20250724,252008, ,111592,110738,Israel Reyes, ,Free Agents,Pisa,0,0
+loan,20250806,278773, ,1,106,Myles Lewis-Skelly, ,Arsenal,Sunderland,0,0
+transfer,20250710,227344, ,116326,116033,Sandie Toletti, ,Real Madrid,OL Lyonnes,270000,270000
+transfer,20250711,198032, ,13,7,Dan Burn, ,Newcastle United,Everton,14500000,14500000
+transfer,20250831,263929, ,115841,54,Matteo Cancellieri, ,Lazio,Torino,7900000,7900000
+transfer,20250831,242166, ,711,110556,Amor Layouni, ,BK Häcken,Genoa,1300000,1300000
+transfer,20250820,271443, ,116336,115995,Emma Ramírez, ,Real Sociedad,FC Bayern München,170000,170000
+transfer,20250831,220649, ,320,1814,Stefano Vecchia, ,Malmö FF,Stade Lavallois MFC,840000,840000
+transfer,20250831,73300, ,110075,324,David Maftei, ,FCV Farul Constanța,Servette FC,1750000,1750000
+loan,20250803,240660, ,110738,110724,Mehdi Léris, ,Pisa,KV Mechelen,0,0
+transfer,20250831,248808, ,1925,110374,Aaron Hickey, ,Brentford,Fiorentina,7500000,7500000
+transfer,20250831,223061, ,450,1801,Franco Cervi, ,Real Club Celta de Vigo,Preston North End,1450000,1450000
+transfer,20250713,242108, ,111398,1871,Kosta Grozos, ,Newcastle Jets,Legia Warszawa,1050000,1050000
+loan,20250831,267362, ,116310,116020,Taryn Torres, ,Gotham FC,Leicester City,0,0
+transfer,20250831,266551, ,116012,116311,Gabrielle George, ,Manchester United,Angel City FC,120000,120000
+transfer,20250831,233379, ,919,697,Niklas Castro, ,SK Brann,LA Galaxy,1300000,1300000
+transfer,20250730,259694, ,450,243,Mingueza, ,Real Club Celta de Vigo,Real Madrid,30000000,30000000
+loan,20250819,241463, ,461,479,Dani Raba, ,Valencia CF,CA Osasuna,0,0
+transfer,20250710,247950, ,110751,2017,Gabriel Simion, ,ASFC Universitatea Cluj,TSV Egger Glas Hartberg,720000,720000
+transfer,20250708,246967, ,131368,116020,Nicola Docherty, ,Free Agents,Leicester City,0,0
+transfer,20250831,79687, ,234,100646,Joshua Wynder, ,SL Benfica,Sparta Rotterdam,2600000,2600000
+transfer,20250806,255036, ,28,480,Ransford-Yeboah Königsdörffer, ,Hamburger SV,Rayo Vallecano,2500000,2500000
+transfer,20250831,263101, ,1793,298,Kelvin Ehibhatiomhan, ,Reading,Rosenborg BK,1550000,1550000
+transfer,20250831,252902, ,110501,110720,Michel Stöcker, ,Sportclub Verl,FC Blau-Weiss Linz,600000,600000
+transfer,20250827,235915, ,142,1744,Luke Molyneux, ,Doncaster Rovers,Modena,930000,930000
+transfer,20250716,240716, ,48,69,Mathías Olivera, ,SSC Napoli,AS Monaco,11100000,11100000
+transfer,20250714,266253, ,237,110,Fresneda, ,Sporting CP,Wolverhampton Wanderers,11500000,11500000
+transfer,20250831,258437, ,76,112172,Emanuel Emegha, ,RC Strasbourg Alsace,RB Leipzig,30100000,30100000
+transfer,20250810,264220, ,245,112172,Youri Baas, ,Ajax,RB Leipzig,23700000,23700000
+transfer,20250728,70273, ,1750,111651,Abdoul Kader Ouattara, ,Cercle Brugge KSV,Toronto FC,1900000,1900000
+transfer,20250807,278016, ,14,13,Murillo, ,Nottingham Forest,Newcastle United,48900000,48900000
+transfer,20250722,460003, ,115486,11,Charlie Hooper, ,Kings United,Manchester United,57400000,57400000
+transfer,20250707,234051, ,111592,18,Akram Afif, ,Free Agents,Tottenham Hotspur,0,0
+transfer,20250716,226579, ,111592,189,Alejandro Zendejas, ,Free Agents,Bologna,0,0
+loan,20250723,247361, ,8,111974,Brenden Aaronson, ,Leeds United,Sassuolo,0,0
+transfer,20250802,234515, ,1530,1842,Jordan Lefort, ,Angers SCO,Cagliari,4200000,4200000
+transfer,20250704,234378,460008,1,115486,Declan Rice,Martin Crespo,Arsenal,Kings United,34000000,34000000
+transfer,20250827,243047, ,10020,110093,Alejandro Marqués, ,Estoril Praia,Club Atlético Independiente,4000000,4000000
+transfer,20250830,258924, ,900,110,Joël Almada Monteiro, ,BSC Young Boys,Wolverhampton Wanderers,2500000,2500000
+transfer,20250811,76944, ,245,1919,Rayane Bounida, ,Ajax,Bristol City,4450000,4450000
+transfer,20250716,231102, ,74,1745,Ludovic Blas, ,Stade Rennais FC,Como 1907,8500000,8500000
+transfer,20250709,224389, ,819,110738,Jordan Larsson, ,F.C. København,Pisa,2650000,2650000
+transfer,20250816,266400, ,106,18,Trai Hume, ,Sunderland,Tottenham Hotspur,24100000,24100000
+transfer,20250714,272472, ,111592,180,Salah Zakaria, ,Free Agents,Dundee FC,0,0
+loan,20250831,74431, ,25,463,Cyriaque Irié, ,Sport-Club Freiburg,Deportivo Alavés,0,0
+transfer,20250717,268779, ,111592,100757,Ahmed Alaaeldin, ,Free Agents,FC Dinamo 1948,0,0
+transfer,20250730,77673, ,111592,246,Toni Fruk, ,Free Agents,Feyenoord,0,0
+transfer,20250801,79150, ,113147,1438,Stefano Di Mario, ,Virtus Entella,Santa Clara,3150000,3150000
+transfer,20250812,257136, ,111235,1831,Omar Haktab Traoré, ,1. FC Heidenheim 1846,1. FC Union Berlin,2500000,2500000
+transfer,20250727,268782, ,111592,1887,Bassam Al Rawi, ,Free Agents,Vitória SC,0,0
+transfer,20250719,256107, ,78,131681,Alistair Johnston, ,Celtic,AC Milan,17800000,17800000
+transfer,20250713,242075, ,111592,144,Josh Sargent, ,Free Agents,Fulham,0,0
+transfer,20250717,207593, ,111592,110093,Jere Uronen, ,Free Agents,Club Atlético Independiente,0,0
+transfer,20250725,260397, ,78,10029,Yang Hyun Jun, ,Celtic,TSG Hoffenheim,5700000,5700000
+transfer,20250705,276214, ,111592,112096,Donát Bárány, ,Free Agents,Al Ettifaq,0,0
+transfer,20250831,258095, ,697,694,Julián Aude, ,LA Galaxy,Colorado Rapids,2550000,2550000
+transfer,20250803,257771, ,1831,481,Josip Juranović, ,1. FC Union Berlin,Sevilla FC,3100000,3100000
+transfer,20250731,216158, ,169,1831,Silvan Widmer, ,1. FSV Mainz 05,1. FC Union Berlin,1650000,1650000
+transfer,20250718,263518, ,110580,1831,Agustín Sández, ,Rosario Central,1. FC Union Berlin,3600000,3600000
+transfer,20250804,273179, ,131368,116014,Mille Gejl, ,Free Agents,West Ham United,0,0
+transfer,20250801,231254, ,111592,66,Attila Osváth, ,Free Agents,Olympique Lyonnais,0,0
+transfer,20250831,271266, ,246,18,Givairo Read, ,Feyenoord,Tottenham Hotspur,29300000,29300000
+transfer,20250831,276371, ,10030,1888,Mattes Hansen, ,SC Paderborn 07,Gil Vicente FC,2950000,2950000
+transfer,20250708,264329, ,1463,112828,Vegard Solheim, ,FK Haugesund,New York City FC,870000,870000
+transfer,20250718,263861, ,1951,1947,Tyler Goodrham, ,Oxford United,Wrexham,2900000,2900000
+transfer,20250729,212219, ,111592,144,Alexander Djiku, ,Free Agents,Fulham,0,0
+transfer,20250806,84061, ,111592,189,Armando González, ,Free Agents,Bologna,0,0
+transfer,20250723,259971, ,111707,89,Natanael Guzmán, ,Club Atlético Aldosivi,Charlton Athletic,1100000,1100000
+transfer,20250811,259583, ,18,22,Destiny Udogie, ,Tottenham Hotspur,Borussia Dortmund,32100000,32100000
+transfer,20250808,79080, ,110678,114147,Emre Aytun, ,TSV Havelse,AFC Hermannstadt,560000,560000
+transfer,20250716,229154, ,111592,50,Jan Kliment, ,Free Agents,Parma,0,0
+transfer,20250826,275090, ,897,254,Lars Villiger, ,FC Luzern,SK Rapid,2800000,2800000
+loan,20250831,73731, ,100409,94,Noahkai Banks, ,FC Augsburg,Ipswich Town,0,0
+transfer,20250717,237936, ,1809,25,Aron Dønnum, ,Toulouse FC,Sport-Club Freiburg,6100000,6100000
+transfer,20250828,75715, ,131368,116333,Nina Nicosia, ,Free Agents,Levante UD,0,0
+transfer,20250811,203177, ,461,1910,Dimitri Foulquier, ,Valencia CF,N.E.C. Nijmegen,2250000,2250000
+transfer,20250830,245597, ,1896,219,Víctor Gómez, ,SC Braga,Olympique de Marseille,10200000,10200000
+transfer,20250806,256281, ,175,111974,Kilian Fischer, ,VfL Wolfsburg,Sassuolo,4000000,4000000
+transfer,20250805,269153, ,245,55,Anton Gaaei, ,Ajax,Udinese,4150000,4150000
+transfer,20250708,258599, ,111592,109,Robert Ivanov, ,Free Agents,West Bromwich Albion,0,0
+transfer,20250831,244394, ,472,31,Clemente, ,UD Las Palmas,1. FC Köln,2750000,2750000
+transfer,20250804,268780, ,111592,110745,Mohammed Muntari, ,Free Agents,Jagiellonia Białystok,0,0
+loan,20250825,274779, ,116304,116417,Paige Metayer, ,Washington Spirit,FC Nantes,0,0
+transfer,20250710,78342, ,132231,71,Jordi Liongola, ,RAAL La Louvière,FC Nantes,2200000,2200000
+transfer,20250915,220746, ,393,115841,Andrija Živković, ,PAOK FC,Lazio,11400000,11400000
+transfer,20250804,219575, ,111334,169,Cristian Bordacahar, ,FBC Melgar,1. FSV Mainz 05,2350000,2350000
+loan,20250829,70893, ,69,1900,Stanis Idumbo, ,AS Monaco,Moreirense FC,0,0
+transfer,20250817,198331, ,110468,1745,Matěj Vydra, ,FC Viktoria Plzeň,Como 1907,3200000,3200000
+transfer,20250831,269565, ,1713,100805,Souleymane Diaby, ,FC Winterthur,St. Mirren,520000,520000
+transfer,20250806,71305, ,231,450,Joaquin Seys, ,Club Brugge,Real Club Celta de Vigo,14400000,14400000
+loan,20250718,212977, ,38,1738,Niklas Stark, ,SV Werder Bremen,Havre AC,0,0
+loan,20250730,264349, ,14,1745,James McAtee, ,Nottingham Forest,Como 1907,0,0
+transfer,20250818,268527, ,111008,131174,Gustavo Aguilar, ,Club Libertad,İKAS Eyüpspor,1050000,1050000
+transfer,20250831,274102, ,19,57,Oliver Scarles, ,West Ham United,AJ Auxerre,6000000,6000000
+loan,20250821,269186, ,457,25,Orri Óskarsson, ,Real Sociedad,Sport-Club Freiburg,0,0
+transfer,20250823,75721, ,131368,116306,Ilse van der Zanden, ,Free Agents,Houston Dash,0,0
+transfer,20250721,75355, ,111592,38,Oleksandr Nazarenko, ,Free Agents,SV Werder Bremen,0,0
+transfer,20250831,231039, ,897,111822,Pius Dorn, ,FC Luzern,RZ Pellets Wolfsberger AC,1150000,1150000
+transfer,20250813,270381, ,111086,15006,Oskar Leśniak, ,Piast Gliwice,FC Fredericia,590000,590000
+transfer,20250831,460014, ,111592,1943,Barry Nicoll, ,Free Agents,AFC Bournemouth,0,0
+transfer,20250805,262473, ,1903,219,Souffian El Karouani, ,FC Utrecht,Olympique de Marseille,10200000,10200000
+transfer,20250809,80586, ,100638,111398,Yamano Olfers, ,Telstar,Newcastle Jets,660000,660000
+transfer,20250721,72293, ,110832,10020,Rodelas, ,Granada CF,Estoril Praia,2200000,2200000
+transfer,20250713,242835, ,219,241,Leonardo Balerdi, ,Olympique de Marseille,FC Barcelona,27200000,27200000
+transfer,20250808,233084, ,240,72,Nahuel Molina, ,Atlético de Madrid,OGC Nice,12200000,12200000
+transfer,20250727,222157, ,135,621,Danny Collinge, ,Barnet,Livingston,510000,510000
+transfer,20250831,250960, ,1443,1915,Oliver Bundgaard, ,Viborg FF,FC Groningen,1900000,1900000
+transfer,20250821,234112, ,110374,240,Dodô, ,Fiorentina,Atlético de Madrid,18600000,18600000

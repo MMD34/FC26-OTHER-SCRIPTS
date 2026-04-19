@@ -1,0 +1,553 @@
+competition,compobjid,hometeamid,awayteamid,hometeam,homescore,awayscore,awayteam,date,time
+EFL Championship,779,88,94,Birmingham City,1,1,Ipswich Town,20250808,2000
+EFL Championship,779,89,1795,Charlton Athletic,2,2,Watford,20250809,1230
+EFL Championship,779,17,1947,Southampton,1,1,Wrexham,20250809,1230
+EFL Championship,779,1800,1952,Coventry City,0,1,Hull City,20250809,1230
+EFL Championship,779,12,1960,Middlesbrough,2,1,Swansea City,20250809,1500
+EFL Championship,779,1951,1790,Oxford United,2,2,Portsmouth,20250809,1500
+EFL Championship,779,1806,91,Stoke City,1,0,Derby County,20250809,1500
+EFL Championship,779,1792,97,Norwich City,1,1,Millwall,20250809,1500
+EFL Championship,779,15,1801,Queens Park Rangers,3,0,Preston North End,20250809,1500
+EFL Championship,779,109,3,West Bromwich Albion,4,0,Blackburn Rovers,20250809,1500
+EFL Championship,779,1794,1919,Sheffield United,3,1,Bristol City,20250809,1730
+EFL Championship,779,95,1807,Leicester City,2,2,Sheffield Wednesday,20250809,1230
+EFL Championship,779,1790,1792,Portsmouth,1,1,Norwich City,20250816,1230
+EFL Championship,779,1947,109,Wrexham,1,3,West Bromwich Albion,20250816,1230
+EFL Championship,779,91,1800,Derby County,1,4,Coventry City,20250816,1230
+EFL Championship,779,3,88,Blackburn Rovers,1,2,Birmingham City,20250816,1500
+EFL Championship,779,97,12,Millwall,2,1,Middlesbrough,20250816,1500
+EFL Championship,779,1801,95,Preston North End,1,3,Leicester City,20250816,1500
+EFL Championship,779,1919,89,Bristol City,0,0,Charlton Athletic,20250816,1500
+EFL Championship,779,1807,1806,Sheffield Wednesday,1,1,Stoke City,20250816,1500
+EFL Championship,779,1960,1794,Swansea City,0,1,Sheffield United,20250816,1500
+EFL Championship,779,1795,15,Watford,0,2,Queens Park Rangers,20250816,1500
+EFL Championship,779,94,17,Ipswich Town,1,3,Southampton,20250817,1200
+EFL Championship,779,1952,1951,Hull City,2,2,Oxford United,20250817,1500
+EFL Championship,779,91,1919,Derby County,1,1,Bristol City,20250822,2000
+EFL Championship,779,1952,3,Hull City,2,1,Blackburn Rovers,20250823,1230
+EFL Championship,779,1960,1795,Swansea City,1,1,Watford,20250823,1230
+EFL Championship,779,89,95,Charlton Athletic,3,1,Leicester City,20250823,1230
+EFL Championship,779,109,1790,West Bromwich Albion,2,3,Portsmouth,20250823,1500
+EFL Championship,779,17,1806,Southampton,0,1,Stoke City,20250823,1500
+EFL Championship,779,1947,1807,Wrexham,2,1,Sheffield Wednesday,20250823,1500
+EFL Championship,779,1792,12,Norwich City,1,0,Middlesbrough,20250823,1500
+EFL Championship,779,1801,94,Preston North End,1,3,Ipswich Town,20250823,1500
+EFL Championship,779,88,1951,Birmingham City,2,1,Oxford United,20250823,1500
+EFL Championship,779,1800,15,Coventry City,1,3,Queens Park Rangers,20250823,1500
+EFL Championship,779,1794,97,Sheffield United,2,2,Millwall,20250823,1500
+EFL Championship,779,95,88,Leicester City,4,1,Birmingham City,20250829,2000
+EFL Championship,779,15,89,Queens Park Rangers,1,1,Charlton Athletic,20250830,1230
+EFL Championship,779,12,1794,Middlesbrough,0,0,Sheffield United,20250830,1230
+EFL Championship,779,1806,109,Stoke City,1,0,West Bromwich Albion,20250830,1230
+EFL Championship,779,94,91,Ipswich Town,3,1,Derby County,20250830,1500
+EFL Championship,779,3,1792,Blackburn Rovers,3,3,Norwich City,20250830,1500
+EFL Championship,779,1807,1960,Sheffield Wednesday,0,2,Swansea City,20250830,1500
+EFL Championship,779,1790,1801,Portsmouth,1,2,Preston North End,20250830,1500
+EFL Championship,779,1919,1952,Bristol City,3,1,Hull City,20250830,1500
+EFL Championship,779,1795,17,Watford,0,2,Southampton,20250830,1500
+EFL Championship,779,97,1947,Millwall,1,1,Wrexham,20250830,1500
+EFL Championship,779,1951,1800,Oxford United,2,3,Coventry City,20250830,1500
+EFL Championship,779,94,1794,Ipswich Town,1,2,Sheffield United,20250912,2000
+EFL Championship,779,1801,12,Preston North End,1,2,Middlesbrough,20250913,1230
+EFL Championship,779,1951,95,Oxford United,1,2,Leicester City,20250913,1230
+EFL Championship,779,89,97,Charlton Athletic,2,2,Millwall,20250913,1230
+EFL Championship,779,1960,1952,Swansea City,0,2,Hull City,20250913,1500
+EFL Championship,779,1807,1919,Sheffield Wednesday,2,3,Bristol City,20250913,1500
+EFL Championship,779,1800,1792,Coventry City,1,1,Norwich City,20250913,1500
+EFL Championship,779,1806,88,Stoke City,2,0,Birmingham City,20250913,1500
+EFL Championship,779,1795,3,Watford,1,2,Blackburn Rovers,20250913,1500
+EFL Championship,779,109,91,West Bromwich Albion,0,2,Derby County,20250913,1500
+EFL Championship,779,1947,15,Wrexham,1,3,Queens Park Rangers,20250913,1500
+EFL Championship,779,17,1790,Southampton,2,1,Portsmouth,20250914,1200
+EFL Championship,779,12,109,Middlesbrough,0,2,West Bromwich Albion,20250919,2000
+EFL Championship,779,95,1800,Leicester City,1,3,Coventry City,20250920,1230
+EFL Championship,779,88,1960,Birmingham City,1,0,Swansea City,20250920,1230
+EFL Championship,779,15,1806,Queens Park Rangers,1,2,Stoke City,20250920,1230
+EFL Championship,779,1952,17,Hull City,2,2,Southampton,20250920,1500
+EFL Championship,779,1794,89,Sheffield United,1,2,Charlton Athletic,20250920,1500
+EFL Championship,779,91,1801,Derby County,2,1,Preston North End,20250920,1500
+EFL Championship,779,1790,1807,Portsmouth,2,2,Sheffield Wednesday,20250920,1500
+EFL Championship,779,1792,1947,Norwich City,0,0,Wrexham,20250920,1500
+EFL Championship,779,3,94,Blackburn Rovers,1,1,Ipswich Town,20250920,1500
+EFL Championship,779,1919,1951,Bristol City,2,0,Oxford United,20250921,1500
+EFL Championship,779,97,1795,Millwall,2,1,Watford,20250922,2000
+EFL Championship,779,109,95,West Bromwich Albion,0,2,Leicester City,20250926,2000
+EFL Championship,779,1960,97,Swansea City,1,1,Millwall,20250927,1230
+EFL Championship,779,1800,88,Coventry City,1,2,Birmingham City,20250927,1230
+EFL Championship,779,1947,91,Wrexham,1,1,Derby County,20250927,1230
+EFL Championship,779,94,1790,Ipswich Town,3,1,Portsmouth,20250927,1500
+EFL Championship,779,1801,1919,Preston North End,1,1,Bristol City,20250927,1500
+EFL Championship,779,1806,1792,Stoke City,3,0,Norwich City,20250927,1500
+EFL Championship,779,17,12,Southampton,1,1,Middlesbrough,20250927,1500
+EFL Championship,779,1807,15,Sheffield Wednesday,2,1,Queens Park Rangers,20250927,1500
+EFL Championship,779,89,3,Charlton Athletic,1,1,Blackburn Rovers,20250927,1500
+EFL Championship,779,1951,1794,Oxford United,0,2,Sheffield United,20250927,1500
+EFL Championship,779,1795,1952,Watford,2,0,Hull City,20250927,1500
+EFL Championship,779,1919,94,Bristol City,TBD,TBD,Ipswich Town,20250930,1945
+EFL Championship,779,88,1807,Birmingham City,TBD,TBD,Sheffield Wednesday,20250930,1945
+EFL Championship,779,3,1960,Blackburn Rovers,TBD,TBD,Swansea City,20250930,1945
+EFL Championship,779,12,1806,Middlesbrough,TBD,TBD,Stoke City,20250930,1945
+EFL Championship,779,1952,1801,Hull City,TBD,TBD,Preston North End,20250930,1945
+EFL Championship,779,1794,17,Sheffield United,TBD,TBD,Southampton,20250930,1945
+EFL Championship,779,91,89,Derby County,TBD,TBD,Charlton Athletic,20250930,1945
+EFL Championship,779,95,1947,Leicester City,TBD,TBD,Wrexham,20250930,1945
+EFL Championship,779,97,1800,Millwall,TBD,TBD,Coventry City,20251001,1945
+EFL Championship,779,1792,109,Norwich City,TBD,TBD,West Bromwich Albion,20251001,1945
+EFL Championship,779,1790,1795,Portsmouth,TBD,TBD,Watford,20251001,1945
+EFL Championship,779,15,1951,Queens Park Rangers,TBD,TBD,Oxford United,20251001,1945
+EFL Championship,779,1790,12,Portsmouth,TBD,TBD,Middlesbrough,20251004,1500
+EFL Championship,779,1947,88,Wrexham,TBD,TBD,Birmingham City,20251004,1500
+EFL Championship,779,97,109,Millwall,TBD,TBD,West Bromwich Albion,20251004,1500
+EFL Championship,779,1807,1800,Sheffield Wednesday,TBD,TBD,Coventry City,20251004,1500
+EFL Championship,779,1795,1951,Watford,TBD,TBD,Oxford United,20251004,1500
+EFL Championship,779,3,1806,Blackburn Rovers,TBD,TBD,Stoke City,20251004,1500
+EFL Championship,779,1919,15,Bristol City,TBD,TBD,Queens Park Rangers,20251004,1500
+EFL Championship,779,1801,89,Preston North End,TBD,TBD,Charlton Athletic,20251004,1500
+EFL Championship,779,1960,95,Swansea City,TBD,TBD,Leicester City,20251004,1500
+EFL Championship,779,91,17,Derby County,TBD,TBD,Southampton,20251004,1500
+EFL Championship,779,94,1792,Ipswich Town,TBD,TBD,Norwich City,20251004,1500
+EFL Championship,779,1952,1794,Hull City,TBD,TBD,Sheffield United,20251004,1500
+EFL Championship,779,15,97,Queens Park Rangers,TBD,TBD,Millwall,20251018,1230
+EFL Championship,779,17,1960,Southampton,TBD,TBD,Swansea City,20251018,1500
+EFL Championship,779,12,94,Middlesbrough,TBD,TBD,Ipswich Town,20251018,1500
+EFL Championship,779,1792,1919,Norwich City,TBD,TBD,Bristol City,20251018,1500
+EFL Championship,779,1951,91,Oxford United,TBD,TBD,Derby County,20251018,1500
+EFL Championship,779,109,1801,West Bromwich Albion,TBD,TBD,Preston North End,20251018,1500
+EFL Championship,779,1800,3,Coventry City,TBD,TBD,Blackburn Rovers,20251018,1500
+EFL Championship,779,89,1807,Charlton Athletic,TBD,TBD,Sheffield Wednesday,20251018,1500
+EFL Championship,779,1794,1795,Sheffield United,TBD,TBD,Watford,20251018,1500
+EFL Championship,779,88,1952,Birmingham City,TBD,TBD,Hull City,20251018,1500
+EFL Championship,779,95,1790,Leicester City,TBD,TBD,Portsmouth,20251018,1500
+EFL Championship,779,1806,1947,Stoke City,TBD,TBD,Wrexham,20251018,1500
+EFL Championship,779,91,1792,Derby County,TBD,TBD,Norwich City,20251021,1945
+EFL Championship,779,1790,1800,Portsmouth,TBD,TBD,Coventry City,20251021,1945
+EFL Championship,779,3,1794,Blackburn Rovers,TBD,TBD,Sheffield United,20251021,1945
+EFL Championship,779,1952,95,Hull City,TBD,TBD,Leicester City,20251021,1945
+EFL Championship,779,1801,88,Preston North End,TBD,TBD,Birmingham City,20251021,1945
+EFL Championship,779,97,1806,Millwall,TBD,TBD,Stoke City,20251021,1945
+EFL Championship,779,94,89,Ipswich Town,TBD,TBD,Charlton Athletic,20251021,1945
+EFL Championship,779,1919,17,Bristol City,TBD,TBD,Southampton,20251021,1945
+EFL Championship,779,1795,109,Watford,TBD,TBD,West Bromwich Albion,20251022,1945
+EFL Championship,779,1960,15,Swansea City,TBD,TBD,Queens Park Rangers,20251022,1945
+EFL Championship,779,1807,12,Sheffield Wednesday,TBD,TBD,Middlesbrough,20251022,1945
+EFL Championship,779,1947,1951,Wrexham,TBD,TBD,Oxford United,20251022,1945
+EFL Championship,779,1960,1792,Swansea City,TBD,TBD,Norwich City,20251025,1500
+EFL Championship,779,97,95,Millwall,TBD,TBD,Leicester City,20251025,1500
+EFL Championship,779,94,109,Ipswich Town,TBD,TBD,West Bromwich Albion,20251025,1500
+EFL Championship,779,1801,1794,Preston North End,TBD,TBD,Sheffield United,20251025,1500
+EFL Championship,779,1800,1795,Coventry City,TBD,TBD,Watford,20251025,1500
+EFL Championship,779,1790,1806,Portsmouth,TBD,TBD,Stoke City,20251025,1500
+EFL Championship,779,1952,89,Hull City,TBD,TBD,Charlton Athletic,20251025,1500
+EFL Championship,779,1919,88,Bristol City,TBD,TBD,Birmingham City,20251025,1500
+EFL Championship,779,1807,1951,Sheffield Wednesday,TBD,TBD,Oxford United,20251025,1500
+EFL Championship,779,12,1947,Middlesbrough,TBD,TBD,Wrexham,20251025,1500
+EFL Championship,779,3,17,Blackburn Rovers,TBD,TBD,Southampton,20251025,1500
+EFL Championship,779,91,15,Derby County,TBD,TBD,Queens Park Rangers,20251025,1500
+EFL Championship,779,88,1790,Birmingham City,TBD,TBD,Portsmouth,20251101,1500
+EFL Championship,779,1947,1800,Wrexham,TBD,TBD,Coventry City,20251101,1500
+EFL Championship,779,15,94,Queens Park Rangers,TBD,TBD,Ipswich Town,20251101,1500
+EFL Championship,779,95,3,Leicester City,TBD,TBD,Blackburn Rovers,20251101,1500
+EFL Championship,779,1794,91,Sheffield United,TBD,TBD,Derby County,20251101,1500
+EFL Championship,779,17,1801,Southampton,TBD,TBD,Preston North End,20251101,1500
+EFL Championship,779,89,1960,Charlton Athletic,TBD,TBD,Swansea City,20251101,1500
+EFL Championship,779,1795,12,Watford,TBD,TBD,Middlesbrough,20251101,1500
+EFL Championship,779,109,1807,West Bromwich Albion,TBD,TBD,Sheffield Wednesday,20251101,1500
+EFL Championship,779,1792,1952,Norwich City,TBD,TBD,Hull City,20251101,1500
+EFL Championship,779,1951,97,Oxford United,TBD,TBD,Millwall,20251101,1500
+EFL Championship,779,1806,1919,Stoke City,TBD,TBD,Bristol City,20251101,1500
+EFL Championship,779,88,97,Birmingham City,TBD,TBD,Millwall,20251104,1945
+EFL Championship,779,94,1795,Ipswich Town,TBD,TBD,Watford,20251104,1945
+EFL Championship,779,1919,3,Bristol City,TBD,TBD,Blackburn Rovers,20251104,1945
+EFL Championship,779,1800,1794,Coventry City,TBD,TBD,Sheffield United,20251104,1945
+EFL Championship,779,89,109,Charlton Athletic,TBD,TBD,West Bromwich Albion,20251104,1945
+EFL Championship,779,1951,1806,Oxford United,TBD,TBD,Stoke City,20251104,1945
+EFL Championship,779,91,1952,Derby County,TBD,TBD,Hull City,20251104,1945
+EFL Championship,779,95,12,Leicester City,TBD,TBD,Middlesbrough,20251104,1945
+EFL Championship,779,15,17,Queens Park Rangers,TBD,TBD,Southampton,20251105,1945
+EFL Championship,779,1807,1792,Sheffield Wednesday,TBD,TBD,Norwich City,20251105,1945
+EFL Championship,779,1801,1960,Preston North End,TBD,TBD,Swansea City,20251105,1945
+EFL Championship,779,1790,1947,Portsmouth,TBD,TBD,Wrexham,20251105,1945
+EFL Championship,779,12,88,Middlesbrough,TBD,TBD,Birmingham City,20251108,1500
+EFL Championship,779,109,1951,West Bromwich Albion,TBD,TBD,Oxford United,20251108,1500
+EFL Championship,779,97,1801,Millwall,TBD,TBD,Preston North End,20251108,1500
+EFL Championship,779,1960,94,Swansea City,TBD,TBD,Ipswich Town,20251108,1500
+EFL Championship,779,1952,1790,Hull City,TBD,TBD,Portsmouth,20251108,1500
+EFL Championship,779,1795,1919,Watford,TBD,TBD,Bristol City,20251108,1500
+EFL Championship,779,1947,89,Wrexham,TBD,TBD,Charlton Athletic,20251108,1500
+EFL Championship,779,1792,95,Norwich City,TBD,TBD,Leicester City,20251108,1500
+EFL Championship,779,1794,15,Sheffield United,TBD,TBD,Queens Park Rangers,20251108,1500
+EFL Championship,779,17,1807,Southampton,TBD,TBD,Sheffield Wednesday,20251108,1500
+EFL Championship,779,1806,1800,Stoke City,TBD,TBD,Coventry City,20251108,1500
+EFL Championship,779,3,91,Blackburn Rovers,TBD,TBD,Derby County,20251108,1500
+EFL Championship,779,1919,1960,Bristol City,TBD,TBD,Swansea City,20251122,1230
+EFL Championship,779,1790,97,Portsmouth,TBD,TBD,Millwall,20251122,1500
+EFL Championship,779,91,1795,Derby County,TBD,TBD,Watford,20251122,1500
+EFL Championship,779,1951,12,Oxford United,TBD,TBD,Middlesbrough,20251122,1500
+EFL Championship,779,88,1792,Birmingham City,TBD,TBD,Norwich City,20251122,1500
+EFL Championship,779,94,1947,Ipswich Town,TBD,TBD,Wrexham,20251122,1500
+EFL Championship,779,1801,3,Preston North End,TBD,TBD,Blackburn Rovers,20251122,1500
+EFL Championship,779,95,1806,Leicester City,TBD,TBD,Stoke City,20251122,1500
+EFL Championship,779,1800,109,Coventry City,TBD,TBD,West Bromwich Albion,20251122,1500
+EFL Championship,779,1807,1794,Sheffield Wednesday,TBD,TBD,Sheffield United,20251122,1500
+EFL Championship,779,89,17,Charlton Athletic,TBD,TBD,Southampton,20251122,1500
+EFL Championship,779,15,1952,Queens Park Rangers,TBD,TBD,Hull City,20251122,1500
+EFL Championship,779,1952,94,Hull City,TBD,TBD,Ipswich Town,20251125,1945
+EFL Championship,779,1960,91,Swansea City,TBD,TBD,Derby County,20251125,1945
+EFL Championship,779,1795,1801,Watford,TBD,TBD,Preston North End,20251125,1945
+EFL Championship,779,1806,89,Stoke City,TBD,TBD,Charlton Athletic,20251125,1945
+EFL Championship,779,97,1807,Millwall,TBD,TBD,Sheffield Wednesday,20251125,1945
+EFL Championship,779,12,1800,Middlesbrough,TBD,TBD,Coventry City,20251125,1945
+EFL Championship,779,17,95,Southampton,TBD,TBD,Leicester City,20251125,1945
+EFL Championship,779,1794,1790,Sheffield United,TBD,TBD,Portsmouth,20251125,1945
+EFL Championship,779,1792,1951,Norwich City,TBD,TBD,Oxford United,20251126,1945
+EFL Championship,779,109,88,West Bromwich Albion,TBD,TBD,Birmingham City,20251126,1945
+EFL Championship,779,1947,1919,Wrexham,TBD,TBD,Bristol City,20251126,1945
+EFL Championship,779,3,15,Blackburn Rovers,TBD,TBD,Queens Park Rangers,20251126,1945
+EFL Championship,779,12,91,Middlesbrough,TBD,TBD,Derby County,20251129,1500
+EFL Championship,779,1790,1919,Portsmouth,TBD,TBD,Bristol City,20251129,1500
+EFL Championship,779,1792,15,Norwich City,TBD,TBD,Queens Park Rangers,20251129,1500
+EFL Championship,779,97,17,Millwall,TBD,TBD,Southampton,20251129,1500
+EFL Championship,779,1807,1801,Sheffield Wednesday,TBD,TBD,Preston North End,20251129,1500
+EFL Championship,779,1800,89,Coventry City,TBD,TBD,Charlton Athletic,20251129,1500
+EFL Championship,779,1951,94,Oxford United,TBD,TBD,Ipswich Town,20251129,1500
+EFL Championship,779,1947,3,Wrexham,TBD,TBD,Blackburn Rovers,20251129,1500
+EFL Championship,779,1806,1952,Stoke City,TBD,TBD,Hull City,20251129,1500
+EFL Championship,779,109,1960,West Bromwich Albion,TBD,TBD,Swansea City,20251129,1500
+EFL Championship,779,88,1795,Birmingham City,TBD,TBD,Watford,20251129,1500
+EFL Championship,779,95,1794,Leicester City,TBD,TBD,Sheffield United,20251129,1500
+EFL Championship,779,3,1807,Blackburn Rovers,TBD,TBD,Sheffield Wednesday,20251206,1500
+EFL Championship,779,94,1800,Ipswich Town,TBD,TBD,Coventry City,20251206,1500
+EFL Championship,779,1801,1947,Preston North End,TBD,TBD,Wrexham,20251206,1500
+EFL Championship,779,1795,1792,Watford,TBD,TBD,Norwich City,20251206,1500
+EFL Championship,779,15,109,Queens Park Rangers,TBD,TBD,West Bromwich Albion,20251206,1500
+EFL Championship,779,17,88,Southampton,TBD,TBD,Birmingham City,20251206,1500
+EFL Championship,779,1794,1806,Sheffield United,TBD,TBD,Stoke City,20251206,1500
+EFL Championship,779,91,95,Derby County,TBD,TBD,Leicester City,20251206,1500
+EFL Championship,779,1952,12,Hull City,TBD,TBD,Middlesbrough,20251206,1500
+EFL Championship,779,89,1790,Charlton Athletic,TBD,TBD,Portsmouth,20251206,1500
+EFL Championship,779,1919,97,Bristol City,TBD,TBD,Millwall,20251206,1500
+EFL Championship,779,1960,1951,Swansea City,TBD,TBD,Oxford United,20251206,1500
+EFL Championship,779,1960,1790,Swansea City,TBD,TBD,Portsmouth,20251209,1945
+EFL Championship,779,3,1951,Blackburn Rovers,TBD,TBD,Oxford United,20251209,1945
+EFL Championship,779,1795,1807,Watford,TBD,TBD,Sheffield Wednesday,20251209,1945
+EFL Championship,779,1794,1792,Sheffield United,TBD,TBD,Norwich City,20251209,1945
+EFL Championship,779,89,12,Charlton Athletic,TBD,TBD,Middlesbrough,20251209,1945
+EFL Championship,779,15,88,Queens Park Rangers,TBD,TBD,Birmingham City,20251209,1945
+EFL Championship,779,17,109,Southampton,TBD,TBD,West Bromwich Albion,20251209,1945
+EFL Championship,779,1801,1800,Preston North End,TBD,TBD,Coventry City,20251209,1945
+EFL Championship,779,1919,95,Bristol City,TBD,TBD,Leicester City,20251210,1945
+EFL Championship,779,91,97,Derby County,TBD,TBD,Millwall,20251210,1945
+EFL Championship,779,94,1806,Ipswich Town,TBD,TBD,Stoke City,20251210,1945
+EFL Championship,779,1952,1947,Hull City,TBD,TBD,Wrexham,20251210,1945
+EFL Championship,779,1792,17,Norwich City,TBD,TBD,Southampton,20251213,1500
+EFL Championship,779,109,1794,West Bromwich Albion,TBD,TBD,Sheffield United,20251213,1500
+EFL Championship,779,1806,1960,Stoke City,TBD,TBD,Swansea City,20251213,1500
+EFL Championship,779,95,94,Leicester City,TBD,TBD,Ipswich Town,20251213,1500
+EFL Championship,779,1947,1795,Wrexham,TBD,TBD,Watford,20251213,1500
+EFL Championship,779,88,89,Birmingham City,TBD,TBD,Charlton Athletic,20251213,1500
+EFL Championship,779,1951,1801,Oxford United,TBD,TBD,Preston North End,20251213,1500
+EFL Championship,779,1800,1919,Coventry City,TBD,TBD,Bristol City,20251213,1500
+EFL Championship,779,12,15,Middlesbrough,TBD,TBD,Queens Park Rangers,20251213,1500
+EFL Championship,779,97,1952,Millwall,TBD,TBD,Hull City,20251213,1500
+EFL Championship,779,1807,91,Sheffield Wednesday,TBD,TBD,Derby County,20251213,1500
+EFL Championship,779,1790,3,Portsmouth,TBD,TBD,Blackburn Rovers,20251213,1500
+EFL Championship,779,17,1800,Southampton,TBD,TBD,Coventry City,20251220,1500
+EFL Championship,779,3,97,Blackburn Rovers,TBD,TBD,Millwall,20251220,1500
+EFL Championship,779,1952,109,Hull City,TBD,TBD,West Bromwich Albion,20251220,1500
+EFL Championship,779,1795,1806,Watford,TBD,TBD,Stoke City,20251220,1500
+EFL Championship,779,1960,1947,Swansea City,TBD,TBD,Wrexham,20251220,1500
+EFL Championship,779,1919,12,Bristol City,TBD,TBD,Middlesbrough,20251220,1500
+EFL Championship,779,91,1790,Derby County,TBD,TBD,Portsmouth,20251220,1500
+EFL Championship,779,15,95,Queens Park Rangers,TBD,TBD,Leicester City,20251220,1500
+EFL Championship,779,89,1951,Charlton Athletic,TBD,TBD,Oxford United,20251220,1500
+EFL Championship,779,1794,88,Sheffield United,TBD,TBD,Birmingham City,20251220,1500
+EFL Championship,779,1801,1792,Preston North End,TBD,TBD,Norwich City,20251220,1500
+EFL Championship,779,94,1807,Ipswich Town,TBD,TBD,Sheffield Wednesday,20251220,1500
+EFL Championship,779,95,1795,Leicester City,TBD,TBD,Watford,20251226,1500
+EFL Championship,779,1790,15,Portsmouth,TBD,TBD,Queens Park Rangers,20251226,1500
+EFL Championship,779,1792,89,Norwich City,TBD,TBD,Charlton Athletic,20251226,1500
+EFL Championship,779,1951,17,Oxford United,TBD,TBD,Southampton,20251226,1500
+EFL Championship,779,1806,1801,Stoke City,TBD,TBD,Preston North End,20251226,1500
+EFL Championship,779,109,1919,West Bromwich Albion,TBD,TBD,Bristol City,20251226,1500
+EFL Championship,779,1947,1794,Wrexham,TBD,TBD,Sheffield United,20251226,1500
+EFL Championship,779,1800,1960,Coventry City,TBD,TBD,Swansea City,20251226,1500
+EFL Championship,779,97,94,Millwall,TBD,TBD,Ipswich Town,20251226,1500
+EFL Championship,779,1807,1952,Sheffield Wednesday,TBD,TBD,Hull City,20251226,1500
+EFL Championship,779,88,91,Birmingham City,TBD,TBD,Derby County,20251226,1500
+EFL Championship,779,12,3,Middlesbrough,TBD,TBD,Blackburn Rovers,20251226,1500
+EFL Championship,779,1790,89,Portsmouth,TBD,TBD,Charlton Athletic,20251229,1945
+EFL Championship,779,12,1952,Middlesbrough,TBD,TBD,Hull City,20251229,1945
+EFL Championship,779,97,1919,Millwall,TBD,TBD,Bristol City,20251229,1945
+EFL Championship,779,95,91,Leicester City,TBD,TBD,Derby County,20251229,1945
+EFL Championship,779,1800,94,Coventry City,TBD,TBD,Ipswich Town,20251229,1945
+EFL Championship,779,109,15,West Bromwich Albion,TBD,TBD,Queens Park Rangers,20251229,1945
+EFL Championship,779,1792,1795,Norwich City,TBD,TBD,Watford,20251229,1945
+EFL Championship,779,1807,3,Sheffield Wednesday,TBD,TBD,Blackburn Rovers,20251229,1945
+EFL Championship,779,1947,1801,Wrexham,TBD,TBD,Preston North End,20251229,1945
+EFL Championship,779,1951,1960,Oxford United,TBD,TBD,Swansea City,20251229,1945
+EFL Championship,779,1806,1794,Stoke City,TBD,TBD,Sheffield United,20251229,1945
+EFL Championship,779,88,17,Birmingham City,TBD,TBD,Southampton,20251229,1945
+EFL Championship,779,1952,1806,Hull City,TBD,TBD,Stoke City,20260101,1500
+EFL Championship,779,15,1792,Queens Park Rangers,TBD,TBD,Norwich City,20260101,1500
+EFL Championship,779,1794,95,Sheffield United,TBD,TBD,Leicester City,20260101,1500
+EFL Championship,779,17,97,Southampton,TBD,TBD,Millwall,20260101,1500
+EFL Championship,779,3,1947,Blackburn Rovers,TBD,TBD,Wrexham,20260101,1500
+EFL Championship,779,1960,109,Swansea City,TBD,TBD,West Bromwich Albion,20260101,1500
+EFL Championship,779,1795,88,Watford,TBD,TBD,Birmingham City,20260101,1500
+EFL Championship,779,1919,1790,Bristol City,TBD,TBD,Portsmouth,20260101,1500
+EFL Championship,779,94,1951,Ipswich Town,TBD,TBD,Oxford United,20260101,1500
+EFL Championship,779,1801,1807,Preston North End,TBD,TBD,Sheffield Wednesday,20260101,1500
+EFL Championship,779,91,12,Derby County,TBD,TBD,Middlesbrough,20260101,1500
+EFL Championship,779,89,1800,Charlton Athletic,TBD,TBD,Coventry City,20260101,1500
+EFL Championship,779,12,17,Middlesbrough,TBD,TBD,Southampton,20260104,1500
+EFL Championship,779,3,89,Blackburn Rovers,TBD,TBD,Charlton Athletic,20260104,1500
+EFL Championship,779,91,1947,Derby County,TBD,TBD,Wrexham,20260104,1500
+EFL Championship,779,1952,1795,Hull City,TBD,TBD,Watford,20260104,1500
+EFL Championship,779,1792,1806,Norwich City,TBD,TBD,Stoke City,20260104,1500
+EFL Championship,779,95,109,Leicester City,TBD,TBD,West Bromwich Albion,20260104,1500
+EFL Championship,779,15,1807,Queens Park Rangers,TBD,TBD,Sheffield Wednesday,20260104,1500
+EFL Championship,779,1790,94,Portsmouth,TBD,TBD,Ipswich Town,20260104,1500
+EFL Championship,779,97,1960,Millwall,TBD,TBD,Swansea City,20260104,1500
+EFL Championship,779,1919,1801,Bristol City,TBD,TBD,Preston North End,20260104,1500
+EFL Championship,779,1794,1951,Sheffield United,TBD,TBD,Oxford United,20260104,1500
+EFL Championship,779,88,1800,Birmingham City,TBD,TBD,Coventry City,20260104,1500
+EFL Championship,779,1800,95,Coventry City,TBD,TBD,Leicester City,20260117,1500
+EFL Championship,779,1947,1792,Wrexham,TBD,TBD,Norwich City,20260117,1500
+EFL Championship,779,17,1952,Southampton,TBD,TBD,Hull City,20260117,1500
+EFL Championship,779,1801,91,Preston North End,TBD,TBD,Derby County,20260117,1500
+EFL Championship,779,1807,1790,Sheffield Wednesday,TBD,TBD,Portsmouth,20260117,1500
+EFL Championship,779,1795,97,Watford,TBD,TBD,Millwall,20260117,1500
+EFL Championship,779,109,12,West Bromwich Albion,TBD,TBD,Middlesbrough,20260117,1500
+EFL Championship,779,1960,88,Swansea City,TBD,TBD,Birmingham City,20260117,1500
+EFL Championship,779,94,3,Ipswich Town,TBD,TBD,Blackburn Rovers,20260117,1500
+EFL Championship,779,1951,1919,Oxford United,TBD,TBD,Bristol City,20260117,1500
+EFL Championship,779,1806,15,Stoke City,TBD,TBD,Queens Park Rangers,20260117,1500
+EFL Championship,779,89,1794,Charlton Athletic,TBD,TBD,Sheffield United,20260117,1500
+EFL Championship,779,94,1919,Ipswich Town,TBD,TBD,Bristol City,20260120,1945
+EFL Championship,779,1801,1952,Preston North End,TBD,TBD,Hull City,20260120,1945
+EFL Championship,779,1807,88,Sheffield Wednesday,TBD,TBD,Birmingham City,20260120,1945
+EFL Championship,779,1960,3,Swansea City,TBD,TBD,Blackburn Rovers,20260120,1945
+EFL Championship,779,109,1792,West Bromwich Albion,TBD,TBD,Norwich City,20260120,1945
+EFL Championship,779,1800,97,Coventry City,TBD,TBD,Millwall,20260120,1945
+EFL Championship,779,1947,95,Wrexham,TBD,TBD,Leicester City,20260120,1945
+EFL Championship,779,1951,15,Oxford United,TBD,TBD,Queens Park Rangers,20260120,1945
+EFL Championship,779,89,91,Charlton Athletic,TBD,TBD,Derby County,20260121,1945
+EFL Championship,779,1806,12,Stoke City,TBD,TBD,Middlesbrough,20260121,1945
+EFL Championship,779,1795,1790,Watford,TBD,TBD,Portsmouth,20260121,1945
+EFL Championship,779,17,1794,Southampton,TBD,TBD,Sheffield United,20260121,1945
+EFL Championship,779,97,89,Millwall,TBD,TBD,Charlton Athletic,20260124,1230
+EFL Championship,779,91,109,Derby County,TBD,TBD,West Bromwich Albion,20260124,1500
+EFL Championship,779,12,1801,Middlesbrough,TBD,TBD,Preston North End,20260124,1500
+EFL Championship,779,1952,1960,Hull City,TBD,TBD,Swansea City,20260124,1500
+EFL Championship,779,1919,1807,Bristol City,TBD,TBD,Sheffield Wednesday,20260124,1500
+EFL Championship,779,95,1951,Leicester City,TBD,TBD,Oxford United,20260124,1500
+EFL Championship,779,1792,1800,Norwich City,TBD,TBD,Coventry City,20260124,1500
+EFL Championship,779,15,1947,Queens Park Rangers,TBD,TBD,Wrexham,20260124,1500
+EFL Championship,779,1794,94,Sheffield United,TBD,TBD,Ipswich Town,20260124,1500
+EFL Championship,779,3,1795,Blackburn Rovers,TBD,TBD,Watford,20260124,1500
+EFL Championship,779,88,1806,Birmingham City,TBD,TBD,Stoke City,20260124,1500
+EFL Championship,779,1790,17,Portsmouth,TBD,TBD,Southampton,20260125,1200
+EFL Championship,779,3,1952,Blackburn Rovers,TBD,TBD,Hull City,20260131,1500
+EFL Championship,779,15,1800,Queens Park Rangers,TBD,TBD,Coventry City,20260131,1500
+EFL Championship,779,1919,91,Bristol City,TBD,TBD,Derby County,20260131,1500
+EFL Championship,779,1807,1947,Sheffield Wednesday,TBD,TBD,Wrexham,20260131,1500
+EFL Championship,779,1790,109,Portsmouth,TBD,TBD,West Bromwich Albion,20260131,1500
+EFL Championship,779,1795,1960,Watford,TBD,TBD,Swansea City,20260131,1500
+EFL Championship,779,97,1794,Millwall,TBD,TBD,Sheffield United,20260131,1500
+EFL Championship,779,94,1801,Ipswich Town,TBD,TBD,Preston North End,20260131,1500
+EFL Championship,779,95,89,Leicester City,TBD,TBD,Charlton Athletic,20260131,1500
+EFL Championship,779,12,1792,Middlesbrough,TBD,TBD,Norwich City,20260131,1500
+EFL Championship,779,1806,17,Stoke City,TBD,TBD,Southampton,20260131,1500
+EFL Championship,779,1951,88,Oxford United,TBD,TBD,Birmingham City,20260131,1500
+EFL Championship,779,91,94,Derby County,TBD,TBD,Ipswich Town,20260207,1500
+EFL Championship,779,1800,1951,Coventry City,TBD,TBD,Oxford United,20260207,1500
+EFL Championship,779,88,95,Birmingham City,TBD,TBD,Leicester City,20260207,1500
+EFL Championship,779,1947,97,Wrexham,TBD,TBD,Millwall,20260207,1500
+EFL Championship,779,17,1795,Southampton,TBD,TBD,Watford,20260207,1500
+EFL Championship,779,109,1806,West Bromwich Albion,TBD,TBD,Stoke City,20260207,1500
+EFL Championship,779,1952,1919,Hull City,TBD,TBD,Bristol City,20260207,1500
+EFL Championship,779,1794,12,Sheffield United,TBD,TBD,Middlesbrough,20260207,1500
+EFL Championship,779,1792,3,Norwich City,TBD,TBD,Blackburn Rovers,20260207,1500
+EFL Championship,779,1960,1807,Swansea City,TBD,TBD,Sheffield Wednesday,20260207,1500
+EFL Championship,779,1801,1790,Preston North End,TBD,TBD,Portsmouth,20260207,1500
+EFL Championship,779,89,15,Charlton Athletic,TBD,TBD,Queens Park Rangers,20260207,1500
+EFL Championship,779,89,1806,Charlton Athletic,TBD,TBD,Stoke City,20260214,1500
+EFL Championship,779,1801,1795,Preston North End,TBD,TBD,Watford,20260214,1500
+EFL Championship,779,91,1960,Derby County,TBD,TBD,Swansea City,20260214,1500
+EFL Championship,779,1951,1792,Oxford United,TBD,TBD,Norwich City,20260214,1500
+EFL Championship,779,88,109,Birmingham City,TBD,TBD,West Bromwich Albion,20260214,1500
+EFL Championship,779,95,17,Leicester City,TBD,TBD,Southampton,20260214,1500
+EFL Championship,779,1790,1794,Portsmouth,TBD,TBD,Sheffield United,20260214,1500
+EFL Championship,779,1919,1947,Bristol City,TBD,TBD,Wrexham,20260214,1500
+EFL Championship,779,94,1952,Ipswich Town,TBD,TBD,Hull City,20260214,1500
+EFL Championship,779,15,3,Queens Park Rangers,TBD,TBD,Blackburn Rovers,20260214,1500
+EFL Championship,779,1807,97,Sheffield Wednesday,TBD,TBD,Millwall,20260214,1500
+EFL Championship,779,1800,12,Coventry City,TBD,TBD,Middlesbrough,20260214,1500
+EFL Championship,779,1960,1919,Swansea City,TBD,TBD,Bristol City,20260221,1230
+EFL Championship,779,12,1951,Middlesbrough,TBD,TBD,Oxford United,20260221,1500
+EFL Championship,779,1806,95,Stoke City,TBD,TBD,Leicester City,20260221,1500
+EFL Championship,779,97,1790,Millwall,TBD,TBD,Portsmouth,20260221,1500
+EFL Championship,779,17,89,Southampton,TBD,TBD,Charlton Athletic,20260221,1500
+EFL Championship,779,1947,94,Wrexham,TBD,TBD,Ipswich Town,20260221,1500
+EFL Championship,779,3,1801,Blackburn Rovers,TBD,TBD,Preston North End,20260221,1500
+EFL Championship,779,1795,91,Watford,TBD,TBD,Derby County,20260221,1500
+EFL Championship,779,1794,1807,Sheffield United,TBD,TBD,Sheffield Wednesday,20260221,1500
+EFL Championship,779,109,1800,West Bromwich Albion,TBD,TBD,Coventry City,20260221,1500
+EFL Championship,779,1952,15,Hull City,TBD,TBD,Queens Park Rangers,20260221,1500
+EFL Championship,779,1792,88,Norwich City,TBD,TBD,Birmingham City,20260221,1500
+EFL Championship,779,12,95,Middlesbrough,TBD,TBD,Leicester City,20260224,1945
+EFL Championship,779,1947,1790,Wrexham,TBD,TBD,Portsmouth,20260224,1945
+EFL Championship,779,1806,1951,Stoke City,TBD,TBD,Oxford United,20260224,1945
+EFL Championship,779,1952,91,Hull City,TBD,TBD,Derby County,20260224,1945
+EFL Championship,779,1795,94,Watford,TBD,TBD,Ipswich Town,20260224,1945
+EFL Championship,779,17,15,Southampton,TBD,TBD,Queens Park Rangers,20260224,1945
+EFL Championship,779,109,89,West Bromwich Albion,TBD,TBD,Charlton Athletic,20260224,1945
+EFL Championship,779,1960,1801,Swansea City,TBD,TBD,Preston North End,20260224,1945
+EFL Championship,779,3,1919,Blackburn Rovers,TBD,TBD,Bristol City,20260225,1945
+EFL Championship,779,1792,1807,Norwich City,TBD,TBD,Sheffield Wednesday,20260225,1945
+EFL Championship,779,1794,1800,Sheffield United,TBD,TBD,Coventry City,20260225,1945
+EFL Championship,779,97,88,Millwall,TBD,TBD,Birmingham City,20260225,1945
+EFL Championship,779,15,1794,Queens Park Rangers,TBD,TBD,Sheffield United,20260228,1500
+EFL Championship,779,1807,17,Sheffield Wednesday,TBD,TBD,Southampton,20260228,1500
+EFL Championship,779,1951,109,Oxford United,TBD,TBD,West Bromwich Albion,20260228,1500
+EFL Championship,779,1800,1806,Coventry City,TBD,TBD,Stoke City,20260228,1500
+EFL Championship,779,88,12,Birmingham City,TBD,TBD,Middlesbrough,20260228,1500
+EFL Championship,779,89,1947,Charlton Athletic,TBD,TBD,Wrexham,20260228,1500
+EFL Championship,779,1919,1795,Bristol City,TBD,TBD,Watford,20260228,1500
+EFL Championship,779,1801,97,Preston North End,TBD,TBD,Millwall,20260228,1500
+EFL Championship,779,91,3,Derby County,TBD,TBD,Blackburn Rovers,20260228,1500
+EFL Championship,779,94,1960,Ipswich Town,TBD,TBD,Swansea City,20260228,1500
+EFL Championship,779,1790,1952,Portsmouth,TBD,TBD,Hull City,20260228,1500
+EFL Championship,779,95,1792,Leicester City,TBD,TBD,Norwich City,20260228,1500
+EFL Championship,779,1952,97,Hull City,TBD,TBD,Millwall,20260307,1500
+EFL Championship,779,1960,1806,Swansea City,TBD,TBD,Stoke City,20260307,1500
+EFL Championship,779,94,95,Ipswich Town,TBD,TBD,Leicester City,20260307,1500
+EFL Championship,779,1795,1947,Watford,TBD,TBD,Wrexham,20260307,1500
+EFL Championship,779,91,1807,Derby County,TBD,TBD,Sheffield Wednesday,20260307,1500
+EFL Championship,779,89,88,Charlton Athletic,TBD,TBD,Birmingham City,20260307,1500
+EFL Championship,779,3,1790,Blackburn Rovers,TBD,TBD,Portsmouth,20260307,1500
+EFL Championship,779,1919,1800,Bristol City,TBD,TBD,Coventry City,20260307,1500
+EFL Championship,779,1794,109,Sheffield United,TBD,TBD,West Bromwich Albion,20260307,1500
+EFL Championship,779,17,1792,Southampton,TBD,TBD,Norwich City,20260307,1500
+EFL Championship,779,15,12,Queens Park Rangers,TBD,TBD,Middlesbrough,20260307,1500
+EFL Championship,779,1801,1951,Preston North End,TBD,TBD,Oxford United,20260307,1500
+EFL Championship,779,95,1919,Leicester City,TBD,TBD,Bristol City,20260310,1945
+EFL Championship,779,1947,1952,Wrexham,TBD,TBD,Hull City,20260310,1945
+EFL Championship,779,88,15,Birmingham City,TBD,TBD,Queens Park Rangers,20260310,1945
+EFL Championship,779,1790,1960,Portsmouth,TBD,TBD,Swansea City,20260310,1945
+EFL Championship,779,97,91,Millwall,TBD,TBD,Derby County,20260310,1945
+EFL Championship,779,1806,94,Stoke City,TBD,TBD,Ipswich Town,20260310,1945
+EFL Championship,779,1792,1794,Norwich City,TBD,TBD,Sheffield United,20260310,1945
+EFL Championship,779,1807,1795,Sheffield Wednesday,TBD,TBD,Watford,20260310,1945
+EFL Championship,779,1800,1801,Coventry City,TBD,TBD,Preston North End,20260311,1945
+EFL Championship,779,12,89,Middlesbrough,TBD,TBD,Charlton Athletic,20260311,1945
+EFL Championship,779,109,17,West Bromwich Albion,TBD,TBD,Southampton,20260311,1945
+EFL Championship,779,1951,3,Oxford United,TBD,TBD,Blackburn Rovers,20260311,1945
+EFL Championship,779,88,1794,Birmingham City,TBD,TBD,Sheffield United,20260314,1500
+EFL Championship,779,1792,1801,Norwich City,TBD,TBD,Preston North End,20260314,1500
+EFL Championship,779,1947,1960,Wrexham,TBD,TBD,Swansea City,20260314,1500
+EFL Championship,779,1800,17,Coventry City,TBD,TBD,Southampton,20260314,1500
+EFL Championship,779,1806,1795,Stoke City,TBD,TBD,Watford,20260314,1500
+EFL Championship,779,1951,89,Oxford United,TBD,TBD,Charlton Athletic,20260314,1500
+EFL Championship,779,95,15,Leicester City,TBD,TBD,Queens Park Rangers,20260314,1500
+EFL Championship,779,12,1919,Middlesbrough,TBD,TBD,Bristol City,20260314,1500
+EFL Championship,779,1807,94,Sheffield Wednesday,TBD,TBD,Ipswich Town,20260314,1500
+EFL Championship,779,97,3,Millwall,TBD,TBD,Blackburn Rovers,20260314,1500
+EFL Championship,779,109,1952,West Bromwich Albion,TBD,TBD,Hull City,20260314,1500
+EFL Championship,779,1790,91,Portsmouth,TBD,TBD,Derby County,20260314,1500
+EFL Championship,779,15,1790,Queens Park Rangers,TBD,TBD,Portsmouth,20260321,1500
+EFL Championship,779,3,12,Blackburn Rovers,TBD,TBD,Middlesbrough,20260321,1500
+EFL Championship,779,94,97,Ipswich Town,TBD,TBD,Millwall,20260321,1500
+EFL Championship,779,1919,109,Bristol City,TBD,TBD,West Bromwich Albion,20260321,1500
+EFL Championship,779,1801,1806,Preston North End,TBD,TBD,Stoke City,20260321,1500
+EFL Championship,779,1795,95,Watford,TBD,TBD,Leicester City,20260321,1500
+EFL Championship,779,89,1792,Charlton Athletic,TBD,TBD,Norwich City,20260321,1500
+EFL Championship,779,91,88,Derby County,TBD,TBD,Birmingham City,20260321,1500
+EFL Championship,779,1952,1807,Hull City,TBD,TBD,Sheffield Wednesday,20260321,1500
+EFL Championship,779,1960,1800,Swansea City,TBD,TBD,Coventry City,20260321,1500
+EFL Championship,779,17,1951,Southampton,TBD,TBD,Oxford United,20260321,1500
+EFL Championship,779,1794,1947,Sheffield United,TBD,TBD,Wrexham,20260321,1500
+EFL Championship,779,15,1795,Queens Park Rangers,TBD,TBD,Watford,20260403,1500
+EFL Championship,779,1794,1960,Sheffield United,TBD,TBD,Swansea City,20260403,1500
+EFL Championship,779,1800,91,Coventry City,TBD,TBD,Derby County,20260403,1500
+EFL Championship,779,17,94,Southampton,TBD,TBD,Ipswich Town,20260403,1500
+EFL Championship,779,1951,1952,Oxford United,TBD,TBD,Hull City,20260403,1500
+EFL Championship,779,89,1919,Charlton Athletic,TBD,TBD,Bristol City,20260403,1500
+EFL Championship,779,88,3,Birmingham City,TBD,TBD,Blackburn Rovers,20260403,1500
+EFL Championship,779,1792,1790,Norwich City,TBD,TBD,Portsmouth,20260403,1500
+EFL Championship,779,95,1801,Leicester City,TBD,TBD,Preston North End,20260403,1500
+EFL Championship,779,12,97,Middlesbrough,TBD,TBD,Millwall,20260403,1500
+EFL Championship,779,1806,1807,Stoke City,TBD,TBD,Sheffield Wednesday,20260403,1500
+EFL Championship,779,109,1947,West Bromwich Albion,TBD,TBD,Wrexham,20260403,1500
+EFL Championship,779,97,1792,Millwall,TBD,TBD,Norwich City,20260406,1300
+EFL Championship,779,3,109,Blackburn Rovers,TBD,TBD,West Bromwich Albion,20260406,1500
+EFL Championship,779,1919,1794,Bristol City,TBD,TBD,Sheffield United,20260406,1500
+EFL Championship,779,1952,1800,Hull City,TBD,TBD,Coventry City,20260406,1500
+EFL Championship,779,1807,95,Sheffield Wednesday,TBD,TBD,Leicester City,20260406,1500
+EFL Championship,779,91,1806,Derby County,TBD,TBD,Stoke City,20260406,1500
+EFL Championship,779,1947,17,Wrexham,TBD,TBD,Southampton,20260406,1500
+EFL Championship,779,94,88,Ipswich Town,TBD,TBD,Birmingham City,20260406,1500
+EFL Championship,779,1960,12,Swansea City,TBD,TBD,Middlesbrough,20260406,1500
+EFL Championship,779,1801,15,Preston North End,TBD,TBD,Queens Park Rangers,20260406,1500
+EFL Championship,779,1790,1951,Portsmouth,TBD,TBD,Oxford United,20260406,1500
+EFL Championship,779,1795,89,Watford,TBD,TBD,Charlton Athletic,20260406,1500
+EFL Championship,779,95,1960,Leicester City,TBD,TBD,Swansea City,20260411,1500
+EFL Championship,779,1792,94,Norwich City,TBD,TBD,Ipswich Town,20260411,1500
+EFL Championship,779,1951,1795,Oxford United,TBD,TBD,Watford,20260411,1500
+EFL Championship,779,88,1947,Birmingham City,TBD,TBD,Wrexham,20260411,1500
+EFL Championship,779,1800,1807,Coventry City,TBD,TBD,Sheffield Wednesday,20260411,1500
+EFL Championship,779,12,1790,Middlesbrough,TBD,TBD,Portsmouth,20260411,1500
+EFL Championship,779,1806,3,Stoke City,TBD,TBD,Blackburn Rovers,20260411,1500
+EFL Championship,779,109,97,West Bromwich Albion,TBD,TBD,Millwall,20260411,1500
+EFL Championship,779,15,1919,Queens Park Rangers,TBD,TBD,Bristol City,20260411,1500
+EFL Championship,779,1794,1952,Sheffield United,TBD,TBD,Hull City,20260411,1500
+EFL Championship,779,89,1801,Charlton Athletic,TBD,TBD,Preston North End,20260411,1500
+EFL Championship,779,17,91,Southampton,TBD,TBD,Derby County,20260411,1500
+EFL Championship,779,1960,17,Swansea City,TBD,TBD,Southampton,20260418,1500
+EFL Championship,779,1919,1792,Bristol City,TBD,TBD,Norwich City,20260418,1500
+EFL Championship,779,1801,109,Preston North End,TBD,TBD,West Bromwich Albion,20260418,1500
+EFL Championship,779,1807,89,Sheffield Wednesday,TBD,TBD,Charlton Athletic,20260418,1500
+EFL Championship,779,1952,88,Hull City,TBD,TBD,Birmingham City,20260418,1500
+EFL Championship,779,94,12,Ipswich Town,TBD,TBD,Middlesbrough,20260418,1500
+EFL Championship,779,97,15,Millwall,TBD,TBD,Queens Park Rangers,20260418,1500
+EFL Championship,779,1790,95,Portsmouth,TBD,TBD,Leicester City,20260418,1500
+EFL Championship,779,3,1800,Blackburn Rovers,TBD,TBD,Coventry City,20260418,1500
+EFL Championship,779,91,1951,Derby County,TBD,TBD,Oxford United,20260418,1500
+EFL Championship,779,1795,1794,Watford,TBD,TBD,Sheffield United,20260418,1500
+EFL Championship,779,1947,1806,Wrexham,TBD,TBD,Stoke City,20260418,1500
+EFL Championship,779,1792,91,Norwich City,TBD,TBD,Derby County,20260421,1945
+EFL Championship,779,1806,97,Stoke City,TBD,TBD,Millwall,20260421,1945
+EFL Championship,779,1951,1947,Oxford United,TBD,TBD,Wrexham,20260421,1945
+EFL Championship,779,17,1919,Southampton,TBD,TBD,Bristol City,20260421,1945
+EFL Championship,779,12,1807,Middlesbrough,TBD,TBD,Sheffield Wednesday,20260421,1945
+EFL Championship,779,109,1795,West Bromwich Albion,TBD,TBD,Watford,20260421,1945
+EFL Championship,779,1800,1790,Coventry City,TBD,TBD,Portsmouth,20260421,1945
+EFL Championship,779,15,1960,Queens Park Rangers,TBD,TBD,Swansea City,20260421,1945
+EFL Championship,779,95,1952,Leicester City,TBD,TBD,Hull City,20260422,1945
+EFL Championship,779,1794,3,Sheffield United,TBD,TBD,Blackburn Rovers,20260422,1945
+EFL Championship,779,89,94,Charlton Athletic,TBD,TBD,Ipswich Town,20260422,1945
+EFL Championship,779,88,1801,Birmingham City,TBD,TBD,Preston North End,20260422,1945
+EFL Championship,779,1794,1801,Sheffield United,TBD,TBD,Preston North End,20260425,1500
+EFL Championship,779,1800,1947,Coventry City,TBD,TBD,Wrexham,20260425,1500
+EFL Championship,779,89,1952,Charlton Athletic,TBD,TBD,Hull City,20260425,1500
+EFL Championship,779,12,1795,Middlesbrough,TBD,TBD,Watford,20260425,1500
+EFL Championship,779,1792,1960,Norwich City,TBD,TBD,Swansea City,20260425,1500
+EFL Championship,779,15,91,Queens Park Rangers,TBD,TBD,Derby County,20260425,1500
+EFL Championship,779,1806,1790,Stoke City,TBD,TBD,Portsmouth,20260425,1500
+EFL Championship,779,1951,1807,Oxford United,TBD,TBD,Sheffield Wednesday,20260425,1500
+EFL Championship,779,95,97,Leicester City,TBD,TBD,Millwall,20260425,1500
+EFL Championship,779,109,94,West Bromwich Albion,TBD,TBD,Ipswich Town,20260425,1500
+EFL Championship,779,17,3,Southampton,TBD,TBD,Blackburn Rovers,20260425,1500
+EFL Championship,779,88,1919,Birmingham City,TBD,TBD,Bristol City,20260425,1500
+EFL Championship,779,1919,1806,Bristol City,TBD,TBD,Stoke City,20260502,1230
+EFL Championship,779,91,1794,Derby County,TBD,TBD,Sheffield United,20260502,1230
+EFL Championship,779,1960,89,Swansea City,TBD,TBD,Charlton Athletic,20260502,1230
+EFL Championship,779,97,1951,Millwall,TBD,TBD,Oxford United,20260502,1230
+EFL Championship,779,1795,1800,Watford,TBD,TBD,Coventry City,20260502,1230
+EFL Championship,779,1790,88,Portsmouth,TBD,TBD,Birmingham City,20260502,1230
+EFL Championship,779,1947,12,Wrexham,TBD,TBD,Middlesbrough,20260502,1230
+EFL Championship,779,3,95,Blackburn Rovers,TBD,TBD,Leicester City,20260502,1230
+EFL Championship,779,94,15,Ipswich Town,TBD,TBD,Queens Park Rangers,20260502,1230
+EFL Championship,779,1807,109,Sheffield Wednesday,TBD,TBD,West Bromwich Albion,20260502,1230
+EFL Championship,779,1801,17,Preston North End,TBD,TBD,Southampton,20260502,1230
+EFL Championship,779,1952,1792,Hull City,TBD,TBD,Norwich City,20260502,1230

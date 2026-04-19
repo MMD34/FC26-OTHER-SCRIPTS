@@ -1,0 +1,1479 @@
+2026-04-18 16:40:02,897 INFO __main__ starting FC26 Analytics (theme=dark)
+2026-04-18 16:45:23,562 INFO app.main starting FC26 Analytics (theme=dark)
+2026-04-18 16:45:50,926 INFO app.main starting FC26 Analytics (theme=dark)
+2026-04-18 16:51:46,462 INFO app.main starting FC26 Analytics (theme=dark)
+2026-04-18 17:20:21,734 INFO app.main starting FC26 Analytics (theme=dark)
+2026-04-18 20:10:51,660 INFO app.main starting FC26 Analytics (theme=dark)
+2026-04-18 20:31:54,762 INFO app.main starting FC26 Analytics (theme=dark)
+2026-04-18 21:53:53,270 INFO app.main starting FC26 Analytics (theme=dark)
+2026-04-18 21:56:04,818 INFO app.import_.pipeline import_folder: C:\Users\mBell\Desktop\ANALYTICS → 38 candidate files
+2026-04-18 21:56:04,821 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_1A Pro League_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 64
+2026-04-18 21:56:04,824 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_Barrages Ligue 1_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 0
+2026-04-18 21:56:04,827 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_Carabao Cup_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 76
+2026-04-18 21:56:04,829 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_Champ Play-Offs_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 0
+2026-04-18 21:56:04,832 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_Copa del Rey_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 0
+2026-04-18 21:56:04,835 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_Coppa Italia_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 24
+2026-04-18 21:56:04,837 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_Coupe de France_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 0
+2026-04-18 21:56:04,840 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_Croky Cup_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 0
+2026-04-18 21:56:04,842 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_EA SPORTS FC Supercup_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 0
+2026-04-18 21:56:04,846 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_EFL Championship_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 84
+2026-04-18 21:56:04,848 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_Emirates FA Cup_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 0
+2026-04-18 21:56:04,856 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_International Friendly_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 0
+2026-04-18 21:56:04,860 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_LALIGA EA SPORTS_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 51
+2026-04-18 21:56:04,863 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_Liga Portugal_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 57
+2026-04-18 21:56:04,866 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_Ligue 1 McDonald's_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 49
+2026-04-18 21:56:04,869 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_Premier League_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 56
+2026-04-18 21:56:04,871 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_Pro League Play-Off_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 0
+2026-04-18 21:56:04,874 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_Saudi Pro League_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 54
+2026-04-18 21:56:04,877 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_Serie A Enilive_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 45
+2026-04-18 21:56:04,879 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_Supercopa de EspaÃ±a_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 0
+2026-04-18 21:56:04,882 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_TaÃ§a Portuguesa_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 0
+2026-04-18 21:56:04,884 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_Trendyol SÃ¼per Lig_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 57
+2026-04-18 21:56:04,887 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_TrophÃ©e Champ._28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 0
+2026-04-18 21:56:04,889 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_TÃ¼rkiye KupasÄ±_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 0
+2026-04-18 21:56:04,892 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_UECL_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 0
+2026-04-18 21:56:04,895 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_UEFA Champions League_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 18
+2026-04-18 21:56:04,897 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_UEFA Europa League_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 18
+2026-04-18 21:56:04,901 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_UWCL_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 0
+2026-04-18 21:56:04,903 ERROR app.import_.pipeline unexpected parser failure for FIXTURES_Vertu Trophy_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "TBD" at position 16
+2026-04-18 21:56:05,489 ERROR app.import_.pipeline unexpected parser failure for TRANSFER_HISTORY_28_09_2025.csv
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2478, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string " "
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\pipeline.py", line 46, in _parse_one
+    parsed = parser_for(detected.kind).parse(detected.path)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\app\import_\parsers.py", line 108, in parse
+    df = pd.read_csv(
+        path,
+    ...<2 lines>...
+        keep_default_na=True,
+    )
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1048, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1166, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\arrays\numeric.py", line 302, in _from_sequence_of_strings
+    scalars = to_numeric(strings, errors="raise", dtype_backend="numpy_nullable")
+  File "C:\Users\mBell\Desktop\_PROJECTS_X\FC26-CAREER-MANAGER-ANALYTICS-SUITE\.venv\Lib\site-packages\pandas\core\tools\numeric.py", line 235, in to_numeric
+    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        values,
+        ^^^^^^^
+    ...<6 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "pandas/_libs/lib.pyx", line 2521, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string " " at position 0

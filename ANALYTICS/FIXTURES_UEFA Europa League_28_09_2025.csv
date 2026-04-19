@@ -1,0 +1,190 @@
+competition,compobjid,hometeamid,awayteamid,hometeam,homescore,awayscore,awayteam,date,time
+UEFA Europa League,190,1516,211,FC Midtjylland,2,1,GNK Dinamo Zagreb,20250925,2000
+UEFA Europa League,190,1884,52,Panathinaikos FC,1,2,AS Roma,20250924,2000
+UEFA Europa League,190,896,110468,FC Basel 1893,2,0,FC Viktoria Plzeň,20250925,2000
+UEFA Europa League,190,673,320,KRC Genk,0,3,Malmö FF,20250925,1755
+UEFA Europa League,190,36,900,VfB Stuttgart,3,0,BSC Young Boys,20250924,1755
+UEFA Europa League,190,100632,1896,Go Ahead Eagles,2,2,SC Braga,20250925,1755
+UEFA Europa League,190,236,86,FC Porto,1,1,Rangers,20250925,2000
+UEFA Europa League,190,209,919,SK Sturm Graz,3,2,SK Brann,20250924,1755
+UEFA Europa League,190,66,393,Olympique Lyonnais,1,1,PAOK FC,20250924,2000
+UEFA Europa League,190,100761,326,FC FCSB,2,1,Fenerbahçe SK,20250925,1755
+UEFA Europa League,190,110075,450,FCV Farul Constanța,1,2,Real Club Celta de Vigo,20250925,1755
+UEFA Europa League,190,14,1874,Nottingham Forest,2,1,Ferencvárosi TC,20250924,2000
+UEFA Europa League,190,78,1903,Celtic,3,1,FC Utrecht,20250925,2000
+UEFA Europa League,190,114385,189,CFR 1907 Cluj,1,0,Bologna,20250924,2000
+UEFA Europa League,190,449,246,Real Betis Balompié,0,2,Feyenoord,20250924,1755
+UEFA Europa League,190,252,72,LASK,0,3,OGC Nice,20250924,1755
+UEFA Europa League,190,65,25,LOSC Lille,1,2,Sport-Club Freiburg,20250924,2000
+UEFA Europa League,190,2,191,Aston Villa,3,2,FC Red Bull Salzburg,20250925,2000
+UEFA Europa League,190,52,36,AS Roma,TBD,TBD,VfB Stuttgart,20251002,1755
+UEFA Europa League,190,1903,673,FC Utrecht,TBD,TBD,KRC Genk,20251002,1755
+UEFA Europa League,190,191,896,FC Red Bull Salzburg,TBD,TBD,FC Basel 1893,20251002,1755
+UEFA Europa League,190,1874,1884,Ferencvárosi TC,TBD,TBD,Panathinaikos FC,20251002,1755
+UEFA Europa League,190,211,100761,GNK Dinamo Zagreb,TBD,TBD,FC FCSB,20251002,1755
+UEFA Europa League,190,72,100632,OGC Nice,TBD,TBD,Go Ahead Eagles,20251002,1755
+UEFA Europa League,190,919,1516,SK Brann,TBD,TBD,FC Midtjylland,20251002,2000
+UEFA Europa League,190,25,114385,Sport-Club Freiburg,TBD,TBD,CFR 1907 Cluj,20251002,2000
+UEFA Europa League,190,86,252,Rangers,TBD,TBD,LASK,20251002,1755
+UEFA Europa League,190,393,449,PAOK FC,TBD,TBD,Real Betis Balompié,20251002,2000
+UEFA Europa League,190,320,110075,Malmö FF,TBD,TBD,FCV Farul Constanța,20251002,2000
+UEFA Europa League,190,450,65,Real Club Celta de Vigo,TBD,TBD,LOSC Lille,20251002,1755
+UEFA Europa League,190,1896,14,SC Braga,TBD,TBD,Nottingham Forest,20251002,1755
+UEFA Europa League,190,246,209,Feyenoord,TBD,TBD,SK Sturm Graz,20251002,2000
+UEFA Europa League,190,326,2,Fenerbahçe SK,TBD,TBD,Aston Villa,20251002,2000
+UEFA Europa League,190,110468,236,FC Viktoria Plzeň,TBD,TBD,FC Porto,20251002,2000
+UEFA Europa League,190,900,66,BSC Young Boys,TBD,TBD,Olympique Lyonnais,20251002,2000
+UEFA Europa League,190,189,78,Bologna,TBD,TBD,Celtic,20251002,2000
+UEFA Europa League,190,78,52,Celtic,TBD,TBD,AS Roma,20251023,1755
+UEFA Europa League,190,1516,673,FC Midtjylland,TBD,TBD,KRC Genk,20251023,2000
+UEFA Europa League,190,209,110075,SK Sturm Graz,TBD,TBD,FCV Farul Constanța,20251023,2000
+UEFA Europa League,190,36,114385,VfB Stuttgart,TBD,TBD,CFR 1907 Cluj,20251023,2000
+UEFA Europa League,190,236,320,FC Porto,TBD,TBD,Malmö FF,20251023,1755
+UEFA Europa League,190,896,2,FC Basel 1893,TBD,TBD,Aston Villa,20251023,1755
+UEFA Europa League,190,100761,246,FC FCSB,TBD,TBD,Feyenoord,20251023,1755
+UEFA Europa League,190,66,100632,Olympique Lyonnais,TBD,TBD,Go Ahead Eagles,20251023,1755
+UEFA Europa League,190,1884,110468,Panathinaikos FC,TBD,TBD,FC Viktoria Plzeň,20251023,1755
+UEFA Europa League,190,450,189,Real Club Celta de Vigo,TBD,TBD,Bologna,20251023,1755
+UEFA Europa League,190,252,393,LASK,TBD,TBD,PAOK FC,20251023,2000
+UEFA Europa League,190,72,1896,OGC Nice,TBD,TBD,SC Braga,20251023,2000
+UEFA Europa League,190,211,449,GNK Dinamo Zagreb,TBD,TBD,Real Betis Balompié,20251023,2000
+UEFA Europa League,190,1874,86,Ferencvárosi TC,TBD,TBD,Rangers,20251023,2000
+UEFA Europa League,190,1903,14,FC Utrecht,TBD,TBD,Nottingham Forest,20251023,2000
+UEFA Europa League,190,25,191,Sport-Club Freiburg,TBD,TBD,FC Red Bull Salzburg,20251023,1755
+UEFA Europa League,190,900,65,BSC Young Boys,TBD,TBD,LOSC Lille,20251023,2000
+UEFA Europa League,190,919,326,SK Brann,TBD,TBD,Fenerbahçe SK,20251023,1755
+UEFA Europa League,190,52,1516,AS Roma,TBD,TBD,FC Midtjylland,20251106,2000
+UEFA Europa League,190,449,1903,Real Betis Balompié,TBD,TBD,FC Utrecht,20251106,1755
+UEFA Europa League,190,86,1896,Rangers,TBD,TBD,SC Braga,20251106,1755
+UEFA Europa League,190,1884,209,Panathinaikos FC,TBD,TBD,SK Sturm Graz,20251106,1755
+UEFA Europa League,190,14,320,Nottingham Forest,TBD,TBD,Malmö FF,20251106,1755
+UEFA Europa League,190,2,900,Aston Villa,TBD,TBD,BSC Young Boys,20251106,2000
+UEFA Europa League,190,236,72,FC Porto,TBD,TBD,OGC Nice,20251106,2000
+UEFA Europa League,190,673,896,KRC Genk,TBD,TBD,FC Basel 1893,20251106,1755
+UEFA Europa League,190,110468,25,FC Viktoria Plzeň,TBD,TBD,Sport-Club Freiburg,20251106,2000
+UEFA Europa League,190,326,1874,Fenerbahçe SK,TBD,TBD,Ferencvárosi TC,20251106,2000
+UEFA Europa League,190,100632,36,Go Ahead Eagles,TBD,TBD,VfB Stuttgart,20251106,1755
+UEFA Europa League,190,110075,100761,FCV Farul Constanța,TBD,TBD,FC FCSB,20251106,1755
+UEFA Europa League,190,189,191,Bologna,TBD,TBD,FC Red Bull Salzburg,20251106,1755
+UEFA Europa League,190,246,78,Feyenoord,TBD,TBD,Celtic,20251106,2000
+UEFA Europa League,190,65,211,LOSC Lille,TBD,TBD,GNK Dinamo Zagreb,20251106,2000
+UEFA Europa League,190,114385,66,CFR 1907 Cluj,TBD,TBD,Olympique Lyonnais,20251106,1755
+UEFA Europa League,190,393,919,PAOK FC,TBD,TBD,SK Brann,20251106,2000
+UEFA Europa League,190,252,450,LASK,TBD,TBD,Real Club Celta de Vigo,20251106,2000
+UEFA Europa League,190,191,100632,FC Red Bull Salzburg,TBD,TBD,Go Ahead Eagles,20251127,2000
+UEFA Europa League,190,1896,673,SC Braga,TBD,TBD,KRC Genk,20251127,1755
+UEFA Europa League,190,449,66,Real Betis Balompié,TBD,TBD,Olympique Lyonnais,20251127,1755
+UEFA Europa League,190,86,52,Rangers,TBD,TBD,AS Roma,20251127,1755
+UEFA Europa League,190,393,900,PAOK FC,TBD,TBD,BSC Young Boys,20251127,1755
+UEFA Europa League,190,1874,252,Ferencvárosi TC,TBD,TBD,LASK,20251127,1755
+UEFA Europa League,190,896,100761,FC Basel 1893,TBD,TBD,FC FCSB,20251127,2000
+UEFA Europa League,190,1516,78,FC Midtjylland,TBD,TBD,Celtic,20251127,2000
+UEFA Europa League,190,110468,326,FC Viktoria Plzeň,TBD,TBD,Fenerbahçe SK,20251127,1755
+UEFA Europa League,190,189,919,Bologna,TBD,TBD,SK Brann,20251127,1755
+UEFA Europa League,190,1903,236,FC Utrecht,TBD,TBD,FC Porto,20251127,2000
+UEFA Europa League,190,2,114385,Aston Villa,TBD,TBD,CFR 1907 Cluj,20251127,1755
+UEFA Europa League,190,110075,65,FCV Farul Constanța,TBD,TBD,LOSC Lille,20251127,2000
+UEFA Europa League,190,211,450,GNK Dinamo Zagreb,TBD,TBD,Real Club Celta de Vigo,20251127,2000
+UEFA Europa League,190,320,1884,Malmö FF,TBD,TBD,Panathinaikos FC,20251127,2000
+UEFA Europa League,190,72,25,OGC Nice,TBD,TBD,Sport-Club Freiburg,20251127,2000
+UEFA Europa League,190,209,14,SK Sturm Graz,TBD,TBD,Nottingham Forest,20251127,2000
+UEFA Europa League,190,36,246,VfB Stuttgart,TBD,TBD,Feyenoord,20251127,1755
+UEFA Europa League,190,100761,189,FC FCSB,TBD,TBD,Bologna,20251211,2000
+UEFA Europa League,190,100632,2,Go Ahead Eagles,TBD,TBD,Aston Villa,20251211,2000
+UEFA Europa League,190,673,449,KRC Genk,TBD,TBD,Real Betis Balompié,20251211,2000
+UEFA Europa League,190,1896,110075,SC Braga,TBD,TBD,FCV Farul Constanța,20251211,2000
+UEFA Europa League,190,52,110468,AS Roma,TBD,TBD,FC Viktoria Plzeň,20251211,1755
+UEFA Europa League,190,919,86,SK Brann,TBD,TBD,Rangers,20251211,2000
+UEFA Europa League,190,900,252,BSC Young Boys,TBD,TBD,LASK,20251211,1755
+UEFA Europa League,190,78,209,Celtic,TBD,TBD,SK Sturm Graz,20251211,1755
+UEFA Europa League,190,65,393,LOSC Lille,TBD,TBD,PAOK FC,20251211,1755
+UEFA Europa League,190,114385,1516,CFR 1907 Cluj,TBD,TBD,FC Midtjylland,20251211,1755
+UEFA Europa League,190,320,211,Malmö FF,TBD,TBD,GNK Dinamo Zagreb,20251211,1755
+UEFA Europa League,190,66,896,Olympique Lyonnais,TBD,TBD,FC Basel 1893,20251211,2000
+UEFA Europa League,190,14,236,Nottingham Forest,TBD,TBD,FC Porto,20251211,1755
+UEFA Europa League,190,450,72,Real Club Celta de Vigo,TBD,TBD,OGC Nice,20251211,1755
+UEFA Europa League,190,25,1903,Sport-Club Freiburg,TBD,TBD,FC Utrecht,20251211,1755
+UEFA Europa League,190,246,1884,Feyenoord,TBD,TBD,Panathinaikos FC,20251211,2000
+UEFA Europa League,190,326,36,Fenerbahçe SK,TBD,TBD,VfB Stuttgart,20251211,2000
+UEFA Europa League,190,191,1874,FC Red Bull Salzburg,TBD,TBD,Ferencvárosi TC,20251211,2000
+UEFA Europa League,190,896,36,FC Basel 1893,TBD,TBD,VfB Stuttgart,20260122,1755
+UEFA Europa League,190,78,1896,Celtic,TBD,TBD,SC Braga,20260122,2000
+UEFA Europa League,190,236,110075,FC Porto,TBD,TBD,FCV Farul Constanța,20260122,1755
+UEFA Europa League,190,1884,100632,Panathinaikos FC,TBD,TBD,Go Ahead Eagles,20260122,2000
+UEFA Europa League,190,252,449,LASK,TBD,TBD,Real Betis Balompié,20260122,2000
+UEFA Europa League,190,919,1903,SK Brann,TBD,TBD,FC Utrecht,20260122,2000
+UEFA Europa League,190,246,2,Feyenoord,TBD,TBD,Aston Villa,20260122,1755
+UEFA Europa League,190,673,1874,KRC Genk,TBD,TBD,Ferencvárosi TC,20260122,1755
+UEFA Europa League,190,114385,211,CFR 1907 Cluj,TBD,TBD,GNK Dinamo Zagreb,20260122,1755
+UEFA Europa League,190,14,1516,Nottingham Forest,TBD,TBD,FC Midtjylland,20260122,1755
+UEFA Europa League,190,100761,900,FC FCSB,TBD,TBD,BSC Young Boys,20260122,2000
+UEFA Europa League,190,66,191,Olympique Lyonnais,TBD,TBD,FC Red Bull Salzburg,20260122,1755
+UEFA Europa League,190,326,72,Fenerbahçe SK,TBD,TBD,OGC Nice,20260122,2000
+UEFA Europa League,190,110468,320,FC Viktoria Plzeň,TBD,TBD,Malmö FF,20260122,2000
+UEFA Europa League,190,450,393,Real Club Celta de Vigo,TBD,TBD,PAOK FC,20260122,1755
+UEFA Europa League,190,189,25,Bologna,TBD,TBD,Sport-Club Freiburg,20260122,2000
+UEFA Europa League,190,52,65,AS Roma,TBD,TBD,LOSC Lille,20260122,2000
+UEFA Europa League,190,209,86,SK Sturm Graz,TBD,TBD,Rangers,20260122,1755
+UEFA Europa League,190,1516,209,FC Midtjylland,TBD,TBD,SK Sturm Graz,20260129,2000
+UEFA Europa League,190,393,114385,PAOK FC,TBD,TBD,CFR 1907 Cluj,20260129,2000
+UEFA Europa League,190,110075,78,FCV Farul Constanța,TBD,TBD,Celtic,20260129,2000
+UEFA Europa League,190,211,326,GNK Dinamo Zagreb,TBD,TBD,Fenerbahçe SK,20260129,2000
+UEFA Europa League,190,320,252,Malmö FF,TBD,TBD,LASK,20260129,2000
+UEFA Europa League,190,72,52,OGC Nice,TBD,TBD,AS Roma,20260129,2000
+UEFA Europa League,190,449,14,Real Betis Balompié,TBD,TBD,Nottingham Forest,20260129,2000
+UEFA Europa League,190,1896,246,SC Braga,TBD,TBD,Feyenoord,20260129,2000
+UEFA Europa League,190,25,896,Sport-Club Freiburg,TBD,TBD,FC Basel 1893,20260129,2000
+UEFA Europa League,190,100632,100761,Go Ahead Eagles,TBD,TBD,FC FCSB,20260129,2000
+UEFA Europa League,190,65,919,LOSC Lille,TBD,TBD,SK Brann,20260129,2000
+UEFA Europa League,190,2,189,Aston Villa,TBD,TBD,Bologna,20260129,2000
+UEFA Europa League,190,900,1884,BSC Young Boys,TBD,TBD,Panathinaikos FC,20260129,2000
+UEFA Europa League,190,191,236,FC Red Bull Salzburg,TBD,TBD,FC Porto,20260129,2000
+UEFA Europa League,190,1903,66,FC Utrecht,TBD,TBD,Olympique Lyonnais,20260129,2000
+UEFA Europa League,190,1874,110468,Ferencvárosi TC,TBD,TBD,FC Viktoria Plzeň,20260129,2000
+UEFA Europa League,190,86,673,Rangers,TBD,TBD,KRC Genk,20260129,2000
+UEFA Europa League,190,36,450,VfB Stuttgart,TBD,TBD,Real Club Celta de Vigo,20260129,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260219,1755
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260226,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260219,1755
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260226,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260219,1755
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260226,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260219,1755
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260226,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260219,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260226,1755
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260219,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260226,1755
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260219,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260226,1755
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260219,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260226,1755
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260312,1755
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260319,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260312,1755
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260319,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260312,1755
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260319,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260312,1755
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260319,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260312,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260319,1755
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260312,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260319,1755
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260312,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260319,1755
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260312,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260319,1755
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260409,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260409,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260409,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260409,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260416,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260416,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260416,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260416,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260430,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260430,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260507,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260507,2000
+UEFA Europa League,190,-1,-1, ,TBD,TBD, ,20260520,2000

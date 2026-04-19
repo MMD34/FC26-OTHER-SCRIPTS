@@ -1,0 +1,21 @@
+export_date,leagueid,leaguename,teamid,teamname,currenttableposition,previousyeartableposition,points,nummatchesplayed,homewins,homedraws,homelosses,awaywins,awaydraws,awaylosses,homegf,homega,awaygf,awayga,teamform,teamlongform,lastgameresult,unbeatenleague,champion,team_overallrating
+28_09_2025,13,Premier League,1,Arsenal,1,2,0,31,0,0,0,0,0,0,0,0,0,0,12222,70,0,0,0,84
+28_09_2025,13,Premier League,2,Aston Villa,4,7,0,30,0,0,0,0,0,0,0,0,0,0,21000,30,2,0,0,81
+28_09_2025,13,Premier League,5,Chelsea,6,12,0,30,0,0,0,0,0,0,0,0,0,0,11020,56,2,0,0,81
+28_09_2025,13,Premier League,7,Everton,8,17,0,30,0,0,0,0,0,0,0,0,0,0,220,50,2,0,0,78
+28_09_2025,13,Premier League,8,Leeds United,15,18,0,30,0,0,0,0,0,0,0,0,0,0,11001,33,1,0,1,76
+28_09_2025,13,Premier League,9,Liverpool,5,5,0,30,0,0,0,0,0,0,0,0,0,0,22201,50,1,0,1,84
+28_09_2025,13,Premier League,10,Manchester City,2,1,0,30,0,0,0,0,0,0,0,0,0,0,22211,63,1,0,0,84
+28_09_2025,13,Premier League,11,Man United,3,3,0,30,0,0,0,0,0,0,0,0,0,0,12202,76,0,0,0,80
+28_09_2025,13,Premier League,13,Newcastle Utd,9,4,0,30,0,0,0,0,0,0,0,0,0,0,20022,43,0,0,0,81
+28_09_2025,13,Premier League,14,Nott'm Forest,17,16,0,30,0,0,0,0,0,0,0,0,0,0,10011,36,1,0,0,79
+28_09_2025,13,Premier League,18,Tottenham,16,8,0,30,0,0,0,0,0,0,0,0,0,0,1,10,1,0,0,81
+28_09_2025,13,Premier League,19,West Ham,18,14,0,30,0,0,0,0,0,0,0,0,0,0,11021,50,1,0,0,77
+28_09_2025,13,Premier League,106,Sunderland,13,6,0,30,0,0,0,0,0,0,0,0,0,0,120,33,2,0,0,77
+28_09_2025,13,Premier League,110,Wolverhampton,20,13,0,31,0,0,0,0,0,0,0,0,0,0,10221,33,1,0,0,75
+28_09_2025,13,Premier League,144,Fulham,11,10,0,30,0,0,0,0,0,0,0,0,0,0,2201,43,1,0,0,78
+28_09_2025,13,Premier League,1799,Crystal Palace,14,11,0,30,0,0,0,0,0,0,0,0,0,0,2021,40,1,0,0,79
+28_09_2025,13,Premier League,1808,Brighton,12,6,0,30,0,0,0,0,0,0,0,0,0,0,2202,40,0,0,0,78
+28_09_2025,13,Premier League,1925,Brentford,7,9,0,30,0,0,0,0,0,0,0,0,0,0,10211,50,1,0,0,78
+28_09_2025,13,Premier League,1943,AFC Bournemouth,10,15,0,30,0,0,0,0,0,0,0,0,0,0,21111,60,1,0,0,78
+28_09_2025,13,Premier League,115486,*TeamName_Abbr15_115486,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84

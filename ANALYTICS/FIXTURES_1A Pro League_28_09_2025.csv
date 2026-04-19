@@ -1,0 +1,301 @@
+competition,compobjid,hometeamid,awayteamid,hometeam,homescore,awayscore,awayteam,date,time
+1A Pro League,426,673,110724,KRC Genk,2,1,KV Mechelen,20250725,2030
+1A Pro League,426,231,670,Club Brugge,3,1,Sporting Charleroi,20250726,1800
+1A Pro League,426,100087,230,Oud-Heverlee Leuven,2,1,Royal Antwerp FC,20250726,2000
+1A Pro League,426,229,680,RSC Anderlecht,1,3,Sint-Truidense VV,20250727,1800
+1A Pro League,426,681,232,KVC Westerlo,1,1,Standard de Liège,20250727,2000
+1A Pro League,426,537,15005,FCV Dender EH,0,2,SV Zulte Waregem,20250726,2000
+1A Pro League,426,674,2014,KAA Gent,2,2,Royale Union Saint-Gilloise,20250727,1430
+1A Pro League,426,132231,1750,RAAL La Louvière,0,1,Cercle Brugge KSV,20250726,2030
+1A Pro League,426,132231,673,RAAL La Louvière,1,2,KRC Genk,20250801,2030
+1A Pro League,426,1750,674,Cercle Brugge KSV,1,2,KAA Gent,20250802,1800
+1A Pro League,426,2014,537,Royale Union Saint-Gilloise,1,2,FCV Dender EH,20250803,2000
+1A Pro League,426,15005,681,SV Zulte Waregem,1,1,KVC Westerlo,20250802,2000
+1A Pro League,426,232,229,Standard de Liège,2,2,RSC Anderlecht,20250803,1800
+1A Pro League,426,680,100087,Sint-Truidense VV,1,1,Oud-Heverlee Leuven,20250802,2000
+1A Pro League,426,230,231,Royal Antwerp FC,1,2,Club Brugge,20250802,2000
+1A Pro League,426,670,110724,Sporting Charleroi,0,2,KV Mechelen,20250802,2030
+1A Pro League,426,673,670,KRC Genk,2,2,Sporting Charleroi,20250809,2000
+1A Pro League,426,110724,230,KV Mechelen,0,2,Royal Antwerp FC,20250809,1800
+1A Pro League,426,231,680,Club Brugge,4,0,Sint-Truidense VV,20250810,1800
+1A Pro League,426,100087,232,Oud-Heverlee Leuven,0,4,Standard de Liège,20250808,2030
+1A Pro League,426,229,15005,RSC Anderlecht,3,0,SV Zulte Waregem,20250808,1800
+1A Pro League,426,681,2014,KVC Westerlo,0,3,Royale Union Saint-Gilloise,20250809,2000
+1A Pro League,426,537,1750,FCV Dender EH,1,2,Cercle Brugge KSV,20250810,1430
+1A Pro League,426,674,132231,KAA Gent,1,1,RAAL La Louvière,20250809,2030
+1A Pro League,426,674,673,KAA Gent,2,1,KRC Genk,20250816,2000
+1A Pro League,426,132231,537,RAAL La Louvière,1,1,FCV Dender EH,20250817,2000
+1A Pro League,426,1750,681,Cercle Brugge KSV,2,1,KVC Westerlo,20250817,1800
+1A Pro League,426,2014,229,Royale Union Saint-Gilloise,0,1,RSC Anderlecht,20250816,1800
+1A Pro League,426,15005,100087,SV Zulte Waregem,3,2,Oud-Heverlee Leuven,20250815,2030
+1A Pro League,426,232,231,Standard de Liège,3,2,Club Brugge,20250816,2000
+1A Pro League,426,680,110724,Sint-Truidense VV,0,1,KV Mechelen,20250816,2000
+1A Pro League,426,230,670,Royal Antwerp FC,2,2,Sporting Charleroi,20250816,2000
+1A Pro League,426,673,230,KRC Genk,2,0,Royal Antwerp FC,20250823,1800
+1A Pro League,426,670,680,Sporting Charleroi,1,3,Sint-Truidense VV,20250822,2030
+1A Pro League,426,110724,232,KV Mechelen,1,2,Standard de Liège,20250824,1800
+1A Pro League,426,231,15005,Club Brugge,1,1,SV Zulte Waregem,20250824,2000
+1A Pro League,426,100087,2014,Oud-Heverlee Leuven,1,3,Royale Union Saint-Gilloise,20250823,2000
+1A Pro League,426,229,1750,RSC Anderlecht,2,0,Cercle Brugge KSV,20250823,2000
+1A Pro League,426,681,132231,KVC Westerlo,1,1,RAAL La Louvière,20250822,1800
+1A Pro League,426,537,674,FCV Dender EH,1,2,KAA Gent,20250823,2000
+1A Pro League,426,537,673,FCV Dender EH,1,3,KRC Genk,20250829,2030
+1A Pro League,426,674,681,KAA Gent,0,1,KVC Westerlo,20250830,1800
+1A Pro League,426,132231,229,RAAL La Louvière,1,2,RSC Anderlecht,20250830,2000
+1A Pro League,426,1750,100087,Cercle Brugge KSV,2,1,Oud-Heverlee Leuven,20250831,2000
+1A Pro League,426,2014,231,Royale Union Saint-Gilloise,0,2,Club Brugge,20250831,1800
+1A Pro League,426,15005,110724,SV Zulte Waregem,1,2,KV Mechelen,20250830,2000
+1A Pro League,426,232,670,Standard de Liège,0,0,Sporting Charleroi,20250830,2000
+1A Pro League,426,680,230,Sint-Truidense VV,0,2,Royal Antwerp FC,20250830,2030
+1A Pro League,426,673,680,KRC Genk,1,2,Sint-Truidense VV,20250913,1800
+1A Pro League,426,230,232,Royal Antwerp FC,1,2,Standard de Liège,20250914,1800
+1A Pro League,426,670,15005,Sporting Charleroi,1,2,SV Zulte Waregem,20250914,2000
+1A Pro League,426,110724,2014,KV Mechelen,1,2,Royale Union Saint-Gilloise,20250913,2000
+1A Pro League,426,231,1750,Club Brugge,1,0,Cercle Brugge KSV,20250912,2030
+1A Pro League,426,100087,132231,Oud-Heverlee Leuven,1,2,RAAL La Louvière,20250913,2000
+1A Pro League,426,229,674,RSC Anderlecht,1,0,KAA Gent,20250913,2000
+1A Pro League,426,681,537,KVC Westerlo,1,1,FCV Dender EH,20250913,2000
+1A Pro League,426,681,673,KVC Westerlo,1,2,KRC Genk,20250919,2030
+1A Pro League,426,537,229,FCV Dender EH,0,2,RSC Anderlecht,20250920,1800
+1A Pro League,426,674,100087,KAA Gent,2,1,Oud-Heverlee Leuven,20250921,2000
+1A Pro League,426,132231,231,RAAL La Louvière,0,3,Club Brugge,20250921,1800
+1A Pro League,426,1750,110724,Cercle Brugge KSV,0,2,KV Mechelen,20250920,2000
+1A Pro League,426,2014,670,Royale Union Saint-Gilloise,2,1,Sporting Charleroi,20250920,2000
+1A Pro League,426,15005,230,SV Zulte Waregem,2,2,Royal Antwerp FC,20250920,2000
+1A Pro League,426,232,680,Standard de Liège,3,2,Sint-Truidense VV,20250920,2030
+1A Pro League,426,673,232,KRC Genk,TBD,TBD,Standard de Liège,20250928,1430
+1A Pro League,426,680,15005,Sint-Truidense VV,0,1,SV Zulte Waregem,20250927,2000
+1A Pro League,426,230,2014,Royal Antwerp FC,0,1,Royale Union Saint-Gilloise,20250926,1800
+1A Pro League,426,670,1750,Sporting Charleroi,0,2,Cercle Brugge KSV,20250927,1800
+1A Pro League,426,110724,132231,KV Mechelen,1,1,RAAL La Louvière,20250926,2030
+1A Pro League,426,231,674,Club Brugge,TBD,TBD,KAA Gent,20250928,2000
+1A Pro League,426,100087,537,Oud-Heverlee Leuven,0,1,FCV Dender EH,20250927,2000
+1A Pro League,426,229,681,RSC Anderlecht,1,0,KVC Westerlo,20250927,2030
+1A Pro League,426,229,673,RSC Anderlecht,TBD,TBD,KRC Genk,20251005,1800
+1A Pro League,426,681,100087,KVC Westerlo,TBD,TBD,Oud-Heverlee Leuven,20251004,1800
+1A Pro League,426,537,231,FCV Dender EH,TBD,TBD,Club Brugge,20251004,1800
+1A Pro League,426,674,110724,KAA Gent,TBD,TBD,KV Mechelen,20251004,2000
+1A Pro League,426,132231,670,RAAL La Louvière,TBD,TBD,Sporting Charleroi,20251005,1430
+1A Pro League,426,1750,230,Cercle Brugge KSV,TBD,TBD,Royal Antwerp FC,20251005,2000
+1A Pro League,426,2014,680,Royale Union Saint-Gilloise,TBD,TBD,Sint-Truidense VV,20251004,2000
+1A Pro League,426,15005,232,SV Zulte Waregem,TBD,TBD,Standard de Liège,20251004,2030
+1A Pro League,426,673,15005,KRC Genk,TBD,TBD,SV Zulte Waregem,20251019,2000
+1A Pro League,426,232,2014,Standard de Liège,TBD,TBD,Royale Union Saint-Gilloise,20251018,1800
+1A Pro League,426,680,1750,Sint-Truidense VV,TBD,TBD,Cercle Brugge KSV,20251018,2000
+1A Pro League,426,230,132231,Royal Antwerp FC,TBD,TBD,RAAL La Louvière,20251018,2000
+1A Pro League,426,670,674,Sporting Charleroi,TBD,TBD,KAA Gent,20251017,2030
+1A Pro League,426,110724,537,KV Mechelen,TBD,TBD,FCV Dender EH,20251019,1800
+1A Pro League,426,231,681,Club Brugge,TBD,TBD,KVC Westerlo,20251018,2030
+1A Pro League,426,100087,229,Oud-Heverlee Leuven,TBD,TBD,RSC Anderlecht,20251018,2000
+1A Pro League,426,100087,673,Oud-Heverlee Leuven,TBD,TBD,KRC Genk,20251026,1430
+1A Pro League,426,229,231,RSC Anderlecht,TBD,TBD,Club Brugge,20251024,2030
+1A Pro League,426,681,110724,KVC Westerlo,TBD,TBD,KV Mechelen,20251025,2000
+1A Pro League,426,537,670,FCV Dender EH,TBD,TBD,Sporting Charleroi,20251026,1800
+1A Pro League,426,674,230,KAA Gent,TBD,TBD,Royal Antwerp FC,20251025,2000
+1A Pro League,426,132231,680,RAAL La Louvière,TBD,TBD,Sint-Truidense VV,20251026,2000
+1A Pro League,426,1750,232,Cercle Brugge KSV,TBD,TBD,Standard de Liège,20251024,1800
+1A Pro League,426,2014,15005,Royale Union Saint-Gilloise,TBD,TBD,SV Zulte Waregem,20251025,2030
+1A Pro League,426,673,2014,KRC Genk,TBD,TBD,Royale Union Saint-Gilloise,20251101,2000
+1A Pro League,426,15005,1750,SV Zulte Waregem,TBD,TBD,Cercle Brugge KSV,20251101,1800
+1A Pro League,426,232,132231,Standard de Liège,TBD,TBD,RAAL La Louvière,20251101,2000
+1A Pro League,426,680,674,Sint-Truidense VV,TBD,TBD,KAA Gent,20251102,2000
+1A Pro League,426,230,537,Royal Antwerp FC,TBD,TBD,FCV Dender EH,20251102,1800
+1A Pro League,426,670,681,Sporting Charleroi,TBD,TBD,KVC Westerlo,20251101,2030
+1A Pro League,426,110724,229,KV Mechelen,TBD,TBD,RSC Anderlecht,20251102,1430
+1A Pro League,426,231,100087,Club Brugge,TBD,TBD,Oud-Heverlee Leuven,20251101,2000
+1A Pro League,426,231,673,Club Brugge,TBD,TBD,KRC Genk,20251109,1430
+1A Pro League,426,100087,110724,Oud-Heverlee Leuven,TBD,TBD,KV Mechelen,20251108,2000
+1A Pro League,426,229,670,RSC Anderlecht,TBD,TBD,Sporting Charleroi,20251109,1430
+1A Pro League,426,681,230,KVC Westerlo,TBD,TBD,Royal Antwerp FC,20251109,1800
+1A Pro League,426,537,680,FCV Dender EH,TBD,TBD,Sint-Truidense VV,20251109,2000
+1A Pro League,426,674,232,KAA Gent,TBD,TBD,Standard de Liège,20251108,1800
+1A Pro League,426,132231,15005,RAAL La Louvière,TBD,TBD,SV Zulte Waregem,20251108,2000
+1A Pro League,426,1750,2014,Cercle Brugge KSV,TBD,TBD,Royale Union Saint-Gilloise,20251108,2030
+1A Pro League,426,673,1750,KRC Genk,TBD,TBD,Cercle Brugge KSV,20251122,2000
+1A Pro League,426,2014,132231,Royale Union Saint-Gilloise,TBD,TBD,RAAL La Louvière,20251121,2030
+1A Pro League,426,15005,674,SV Zulte Waregem,TBD,TBD,KAA Gent,20251122,1800
+1A Pro League,426,232,537,Standard de Liège,TBD,TBD,FCV Dender EH,20251123,1800
+1A Pro League,426,680,681,Sint-Truidense VV,TBD,TBD,KVC Westerlo,20251123,2000
+1A Pro League,426,230,229,Royal Antwerp FC,TBD,TBD,RSC Anderlecht,20251122,2000
+1A Pro League,426,670,100087,Sporting Charleroi,TBD,TBD,Oud-Heverlee Leuven,20251122,2000
+1A Pro League,426,110724,231,KV Mechelen,TBD,TBD,Club Brugge,20251122,2000
+1A Pro League,426,673,100087,KRC Genk,TBD,TBD,Oud-Heverlee Leuven,20251129,1800
+1A Pro League,426,231,229,Club Brugge,TBD,TBD,RSC Anderlecht,20251130,2000
+1A Pro League,426,110724,681,KV Mechelen,TBD,TBD,KVC Westerlo,20251129,2000
+1A Pro League,426,670,537,Sporting Charleroi,TBD,TBD,FCV Dender EH,20251129,2000
+1A Pro League,426,230,674,Royal Antwerp FC,TBD,TBD,KAA Gent,20251128,2030
+1A Pro League,426,680,132231,Sint-Truidense VV,TBD,TBD,RAAL La Louvière,20251130,1800
+1A Pro League,426,232,1750,Standard de Liège,TBD,TBD,Cercle Brugge KSV,20251129,2000
+1A Pro League,426,15005,2014,SV Zulte Waregem,TBD,TBD,Royale Union Saint-Gilloise,20251129,2000
+1A Pro League,426,15005,673,SV Zulte Waregem,TBD,TBD,KRC Genk,20251207,2000
+1A Pro League,426,2014,232,Royale Union Saint-Gilloise,TBD,TBD,Standard de Liège,20251206,2000
+1A Pro League,426,1750,680,Cercle Brugge KSV,TBD,TBD,Sint-Truidense VV,20251206,1800
+1A Pro League,426,132231,230,RAAL La Louvière,TBD,TBD,Royal Antwerp FC,20251206,1800
+1A Pro League,426,674,670,KAA Gent,TBD,TBD,Sporting Charleroi,20251206,2000
+1A Pro League,426,537,110724,FCV Dender EH,TBD,TBD,KV Mechelen,20251207,1800
+1A Pro League,426,681,231,KVC Westerlo,TBD,TBD,Club Brugge,20251206,1800
+1A Pro League,426,229,100087,RSC Anderlecht,TBD,TBD,Oud-Heverlee Leuven,20251206,2030
+1A Pro League,426,673,229,KRC Genk,TBD,TBD,RSC Anderlecht,20251214,1430
+1A Pro League,426,100087,681,Oud-Heverlee Leuven,TBD,TBD,KVC Westerlo,20251213,1800
+1A Pro League,426,231,537,Club Brugge,TBD,TBD,FCV Dender EH,20251212,2030
+1A Pro League,426,110724,674,KV Mechelen,TBD,TBD,KAA Gent,20251214,1800
+1A Pro League,426,670,132231,Sporting Charleroi,TBD,TBD,RAAL La Louvière,20251214,1430
+1A Pro League,426,230,1750,Royal Antwerp FC,TBD,TBD,Cercle Brugge KSV,20251214,2000
+1A Pro League,426,680,2014,Sint-Truidense VV,TBD,TBD,Royale Union Saint-Gilloise,20251213,1800
+1A Pro League,426,232,15005,Standard de Liège,TBD,TBD,SV Zulte Waregem,20251213,2000
+1A Pro League,426,232,673,Standard de Liège,TBD,TBD,KRC Genk,20251220,2000
+1A Pro League,426,15005,680,SV Zulte Waregem,TBD,TBD,Sint-Truidense VV,20251220,1800
+1A Pro League,426,2014,230,Royale Union Saint-Gilloise,TBD,TBD,Royal Antwerp FC,20251220,2000
+1A Pro League,426,1750,670,Cercle Brugge KSV,TBD,TBD,Sporting Charleroi,20251221,2000
+1A Pro League,426,132231,110724,RAAL La Louvière,TBD,TBD,KV Mechelen,20251221,1800
+1A Pro League,426,674,231,KAA Gent,TBD,TBD,Club Brugge,20251221,1430
+1A Pro League,426,537,100087,FCV Dender EH,TBD,TBD,Oud-Heverlee Leuven,20251220,2000
+1A Pro League,426,681,229,KVC Westerlo,TBD,TBD,RSC Anderlecht,20251220,2000
+1A Pro League,426,673,681,KRC Genk,TBD,TBD,KVC Westerlo,20251227,1800
+1A Pro League,426,229,537,RSC Anderlecht,TBD,TBD,FCV Dender EH,20251227,2030
+1A Pro League,426,100087,674,Oud-Heverlee Leuven,TBD,TBD,KAA Gent,20251227,1430
+1A Pro League,426,231,132231,Club Brugge,TBD,TBD,RAAL La Louvière,20251227,1430
+1A Pro League,426,110724,1750,KV Mechelen,TBD,TBD,Cercle Brugge KSV,20251227,1430
+1A Pro League,426,670,2014,Sporting Charleroi,TBD,TBD,Royale Union Saint-Gilloise,20251228,2000
+1A Pro League,426,230,15005,Royal Antwerp FC,TBD,TBD,SV Zulte Waregem,20251227,1430
+1A Pro League,426,680,232,Sint-Truidense VV,TBD,TBD,Standard de Liège,20251227,1800
+1A Pro League,426,680,673,Sint-Truidense VV,TBD,TBD,KRC Genk,20251231,2030
+1A Pro League,426,232,230,Standard de Liège,TBD,TBD,Royal Antwerp FC,20251230,2000
+1A Pro League,426,15005,670,SV Zulte Waregem,TBD,TBD,Sporting Charleroi,20251231,2030
+1A Pro League,426,2014,110724,Royale Union Saint-Gilloise,TBD,TBD,KV Mechelen,20251231,2030
+1A Pro League,426,1750,231,Cercle Brugge KSV,TBD,TBD,Club Brugge,20251230,2000
+1A Pro League,426,132231,100087,RAAL La Louvière,TBD,TBD,Oud-Heverlee Leuven,20251231,2030
+1A Pro League,426,674,229,KAA Gent,TBD,TBD,RSC Anderlecht,20251230,2000
+1A Pro League,426,537,681,FCV Dender EH,TBD,TBD,KVC Westerlo,20251231,2030
+1A Pro League,426,673,537,KRC Genk,TBD,TBD,FCV Dender EH,20260116,2030
+1A Pro League,426,681,674,KVC Westerlo,TBD,TBD,KAA Gent,20260117,2000
+1A Pro League,426,229,132231,RSC Anderlecht,TBD,TBD,RAAL La Louvière,20260117,1800
+1A Pro League,426,100087,1750,Oud-Heverlee Leuven,TBD,TBD,Cercle Brugge KSV,20260117,2000
+1A Pro League,426,231,2014,Club Brugge,TBD,TBD,Royale Union Saint-Gilloise,20260116,1800
+1A Pro League,426,110724,15005,KV Mechelen,TBD,TBD,SV Zulte Waregem,20260118,2000
+1A Pro League,426,670,232,Sporting Charleroi,TBD,TBD,Standard de Liège,20260117,2000
+1A Pro League,426,230,680,Royal Antwerp FC,TBD,TBD,Sint-Truidense VV,20260116,1800
+1A Pro League,426,230,673,Royal Antwerp FC,TBD,TBD,KRC Genk,20260125,1430
+1A Pro League,426,680,670,Sint-Truidense VV,TBD,TBD,Sporting Charleroi,20260125,2000
+1A Pro League,426,232,110724,Standard de Liège,TBD,TBD,KV Mechelen,20260124,1800
+1A Pro League,426,15005,231,SV Zulte Waregem,TBD,TBD,Club Brugge,20260124,2000
+1A Pro League,426,2014,100087,Royale Union Saint-Gilloise,TBD,TBD,Oud-Heverlee Leuven,20260125,1800
+1A Pro League,426,1750,229,Cercle Brugge KSV,TBD,TBD,RSC Anderlecht,20260124,2000
+1A Pro League,426,132231,681,RAAL La Louvière,TBD,TBD,KVC Westerlo,20260124,2000
+1A Pro League,426,674,537,KAA Gent,TBD,TBD,FCV Dender EH,20260124,2000
+1A Pro League,426,673,231,KRC Genk,TBD,TBD,Club Brugge,20260201,1230
+1A Pro League,426,110724,100087,KV Mechelen,TBD,TBD,Oud-Heverlee Leuven,20260201,2000
+1A Pro League,426,670,229,Sporting Charleroi,TBD,TBD,RSC Anderlecht,20260201,1545
+1A Pro League,426,230,681,Royal Antwerp FC,TBD,TBD,KVC Westerlo,20260131,2000
+1A Pro League,426,680,537,Sint-Truidense VV,TBD,TBD,FCV Dender EH,20260131,1730
+1A Pro League,426,232,674,Standard de Liège,TBD,TBD,KAA Gent,20260131,2000
+1A Pro League,426,15005,132231,SV Zulte Waregem,TBD,TBD,RAAL La Louvière,20260201,1730
+1A Pro League,426,2014,1750,Royale Union Saint-Gilloise,TBD,TBD,Cercle Brugge KSV,20260201,1230
+1A Pro League,426,2014,673,Royale Union Saint-Gilloise,TBD,TBD,KRC Genk,20260207,2000
+1A Pro League,426,1750,15005,Cercle Brugge KSV,TBD,TBD,SV Zulte Waregem,20260207,1800
+1A Pro League,426,132231,232,RAAL La Louvière,TBD,TBD,Standard de Liège,20260208,2000
+1A Pro League,426,674,680,KAA Gent,TBD,TBD,Sint-Truidense VV,20260207,2000
+1A Pro League,426,537,230,FCV Dender EH,TBD,TBD,Royal Antwerp FC,20260207,1800
+1A Pro League,426,681,670,KVC Westerlo,TBD,TBD,Sporting Charleroi,20260207,2000
+1A Pro League,426,229,110724,RSC Anderlecht,TBD,TBD,KV Mechelen,20260208,1800
+1A Pro League,426,100087,231,Oud-Heverlee Leuven,TBD,TBD,Club Brugge,20260207,2030
+1A Pro League,426,1750,673,Cercle Brugge KSV,TBD,TBD,KRC Genk,20260210,2030
+1A Pro League,426,132231,2014,RAAL La Louvière,TBD,TBD,Royale Union Saint-Gilloise,20260211,2000
+1A Pro League,426,674,15005,KAA Gent,TBD,TBD,SV Zulte Waregem,20260210,2030
+1A Pro League,426,537,232,FCV Dender EH,TBD,TBD,Standard de Liège,20260212,2000
+1A Pro League,426,681,680,KVC Westerlo,TBD,TBD,Sint-Truidense VV,20260211,1730
+1A Pro League,426,229,230,RSC Anderlecht,TBD,TBD,Royal Antwerp FC,20260212,1730
+1A Pro League,426,100087,670,Oud-Heverlee Leuven,TBD,TBD,Sporting Charleroi,20260211,2000
+1A Pro League,426,231,110724,Club Brugge,TBD,TBD,KV Mechelen,20260211,1730
+1A Pro League,426,673,132231,KRC Genk,TBD,TBD,RAAL La Louvière,20260214,2000
+1A Pro League,426,674,1750,KAA Gent,TBD,TBD,Cercle Brugge KSV,20260214,2000
+1A Pro League,426,537,2014,FCV Dender EH,TBD,TBD,Royale Union Saint-Gilloise,20260215,2000
+1A Pro League,426,681,15005,KVC Westerlo,TBD,TBD,SV Zulte Waregem,20260214,1800
+1A Pro League,426,229,232,RSC Anderlecht,TBD,TBD,Standard de Liège,20260215,1800
+1A Pro League,426,100087,680,Oud-Heverlee Leuven,TBD,TBD,Sint-Truidense VV,20260214,2000
+1A Pro League,426,231,230,Club Brugge,TBD,TBD,Royal Antwerp FC,20260215,1430
+1A Pro League,426,110724,670,KV Mechelen,TBD,TBD,Sporting Charleroi,20260214,2030
+1A Pro League,426,110724,673,KV Mechelen,TBD,TBD,KRC Genk,20260221,1800
+1A Pro League,426,670,231,Sporting Charleroi,TBD,TBD,Club Brugge,20260222,1800
+1A Pro League,426,230,100087,Royal Antwerp FC,TBD,TBD,Oud-Heverlee Leuven,20260220,2030
+1A Pro League,426,680,229,Sint-Truidense VV,TBD,TBD,RSC Anderlecht,20260221,2000
+1A Pro League,426,232,681,Standard de Liège,TBD,TBD,KVC Westerlo,20260222,2000
+1A Pro League,426,15005,537,SV Zulte Waregem,TBD,TBD,FCV Dender EH,20260221,2000
+1A Pro League,426,2014,674,Royale Union Saint-Gilloise,TBD,TBD,KAA Gent,20260221,2000
+1A Pro League,426,1750,132231,Cercle Brugge KSV,TBD,TBD,RAAL La Louvière,20260221,2000
+1A Pro League,426,673,674,KRC Genk,TBD,TBD,KAA Gent,20260228,2000
+1A Pro League,426,537,132231,FCV Dender EH,TBD,TBD,RAAL La Louvière,20260228,2000
+1A Pro League,426,681,1750,KVC Westerlo,TBD,TBD,Cercle Brugge KSV,20260228,1800
+1A Pro League,426,229,2014,RSC Anderlecht,TBD,TBD,Royale Union Saint-Gilloise,20260301,1800
+1A Pro League,426,100087,15005,Oud-Heverlee Leuven,TBD,TBD,SV Zulte Waregem,20260301,2000
+1A Pro League,426,231,232,Club Brugge,TBD,TBD,Standard de Liège,20260228,2000
+1A Pro League,426,110724,680,KV Mechelen,TBD,TBD,Sint-Truidense VV,20260228,2030
+1A Pro League,426,670,230,Sporting Charleroi,TBD,TBD,Royal Antwerp FC,20260228,2000
+1A Pro League,426,670,673,Sporting Charleroi,TBD,TBD,KRC Genk,20260307,2000
+1A Pro League,426,230,110724,Royal Antwerp FC,TBD,TBD,KV Mechelen,20260307,1800
+1A Pro League,426,680,231,Sint-Truidense VV,TBD,TBD,Club Brugge,20260307,2000
+1A Pro League,426,232,100087,Standard de Liège,TBD,TBD,Oud-Heverlee Leuven,20260308,2000
+1A Pro League,426,15005,229,SV Zulte Waregem,TBD,TBD,RSC Anderlecht,20260308,1800
+1A Pro League,426,2014,681,Royale Union Saint-Gilloise,TBD,TBD,KVC Westerlo,20260306,2030
+1A Pro League,426,1750,537,Cercle Brugge KSV,TBD,TBD,FCV Dender EH,20260307,2030
+1A Pro League,426,132231,674,RAAL La Louvière,TBD,TBD,KAA Gent,20260306,1800
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260405,1700
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260405,1330
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260404,1930
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260412,1700
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260411,1930
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260412,1330
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260419,1700
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260418,1700
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260419,1330
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260422,1830
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260422,2030
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260421,2030
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260426,1700
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260426,1330
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260426,1900
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260503,1700
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260503,1900
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260502,1930
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260510,1700
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260509,1930
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260510,1330
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260513,2030
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260512,2030
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260513,1830
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260517,1700
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260517,1330
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260517,1900
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260524,1700
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260522,1930
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260524,1900
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260405,1330
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260405,1700
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260404,1700
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260412,1330
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260412,1700
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260411,1700
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260419,1700
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260419,1330
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260418,1700
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260422,1830
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260421,1830
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260422,1830
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260426,1330
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260425,1700
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260426,1700
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260503,1330
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260503,1700
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260502,1700
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260510,1330
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260510,1700
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260509,1700
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260512,1830
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260513,1830
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260512,2030
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260517,1330
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260517,1700
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260516,1700
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260524,1330
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260524,1700
+1A Pro League,426,-1,-1, ,TBD,TBD, ,20260523,1700
